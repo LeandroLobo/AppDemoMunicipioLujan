@@ -1,0 +1,36 @@
+<div class="layout-topbar">
+    <a class="layout-topbar-logo" routerLink="">
+        <img src="https://pbs.twimg.com/profile_images/1239537967313686529/88Dv0UkP_400x400.jpg" alt="logo" class="logo-circular">
+        <span>Municipio de Luján</span>
+    </a>
+
+    <button #menubutton class="p-link layout-menu-button layout-topbar-button" (click)="layoutService.onMenuToggle()">
+        <i class="pi pi-bars"></i>
+    </button>
+
+    <button #topbarmenubutton class="p-link layout-topbar-menu-button layout-topbar-button" (click)="layoutService.showProfileSidebar()">
+        <i class="pi pi-ellipsis-v"></i>
+    </button>
+
+    <div #topbarmenu class="layout-topbar-menu" [ngClass]="{'layout-topbar-menu-mobile-active': layoutService.state.profileSidebarVisible}">
+
+        <button class="p-link layout-topbar-button" *ngIf="layoutService.state.profileSidebarVisible" (click)="openProfileEdit()">
+            <i class="pi pi-user-edit"></i>
+            <span>Editar Perfil</span>
+        </button>
+        <button class="p-link layout-topbar-button" *ngIf="layoutService.state.profileSidebarVisible" (click)="logOut()">
+            <i class="pi pi-power-off"></i>
+            <span>Cerrar Sesión</span>
+        </button>
+
+        <p-menu #profileMenu [popup]="true" [model]="profileMenuItems" class="visible" [ngClass]="{'invisible': layoutService.state.profileSidebarVisible}"></p-menu>
+        <button class="p-link layout-topbar-button visible" (click)="profileMenu.toggle($event)" [ngClass]="{'invisible': layoutService.state.profileSidebarVisible}">
+            <i class="pi pi-user"></i>
+            <span>Perfil</span>
+        </button>
+        <button class="p-link layout-topbar-button" (click)="onConfigButtonClick()">
+            <i class="pi pi-cog"></i>
+            <span>Configuración</span>
+        </button>
+    </div>
+</div>
