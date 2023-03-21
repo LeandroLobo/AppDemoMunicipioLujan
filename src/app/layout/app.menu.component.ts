@@ -21,13 +21,13 @@ export class AppMenuComponent implements OnInit {
                 ]
             },
             {
-                label: 'Sectores de interés',
+                label: 'APIs públicas nacionales',
                 icon: 'pi pi-fw pi-chart-line',
                 items: [
                     {
                         label: 'Valor inflación - BCRA',
                         icon: 'pi pi-fw pi-wallet',
-                        routerLink: ['/pages/empty']
+                        routerLink: ['/pages/inflacion-bcra']
                     },
                     {
                         label: 'Actividad Cultural',
@@ -36,12 +36,12 @@ export class AppMenuComponent implements OnInit {
                             {
                                 label: 'Convocatorias',
                                 icon: 'pi pi-fw pi-megaphone',
-                                routerLink: ['/pages/convocatorias-cultura']
+                                routerLink: ['/pages/cultura/convocatorias']
                             },
                             {
                                 label: 'Analisis Estadístico',
                                 icon: 'pi pi-fw pi-chart-line',
-                                routerLink: ['/pages/estadisticas-cultura']
+                                routerLink: ['/pages/cultura/estadisticas']
                             },
                         ],
                     },

@@ -22,7 +22,7 @@ export class ProfileEditComponent {
         //Add 'implements OnInit' to the class.
         this.newName = 'Leandro';
         this.newLastName = 'Lobo';
-        this.newEmail = 'leandro@muni-lujan.org.ar';
+        this.newEmail = 'leandrolobo@lobodev.com';
         this.newPassword = '****';
     }
 

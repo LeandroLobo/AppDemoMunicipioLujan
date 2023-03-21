@@ -1,3 +1,5 @@
+import { ConvocatoriasCulturaComponent } from './convocatorias-cultura/convocatorias-cultura.component';
+import { EstadisticasCulturaComponent } from './estadisticas-cultura/estadisticas-cultura.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PagesRoutingModule } from '../pages-routing.module';
@@ -12,17 +14,19 @@ import { CulturaRoutingModule } from './cultura-routing.module';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    EstadisticasCulturaComponent,
+    ConvocatoriasCulturaComponent
+  ],
   imports: [
     CommonModule,
-    PagesRoutingModule,
     ChartModule,
     CardModule,
     ButtonModule,
     DataViewModule,
     ToastModule,
     ProgressSpinnerModule,
-    CulturaRoutingModule
-  ]
+    CulturaRoutingModule,
+  ],
 })
 export class CulturaModule { }

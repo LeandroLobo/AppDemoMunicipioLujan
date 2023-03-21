@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 import { MessageService } from 'primeng/api';
 import { Subscription } from 'rxjs';
 import { LayoutService } from 'src/app/layout/service/app.layout.service';
-import { Convocatoria } from '../_core/models/convocatoria.model';
+import { Convocatoria } from '../../_core/models/convocatoria.model';
 
 @Component({
   selector: 'app-estadisticas-cultura',

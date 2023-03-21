@@ -7,8 +7,6 @@ import { EstadisticasCulturaComponent } from './estadisticas-cultura/estadistica
     imports: [RouterModule.forChild([
         { path: 'convocatorias', component: ConvocatoriasCulturaComponent },
         { path: 'estadisticas', component: EstadisticasCulturaComponent },
-        { path: '**', redirectTo: '/notfound' },
-
     ])],
     exports: [RouterModule]
 })
