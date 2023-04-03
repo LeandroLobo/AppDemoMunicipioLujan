@@ -21,8 +21,13 @@ export class AppMenuComponent implements OnInit {
                 ]
             },
             {
+                label: 'Datos CSV',
+                items: [
+                    { label: 'Puestos de trabajo asalariados', icon: 'pi pi-fw pi-dollar', routerLink: ['/pages/crud'] }
+                ]
+            },
+            {
                 label: 'APIs públicas nacionales',
-                icon: 'pi pi-fw pi-chart-line',
                 items: [
                     {
                         label: 'Valor inflación - BCRA',

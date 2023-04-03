@@ -1,3 +1,6 @@
+import { SliderModule } from 'primeng/slider';
+import { TagModule } from 'primeng/tag';
+import { MultiSelectModule } from 'primeng/multiselect';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -34,7 +37,7 @@ import { DialogModule } from 'primeng/dialog';
         DropdownModule,
         RadioButtonModule,
         InputNumberModule,
-        DialogModule
+        DialogModule, MultiSelectModule, TagModule, SliderModule
     ],
     declarations: [CrudComponent]
 })
