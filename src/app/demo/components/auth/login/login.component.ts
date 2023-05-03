@@ -1,3 +1,4 @@
+import { FirebaseDatabaseService } from 'src/app/demo/service/firebase-database.service';
 import { MessageService } from 'primeng/api';
 import { Router } from '@angular/router';
 import { LoginStorageService } from './../services/login-storage.service';
@@ -23,7 +24,7 @@ export class LoginComponent implements OnInit{
     password!: string;
     user!: string;
 
-    constructor(private loginStorage: LoginStorageService, private router: Router, private messageService: MessageService) {}
+    constructor(private loginStorage: LoginStorageService, private router: Router, private messageService: MessageService, private firebase: FirebaseDatabaseService) {}
 
     ngOnInit(): void {
         //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
@@ -35,7 +36,18 @@ export class LoginComponent implements OnInit{
             this.loginStorage.setIsAuthenticated(true);
             this.router.navigateByUrl('');
         } else {
-            this.messageService.add({severity:'warn', summary:'Acceso Denegado', detail:'El Usuario y/o la contraseña son incorrectos.'});
+            this.firebase.login(this.user, this.password).then((userCredential) => {
+                this.loginStorage.setIsAuthenticated(true);
+                this.router.navigateByUrl('');
+                const user = userCredential.user;
+                console.log(user);
+              })
+              .catch((error) => {
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                console.error(errorCode, errorMessage);
+                this.messageService.add({severity:'warn', summary:'Acceso Denegado', detail:'El Usuario y/o la contraseña son incorrectos.'});
+              });
         }
     }
 }

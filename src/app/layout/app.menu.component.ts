@@ -21,9 +21,10 @@ export class AppMenuComponent implements OnInit {
                 ]
             },
             {
-                label: 'Datos CSV',
+                label: 'Puestos de trabajo',
                 items: [
-                    { label: 'Puestos de trabajo asalariados', icon: 'pi pi-fw pi-dollar', routerLink: ['/pages/crud'] }
+                    { label: 'Carga/consulta de datos', icon: 'pi pi-fw pi-dollar', routerLink: ['/pages/crud'] },
+                    { label: 'Resultado gráfico', icon: 'pi pi-fw pi-dollar', routerLink: ['/pages/timeline'] }
                 ]
             },
             {
