@@ -1,4 +1,4 @@
-import { LoginStorageService } from './../demo/components/auth/services/login-storage.service';
+import { LoginStorageService } from './../content/components/auth/services/login-storage.service';
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { MenuItem } from 'primeng/api';
 import { LayoutService } from "./service/app.layout.service";

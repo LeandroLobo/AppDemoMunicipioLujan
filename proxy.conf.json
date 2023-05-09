@@ -1,0 +1,10 @@
+{
+    "/apibcra/*": {
+      "target": "https://api.estadisticasbcra.com",
+      "secure": false,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/apibcra": ""
+      }
+    }
+  }
