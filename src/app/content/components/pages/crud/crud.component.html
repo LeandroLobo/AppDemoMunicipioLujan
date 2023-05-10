@@ -3,22 +3,33 @@
     <h4>Puestos de trabajo asalariados registrados por departamento/partido y clae 2, sector privado.</h4>
     <h5>Resultado acotado al municipio de Luján para los sectores de interes (Agroalimentario, Construcción, Metalmecánica, Textil y Turismo)</h5>
     <h5>Fecha última actualización: {{fechaSubida}}</h5>
-    <div class="flex justify-content-center">
-        <p-fileUpload name="fileuploader"
-            url="https://www.primefaces.org/cdn/api/upload.php"
-            (onUpload)="onUpload($event)"
-            [multiple]="false" accept=".csv"
-            uploadLabel="Subir Archivo"
-            cancelLabel="Cancelar"
-            chooseLabel="Buscar">
-            <ng-template pTemplate="content">
-                <ul *ngIf="uploadedFile">
-                    <li>{{ uploadedFile.name }} - {{ uploadedFile.size }} bytes</li>
-                </ul>
-                <span *ngIf="!uploadedFile">Busque un archivo en su dispositivo o arrastrelo dentro de este contenedor.</span>
-            </ng-template>
-        </p-fileUpload>
+
+    <div class="col-12 flex justify-content-center">
+        <p-button (click)="showDialog()" icon="pi pi-external-link" label="Actualizar Datos"></p-button>
     </div>
+
+    <p-dialog header="Long Content" [(visible)]="visible" [style]="{ width: '50vw', height: '300px' }">
+        <div class="card flex justify-content-center">
+            <div class="flex justify-content-center">
+                <p-fileUpload name="fileuploader"
+                    url="https://www.primefaces.org/cdn/api/upload.php"
+                    (onUpload)="onUpload($event)"
+                    [multiple]="false" accept=".csv"
+                    uploadLabel="Subir Archivo"
+                    cancelLabel="Cancelar"
+                    chooseLabel="Buscar">
+                    <ng-template pTemplate="content">
+                        <ul *ngIf="uploadedFile">
+                            <li>{{ uploadedFile.name }} - {{ uploadedFile.size }} bytes</li>
+                        </ul>
+                        <span *ngIf="!uploadedFile">Busque un archivo en su dispositivo o arrastrelo dentro de este contenedor.</span>
+                    </ng-template>
+                </p-fileUpload>
+            </div>
+
+        </div>
+    </p-dialog>
+
     <p-table
         #dt1
         [value]="muestraDatosFiltrados"

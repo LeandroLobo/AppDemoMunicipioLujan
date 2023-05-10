@@ -22,7 +22,7 @@
     <div class="col-12 lg:col-6">
         <div class="card">
             <h5>Total mensual</h5>
-            <span class="block text-600 font-medium mb-3">Años 2020, 2021 y 2022</span>
+            <span class="block text-600 font-medium mb-3">Años 2020, 2021 y 2022 separados</span>
             <p-chart type="line" [data]="dataGraficoMensual" [options]="lineOptions"></p-chart>
         </div>
     </div>
@@ -31,6 +31,28 @@
             <h5>Variación interanual</h5>
             <span class="block text-600 font-medium mb-3">Comparación años 2021 y 2022</span>
             <p-chart type="bar" [data]="dataGraficoInteranual" [options]="barOptions"></p-chart>
+        </div>
+    </div>
+    <div class="col-12 lg">
+        <div class="card">
+            <h5>Total mensual - <b>Puestos de empleo en Luján</b></h5>
+            <span class="block text-600 font-medium mb-3">Período 2020 - 2021 - 2022</span>
+            <p-chart type="line" [data]="dataGraficoMensualContiguo" [options]="lineContiguoOptions"></p-chart>
+        </div>
+    </div>
+
+    <div class="col-12 lg:col-6">
+        <div class="card">
+            <h5>Total mensual - <b>Puestos de empleo en Luján</b></h5>
+            <span class="block text-600 font-medium mb-3">Período 2020 - 2021 - 2022</span>
+            <p-chart type="line" [data]="dataGraficoMensualContiguo" [options]="lineContiguoOptions"></p-chart>
+        </div>
+    </div>
+    <div class="col-12 lg:col-6">
+        <div class="card">
+            <h5>Variación interanual - <b>Puestos de empleo en Luján</b> </h5>
+            <span class="block text-600 font-medium mb-3">Período 2021 - 2022</span>
+            <p-chart type="bar" [data]="dataGraficoInteranualContiguo" [options]="barContiguoOptions"></p-chart>
         </div>
     </div>
 </div>

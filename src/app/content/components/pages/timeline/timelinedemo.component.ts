@@ -19,6 +19,10 @@ export class TimelineDemoComponent implements OnInit {
     loading: boolean = false;
     fechaSubida: any;
     muestraDatosFiltrados: any[] = [];
+    dataGraficoMensualContiguo!: { labels: string[]; datasets: { label: string; data: any[]; fill: boolean; backgroundColor: string; borderColor: string; tension: number; }[]; };
+    lineContiguoOptions!: { plugins: { legend: { labels: { fontColor: string; }; }; }; scales: { x: { ticks: { color: string; }; grid: { color: string; drawBorder: boolean; }; }; y: { ticks: { color: string; }; grid: { color: string; drawBorder: boolean; }; }; }; };
+    dataGraficoInteranualContiguo!: { labels: string[]; datasets: { label: string; backgroundColor: string; borderColor: string; data: number[]; }[]; };
+    barContiguoOptions!: { plugins: { legend: { labels: { fontColor: string; }; }; }; scales: { x: { ticks: { color: string; font: { weight: number; }; }; grid: { display: boolean; drawBorder: boolean; }; }; y: { ticks: { color: string; }; grid: { color: string; drawBorder: boolean; }; }; }; };
 
     constructor(private messageService: MessageService, private firebase: FirebaseDatabaseService, private layoutService: LayoutService) {
         this.subscription = this.layoutService.configUpdate$.subscribe(config => {
@@ -152,6 +156,94 @@ export class TimelineDemoComponent implements OnInit {
                     },
                     grid: {
                         color: surfaceBorder,
+                        drawBorder: false
+                    }
+                },
+                y: {
+                    ticks: {
+                        color: textColorSecondary
+                    },
+                    grid: {
+                        color: surfaceBorder,
+                        drawBorder: false
+                    }
+                },
+            }
+        };
+
+        this.dataGraficoMensualContiguo = {
+            labels: ['Enero `20', 'Febrero `20', 'Marzo `20', 'Abril `20', 'Mayo `20', 'Junio `20', 'Julio `20', 'Agosto `20', 'Septiembre `20', 'Octubre `20', 'Noviembre `20', 'Diciembre `20', 'Enero `21', 'Febrero `21', 'Marzo `21', 'Abril `21', 'Mayo `21', 'Junio `21', 'Julio `21', 'Agosto `21', 'Septiembre `21', 'Octubre `21', 'Noviembre `21', 'Diciembre `21', 'Enero `22', 'Febrero `22', 'Marzo `22', 'Abril `22', 'Mayo `22', 'Junio `22', 'Julio `22', 'Agosto `22', 'Septiembre `22', 'Octubre `22', 'Noviembre `22', 'Diciembre `22'],
+            datasets: [
+                {
+                    label: '20-21-22',
+                    data: [...conteoMensualA, ...conteoMensualB, ...conteoMensualC],
+                    fill: false,
+                    backgroundColor: documentStyle.getPropertyValue('--primary-800'),
+                    borderColor: documentStyle.getPropertyValue('--primary-800'),
+                    tension: .4,
+                },
+            ]
+        };
+
+        this.lineContiguoOptions = {
+            plugins: {
+                legend: {
+                    labels: {
+                        fontColor: textColor
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    ticks: {
+                        color: textColorSecondary
+                    },
+                    grid: {
+                        color: surfaceBorder,
+                        drawBorder: false
+                    }
+                },
+                y: {
+                    ticks: {
+                        color: textColorSecondary
+                    },
+                    grid: {
+                        color: surfaceBorder,
+                        drawBorder: false
+                    }
+                },
+            }
+        };
+        this.dataGraficoInteranualContiguo = {
+            labels: ['Enero `21', 'Febrero `21', 'Marzo `21', 'Abril `21', 'Mayo `21', 'Junio `21', 'Julio `21', 'Agosto `21', 'Septiembre `21', 'Octubre `21', 'Noviembre `21', 'Diciembre `21', 'Enero `22', 'Febrero `22', 'Marzo `22', 'Abril `22', 'Mayo `22', 'Junio `22', 'Julio `22', 'Agosto `22', 'Septiembre `22', 'Octubre `22', 'Noviembre `22', 'Diciembre `22'],
+            datasets: [
+                {
+                    label: '21-22',
+                    backgroundColor: documentStyle.getPropertyValue('--primary-300'),
+                    borderColor: documentStyle.getPropertyValue('--primary-300'),
+                    data: [...interanualB, ...interanualC]
+                },
+            ]
+        };
+
+        this.barContiguoOptions = {
+            plugins: {
+                legend: {
+                    labels: {
+                        fontColor: textColor
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    ticks: {
+                        color: textColorSecondary,
+                        font: {
+                            weight: 500
+                        }
+                    },
+                    grid: {
+                        display: false,
                         drawBorder: false
                     }
                 },

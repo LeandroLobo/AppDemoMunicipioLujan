@@ -3,7 +3,7 @@ import { MessageService } from 'primeng/api';
 import { Table } from 'primeng/table';
 import { Papa } from 'ngx-papaparse';
 import { FirebaseDatabaseService } from 'src/app/content/service/firebase-database.service';
-
+import { diccionarioClae } from './diccionario'
 @Component({
     templateUrl: './crud.component.html',
     providers: [MessageService]
@@ -16,6 +16,7 @@ export class CrudComponent implements OnInit {
     uploadedFile: any;
     fechaSubida: any;
     listaClae2Interesan = [1,3,10,11,8,21,13,41,42,43,24,25,26,27,28,30,13,14,49,50,51,52,55,56,59,77,79,85,90];
+    visible!: boolean;
 
     constructor(private messageService: MessageService, private papa: Papa, private firebase: FirebaseDatabaseService) { }
 
@@ -35,6 +36,10 @@ export class CrudComponent implements OnInit {
                 this.loading = false;
             }
         );
+    }
+
+    showDialog() {
+        this.visible = true;
     }
 
     applyFilterGlobal($event: Event, stringVal: any) {
@@ -60,10 +65,29 @@ export class CrudComponent implements OnInit {
                             d.codigo_departamento_indec = d.codigo_departamento_indec + ' - Luján';
                             d.id_provincia_indec= d.id_provincia_indec + ' - Bs. As.';
                             d.puestos = Number(d.puestos);
+                            if(diccionarioClae.listaAgroalimentario.includes(Number(d.clae2))) {
+                                d.clae2 = d.clae2 + ' - Agroalimentario';
+                            }
+                            if(diccionarioClae.listaContruccion.includes(Number(d.clae2))) {
+                                d.clae2 = d.clae2 + ' - Contruccion';
+                            }
+                            if(diccionarioClae.listaMetalmecanica.includes(Number(d.clae2))) {
+                                d.clae2 = d.clae2 + ' - Metalmecánica';
+                            }
+                            if(diccionarioClae.listaTextilConfecciones.includes(Number(d.clae2))) {
+                                d.clae2 = d.clae2 + ' - Textil Confecciones';
+                            }
+                            if(diccionarioClae.listaTurismo.includes(Number(d.clae2))) {
+                                d.clae2 = d.clae2 + ' - Turismo';
+                            }
+                            if(diccionarioClae.listaTotalIndustria.includes(Number(d.clae2))) {
+                                d.clae2 = d.clae2 + ' - Total Industria';
+                            }
                             return d;
                         });
                         this.firebase.guardarDatos('PuestosTrabajoAsalariado', {fechaSubida: new Date(Date.now()), muestraDatosFiltrados: this.muestraDatosFiltrados});
                         this.fechaSubida = new Date(Date.now()).toLocaleDateString("es-ES");
+                        this.visible = false;
                         this.loading = false;
                     },
                     error: (err) => {
