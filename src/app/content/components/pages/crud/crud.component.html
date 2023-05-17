@@ -8,7 +8,7 @@
         <p-button (click)="showDialog()" icon="pi pi-external-link" label="Actualizar Datos"></p-button>
     </div>
 
-    <p-dialog header="Long Content" [(visible)]="visible" [style]="{ width: '50vw', height: '300px' }">
+    <p-dialog header="Carga de datos" [(visible)]="visible" [style]="{ width: '50vw', height: '300px' }">
         <div class="card flex justify-content-center">
             <div class="flex justify-content-center">
                 <p-fileUpload name="fileuploader"
@@ -32,7 +32,7 @@
 
     <p-table
         #dt1
-        [value]="muestraDatosFiltrados"
+        [value]="muestraTotal"
         dataKey="id"
         [rows]="10"
         [showCurrentPageReport]="true"
@@ -40,7 +40,7 @@
         [loading]="loading"
         [paginator]="true"
         currentPageReportTemplate="Mostrando {first} a {last} de {totalRecords} resultados"
-        [globalFilterFields]="['clae2', 'codigo_departamento_indec', 'fecha', 'id_provincia_indec', 'puestos']"
+        [globalFilterFields]="['clae2', 'sectorProductivo', 'codigo_departamento_indec', 'fecha', 'id_provincia_indec', 'puestos']"
         >
         <ng-template pTemplate="caption">
             <div class="flex">
@@ -61,6 +61,11 @@
                 <th style="min-width:15rem" pSortableColumn="clae2">
                     <div class="flex align-items-center">
                         CLAE 2 <p-sortIcon field="clae2"></p-sortIcon>
+                    </div>
+                </th>
+                <th style="min-width:15rem" pSortableColumn="sectorProductivo">
+                    <div class="flex align-items-center">
+                        Sector Productivo <p-sortIcon field="sectorProductivo"></p-sortIcon>
                     </div>
                 </th>
                 <th style="min-width:15rem" pSortableColumn="codigo_departamento_indec">
@@ -87,6 +92,9 @@
                 </td>
                 <td>
                     {{ customer.clae2 }}
+                </td>
+                <td>
+                    {{ customer.sectorProductivo }}
                 </td>
                 <td>
                     {{ customer.codigo_departamento_indec }}

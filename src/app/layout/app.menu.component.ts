@@ -27,32 +27,32 @@ export class AppMenuComponent implements OnInit {
                     { label: 'Resultado gráfico', icon: 'pi pi-fw pi-dollar', routerLink: ['/pages/timeline'] }
                 ]
             },
-            {
-                label: 'APIs públicas nacionales',
-                items: [
-                    {
-                        label: 'Valor inflación - BCRA',
-                        icon: 'pi pi-fw pi-wallet',
-                        routerLink: ['/pages/inflacion-bcra']
-                    },
-                    {
-                        label: 'Actividad Cultural',
-                        icon: 'pi pi-fw pi-image',
-                        items: [
-                            {
-                                label: 'Convocatorias',
-                                icon: 'pi pi-fw pi-megaphone',
-                                routerLink: ['/pages/cultura/convocatorias']
-                            },
-                            {
-                                label: 'Analisis Estadístico',
-                                icon: 'pi pi-fw pi-chart-line',
-                                routerLink: ['/pages/cultura/estadisticas']
-                            },
-                        ],
-                    },
-                ],
-            },
+            // {
+            //     label: 'APIs públicas nacionales',
+            //     items: [
+            //         {
+            //             label: 'Valor inflación - BCRA',
+            //             icon: 'pi pi-fw pi-wallet',
+            //             routerLink: ['/pages/inflacion-bcra']
+            //         },
+            //         {
+            //             label: 'Actividad Cultural',
+            //             icon: 'pi pi-fw pi-image',
+            //             items: [
+            //                 {
+            //                     label: 'Convocatorias',
+            //                     icon: 'pi pi-fw pi-megaphone',
+            //                     routerLink: ['/pages/cultura/convocatorias']
+            //                 },
+            //                 {
+            //                     label: 'Analisis Estadístico',
+            //                     icon: 'pi pi-fw pi-chart-line',
+            //                     routerLink: ['/pages/cultura/estadisticas']
+            //                 },
+            //             ],
+            //         },
+            //     ],
+            // },
         ];
     }
 }

@@ -26,7 +26,7 @@ export class FirebaseDatabaseService {
         return signInWithEmailAndPassword(this.auth, email, password);
     }
 
-    public async guardarDatos(col: string, doc: any) {
+    public async guardarDocumento(col: string, doc: any) {
         try {
             const docRef = await addDoc(collection(this.database, col), doc);
             console.log("Document written with ID: ", docRef.id);
@@ -35,7 +35,7 @@ export class FirebaseDatabaseService {
         }
     }
 
-    public async leerUltimoDocumento(col: string) {
+    public async obtenerDocumento(col: string) {
         const querySnapshot = await getDocs(
           query(
             collection(this.database, col),
@@ -45,18 +45,6 @@ export class FirebaseDatabaseService {
         );
         const ultimoDocumento = querySnapshot.docs[0].data();
         return ultimoDocumento;
-      }
-
-
-
-    public guardarObjeto(objeto: any, ruta: string): Promise<any> {
-        return this.database.ref(ruta).push(objeto);
-    }
-
-    public obtenerObjetos(ruta: string): Promise<any> {
-        return this.database.ref(ruta).once('value').then((snapshot:any) => {
-        return snapshot.val();
-        });
     }
 
 }

@@ -32,12 +32,14 @@ export class TimelineDemoComponent implements OnInit {
 
     ngOnInit() {
         this.loading = true;
-        this.firebase.leerUltimoDocumento('PuestosTrabajoAsalariado').then(
+        this.firebase.obtenerDocumento('PuestosTrabajoAsalariado').then(
             data => {
-                const date = new Date(0);
+                if (data){
+                    const date = new Date(0);
                 date.setUTCSeconds(data['fechaSubida'].seconds);
                 this.fechaSubida = date.toLocaleDateString("es-ES");
                 this.muestraDatosFiltrados = data['muestraDatosFiltrados'];
+                }
                 this.loading = false;
                 this.initCharts();
             }
