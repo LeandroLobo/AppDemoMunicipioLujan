@@ -10,7 +10,7 @@ import { StyleClassModule } from 'primeng/styleclass';
 import { PanelMenuModule } from 'primeng/panelmenu';
 import { DashboardsRoutingModule } from './dashboard-routing.module';
 import { SharedModule } from 'primeng/api';
-import { GraficoPorRubroYSectorComponent } from './grafico-por-rubro-y-sector/grafico-por-rubro-y-sector.component';
+import { GraficoPuestosEmpleo } from './grafico-puestos-empleo/grafico-puestos-empleo.component';
 import { DropdownModule } from 'primeng/dropdown';
 
 @NgModule({
@@ -27,6 +27,6 @@ import { DropdownModule } from 'primeng/dropdown';
         DashboardsRoutingModule,
         SharedModule
     ],
-    declarations: [DashboardComponent, GraficoPorRubroYSectorComponent]
+    declarations: [DashboardComponent, GraficoPuestosEmpleo]
 })
 export class DashboardModule { }

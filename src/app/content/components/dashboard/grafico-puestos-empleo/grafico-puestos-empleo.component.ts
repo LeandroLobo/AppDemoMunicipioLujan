@@ -1,13 +1,13 @@
 import { LayoutService } from 'src/app/layout/service/app.layout.service';
-import { FirebaseDatabaseService } from './../../../service/firebase-database.service';
+import { FirebaseDatabaseService } from '../../../service/firebase-database.service';
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-grafico-por-rubro-y-sector',
-  templateUrl: './grafico-por-rubro-y-sector.component.html',
-  styleUrls: ['./grafico-por-rubro-y-sector.component.scss']
+  selector: 'app-grafico-puestos-empleo',
+  templateUrl: './grafico-puestos-empleo.component.html',
+  styleUrls: ['./grafico-puestos-empleo.component.scss']
 })
-export class GraficoPorRubroYSectorComponent {
+export class GraficoPuestosEmpleo {
     fechaSubida!: string;
     muestraDatosFiltrados: any;
     loading: boolean;
@@ -32,14 +32,25 @@ export class GraficoPorRubroYSectorComponent {
         { label: 'Luján', value: 'TotalLujan' },
         { label: 'Buenos Aires', value: 'TotalBsAs' },
         { label: 'Argentina', value: 'TotalPais' }
-      ];
+    ];
       opcionesSector: any[] = [
-        { label: 'Agroindustria', value: '' },
-        { label: 'Metalmecánica', value: '' },
-        { label: 'Textil', value: '' }
-      ];
+        { label: 'Todos', value: 'Todos' },
+        { label: 'Agroalimentario', value: 'Agroalimentario' },
+        { label: 'Contruccion', value: 'Contruccion' },
+        { label: 'Metalmecánica', value: 'Metalmecánica' },
+        { label: 'Turismo', value: 'Turismo' },
+        { label: 'Textil Confecciones', value: 'Textil Confecciones' },
+    ];
     valorSeleccionadoRegion = 'TotalLujan';
-    valorSeleccionadoSector = 'todo';
+    valorSeleccionadoSector = 'Todos';
+
+    get getValorSeleccionadoRegion(){
+        return this.opcionesRegion.find(r => r.value == this.valorSeleccionadoRegion).label;
+    }
+
+    get getValorSeleccionadoSector(){
+        return this.opcionesSector.find(r => r.value == this.valorSeleccionadoSector).label;
+    }
 
     constructor(private firebase: FirebaseDatabaseService, private layoutService: LayoutService) {
         this.loading = true;
@@ -53,6 +64,8 @@ export class GraficoPorRubroYSectorComponent {
                     date.setUTCSeconds(res['fechaSubida'].seconds);
                     this.fechaSubida = date.toLocaleDateString("es-ES");
                     this.data = res['data'] || {};
+                    this.labelsConteo = this.data.labelsConteo;
+                    this.labelsInteranual = this.data.labelsInteranual;
                     this.applyFilterRegion();
                 }
                 this.loading = false;
@@ -67,19 +80,25 @@ export class GraficoPorRubroYSectorComponent {
     }
 
     applyFilterRegion() {
-        this.labelsConteo = this.data.labelsConteo;
-        this.labelsInteranual = this.data.labelsInteranual;
-        this.conteoMensualA = this.data[`conteoMensual${this.valorSeleccionadoRegion}A`];
-        this.conteoMensualB = this.data[`conteoMensual${this.valorSeleccionadoRegion}B`];
-        this.conteoMensualC = this.data[`conteoMensual${this.valorSeleccionadoRegion}C`];
-        this.interanualA = this.data[`interanual${this.valorSeleccionadoRegion}A`];
-        this.interanualB = this.data[`interanual${this.valorSeleccionadoRegion}B`];
-        this.initCharts();
+        this.valorSeleccionadoSector = 'Todos';
+        this.applyFilterSectorProductivo();
     }
 
     applyFilterSectorProductivo() {
-        return;
-        // this.initCharts();
+        if(this.valorSeleccionadoSector == 'Todos'){
+            this.conteoMensualA = this.data[`conteoMensual${this.valorSeleccionadoRegion}A`];
+            this.conteoMensualB = this.data[`conteoMensual${this.valorSeleccionadoRegion}B`];
+            this.conteoMensualC = this.data[`conteoMensual${this.valorSeleccionadoRegion}C`];
+            this.interanualA = this.data[`interanual${this.valorSeleccionadoRegion}A`];
+            this.interanualB = this.data[`interanual${this.valorSeleccionadoRegion}B`];
+        } else {
+            this.conteoMensualA = this.contarMensual(this.data.dataTotalLujanA.filter((d: any) => d.sectorProductivo == this.valorSeleccionadoSector));
+            this.conteoMensualB = this.contarMensual(this.data.dataTotalLujanB.filter((d: any) => d.sectorProductivo == this.valorSeleccionadoSector));
+            this.conteoMensualC = this.contarMensual(this.data.dataTotalLujanC.filter((d: any) => d.sectorProductivo == this.valorSeleccionadoSector));
+            this.interanualA = this.calcularInteranual(this.conteoMensualB, this.conteoMensualA);
+            this.interanualB = this.calcularInteranual(this.conteoMensualC, this.conteoMensualB);
+        }
+        this.initCharts();
     }
 
     initCharts() {
@@ -92,7 +111,7 @@ export class GraficoPorRubroYSectorComponent {
             labels: this.labelsConteo,
             datasets: [
                 {
-                    label: 'Últimos 36 meses',
+                    label: 'Puestos Registrados',
                     data: [...this.conteoMensualC, ...this.conteoMensualB, ...this.conteoMensualA],
                     fill: false,
                     backgroundColor: documentStyle.getPropertyValue('--primary-800'),
@@ -122,7 +141,14 @@ export class GraficoPorRubroYSectorComponent {
                 },
                 y: {
                     ticks: {
-                        color: textColorSecondary
+                        color: textColorSecondary,
+                        title: {
+                            display: true,
+                            text: 'Puestos (miles)'
+                        },
+                        callback: function(value: number) {
+                            return value / 1000; // Divide el valor por 1000 para expresarlo en miles
+                        }
                     },
                     grid: {
                         color: surfaceBorder,
@@ -135,7 +161,7 @@ export class GraficoPorRubroYSectorComponent {
             labels: this.labelsInteranual,
             datasets: [
                 {
-                    label: 'Últimos 24 meses',
+                    label: 'Variación',
                     backgroundColor: documentStyle.getPropertyValue('--primary-300'),
                     borderColor: documentStyle.getPropertyValue('--primary-300'),
                     data: [...this.interanualB, ...this.interanualA]
@@ -166,7 +192,7 @@ export class GraficoPorRubroYSectorComponent {
                 },
                 y: {
                     ticks: {
-                        color: textColorSecondary
+                        color: textColorSecondary,
                     },
                     grid: {
                         color: surfaceBorder,
@@ -178,6 +204,7 @@ export class GraficoPorRubroYSectorComponent {
     }
 
     contarMensual(dataSet: any) {
+        if(dataSet.length == 0) return [];
         let conteoMensual = [];
         let initMonth = new Date(Date.parse(dataSet[0].fecha)).getMonth();
 
@@ -198,7 +225,7 @@ export class GraficoPorRubroYSectorComponent {
 
     calcularInteranual(anterior: number[], actual: number[]) {
         let result: number[] = [];
-        for (let i = 1; i <= 12; i++) {
+        for (let i = 0; i < 12; i++) {
             let variacion = (actual[i] / anterior[i]) - 1;
             result.push(variacion);
         }

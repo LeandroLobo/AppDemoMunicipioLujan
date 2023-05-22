@@ -15,6 +15,13 @@ export class DashboardComponent implements OnInit, OnDestroy {
     dolarOficial!: Casa;
     dolarBlue!: Casa;
     loading!: boolean;
+    today!: string;
+    dataSetSeleccionado = 'puestos-empleo';
+    opcionesDataSet: any[] = [
+        { label: 'Puestos de Empleo', value: 'puestos-empleo' },
+        { label: 'DataSet2', value: 'dataset-2' },
+        { label: 'DataSet3', value: 'dataset-3' },
+    ];
 
     constructor( public layoutService: LayoutService, private dolarsi: ApiDolarsiService, private firebase: FirebaseDatabaseService) {
 
@@ -27,6 +34,8 @@ export class DashboardComponent implements OnInit, OnDestroy {
                 res.map(casa => {
                     if(casa.casa.nombre == 'Oficial') this.dolarOficial = casa.casa;
                     if(casa.casa.nombre == 'Blue') this.dolarBlue = casa.casa;
+                    const date = new Date(Date.now());
+                    this.today = date.toLocaleDateString("es-ES");
                 });
                 this.loading = false;
             },
@@ -34,7 +43,9 @@ export class DashboardComponent implements OnInit, OnDestroy {
         );
     }
 
-
+    changeDataSet(value: any) {
+        console.log(value)
+    }
 
     ngOnDestroy() {
     }

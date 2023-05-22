@@ -117,27 +117,27 @@ export class CrudComponent implements OnInit {
         const dataTotalPaisB = this.muestraTotal.filter(d => new Date(Date.parse(d.fecha)) >= startB && new Date(Date.parse(d.fecha)) < startA);
         const dataTotalPaisC = this.muestraTotal.filter(d => new Date(Date.parse(d.fecha)) >= startC && new Date(Date.parse(d.fecha)) < startB);
 
-        const months = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+        const months = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'];
 
         const labelsA = [];
         startA.setDate(startA.getDate() + 1);
         for (let i = 0; i < 12; i++) {
         const date = new Date(startA.getFullYear(), startA.getMonth() + i );
-        labelsA.push(months[date.getMonth()] + ' ' +date.getFullYear());
+        labelsA.push(months[date.getMonth()] + ' ' + date.getFullYear().toString().slice(-2));
         }
 
         const labelsB = [];
         startB.setDate(startB.getDate() + 1);
         for (let i = 0; i < 12; i++) {
         const date = new Date(startB.getFullYear(), startB.getMonth() + i );
-        labelsB.push(months[date.getMonth()] + ' ' + date.getFullYear());
+        labelsB.push(months[date.getMonth()] + ' ' + date.getFullYear().toString().slice(-2));
         }
 
         const labelsC = [];
         startC.setDate(startC.getDate() + 1);
         for (let i = 0; i < 12; i++) {
         const date = new Date(startC.getFullYear(), startC.getMonth() + i );
-        labelsC.push(months[date.getMonth()] + ' ' + date.getFullYear());
+        labelsC.push(months[date.getMonth()] + ' ' + date.getFullYear().toString().slice(-2));
         }
 
         const dataTotalBsAsA = dataTotalPaisA.filter(d => d.id_provincia_indec == '6');
@@ -215,7 +215,7 @@ export class CrudComponent implements OnInit {
 
     calcularInteranual(anterior: number[], actual: number[]) {
         let result: number[] = [];
-        for (let i = 1; i <= 12; i++) {
+        for (let i = 0; i < 12; i++) {
             let variacion = (actual[i] / anterior[i]) - 1;
             result.push(variacion);
         }

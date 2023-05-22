@@ -3,12 +3,12 @@
     <div class="col-12 lg:col-6 xl:col-3">
         <div class="card mb-0">
             <div class="flex justify-content-between">
-                <span class="block text-500 font-medium">Dólar oficial</span>
+                <span class="block text-500 font-medium">Dólar oficial ({{today}})</span>
                 <div class="flex align-items-center justify-content-center bg-green-100 border-round" [ngStyle]="{width: '2.5rem', height: '2.5rem'}">
                     <i class="pi pi-dollar text-green-500 text-xl"></i>
                 </div>
             </div>
-            <div class="grid">
+            <div class="grid" [style]="{'margin-bottom':'0.5rem'}">
                 <div class="col-6 pb-0">
                     <div class="text-900 font-medium text-xl">${{dolarOficial ? dolarOficial.compra : '---'}}</div>
                     <span class="text-green-500 font-medium">Compra</span>
@@ -18,29 +18,9 @@
                     <span class="text-green-500 font-medium">Venta</span>
                 </div>
             </div>
+            <a href="https://www.bna.com.ar/Personas" target="_blank">Ir a la fuente: BNA</a>
         </div>
     </div>
-
-    <!-- <div class="col-12 lg:col-6 xl:col-3">
-        <div class="card mb-0">
-            <div class="flex justify-content-between">
-                <span class="block text-500 font-medium">Dolar 'Blue'</span>
-                <div class="flex align-items-center justify-content-center bg-blue-100 border-round" [ngStyle]="{width: '2.5rem', height: '2.5rem'}">
-                    <i class="pi pi-dollar text-blue-500 text-xl"></i>
-                </div>
-            </div>
-            <div class="grid">
-                <div class="col-6 pb-0">
-                    <div class="text-900 font-medium text-xl">${{dolarBlue ? dolarBlue.compra : '---'}}</div>
-                    <span class="text-blue-500 font-medium">Compra</span>
-                </div>
-                <div class="col-6 pb-0">
-                    <div class="text-900 font-medium text-xl">${{dolarBlue ? dolarBlue.venta : '---'}}</div>
-                    <span class="text-blue-500 font-medium">Venta</span>
-                </div>
-            </div>
-        </div>
-    </div> -->
 
     <div class="col-12 lg:col-6 xl:col-3">
         <div class="card mb-0">
@@ -50,7 +30,7 @@
                     <i class="pi pi-chart-line text-purple-500 text-xl"></i>
                 </div>
             </div>
-            <div class="grid">
+            <div class="grid" [style]="{'margin-bottom':'0.5rem'}">
                 <div class="col-6 pb-0">
                     <div class="text-900 font-medium text-xl">0,2%</div>
                     <span class="text-purple-500 font-medium">Var. interanual</span>
@@ -60,70 +40,58 @@
                     <span class="text-purple-500 font-medium">Var. mensual</span>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <!-- <div class="col-12 lg:col-6 xl:col-3">
-        <div class="card mb-0">
-            <div class="flex justify-content-between">
-                <span class="block text-500 font-medium">PBI (Cuarto trimestre 2022)</span>
-                <div class="flex align-items-center justify-content-center bg-orange-100 border-round" [ngStyle]="{width: '2.5rem', height: '2.5rem'}">
-                    <i class="pi pi-wallet text-orange-500 text-xl"></i>
-                </div>
-            </div>
-            <div class="grid">
-                <div class="col-6 pb-0">
-                    <div class="text-900 font-medium text-xl">1,9%</div>
-                    <span class="text-orange-500 font-medium">Var. interanual</span>
-                </div>
-                <div class="col-6 pb-0">
-                    <div class="text-900 font-medium text-xl">-1,5%</div>
-                    <span class="text-orange-500 font-medium">Var. trimestral</span>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    <div class="col-12 lg:col-6 xl:col-3">
-        <div class="card mb-0">
-            <div class="flex justify-content-between">
-                <span class="block text-500 font-medium">IPC</span>
-                <div class="flex align-items-center justify-content-center bg-orange-100 border-round" [ngStyle]="{width: '2.5rem', height: '2.5rem'}">
-                    <i class="pi pi-wallet text-orange-500 text-xl"></i>
-                </div>
-            </div>
-            <div class="grid">
-                <div class="col-6 pb-0">
-                    <div class="text-900 font-medium text-xl">104,3%</div>
-                    <span class="text-orange-500 font-medium">Var. interanual</span>
-                </div>
-                <div class="col-6 pb-0">
-                    <div class="text-900 font-medium text-xl">7,7%</div>
-                    <span class="text-orange-500 font-medium">Var. trimestral</span>
-                </div>
-            </div>
+            <a href="https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-9-48" target="_blank">Ir a la fuente: INDEC</a>
         </div>
     </div>
 
     <div class="col-12 lg:col-6 xl:col-3">
         <div class="card mb-0">
             <div class="flex justify-content-between">
-                <span class="block text-500 font-medium">IPC</span>
+                <span class="block text-500 font-medium">IPC (abril 2023)</span>
                 <div class="flex align-items-center justify-content-center bg-orange-100 border-round" [ngStyle]="{width: '2.5rem', height: '2.5rem'}">
                     <i class="pi pi-wallet text-orange-500 text-xl"></i>
                 </div>
             </div>
+            <div class="grid" [style]="{'margin-bottom':'0.5rem'}">
+                <div class="col-6 pb-0">
+                    <div class="text-900 font-medium text-xl"> 108,8%</div>
+                    <span class="text-orange-500 font-medium">Var. interanual</span>
+                </div>
+                <div class="col-6 pb-0">
+                    <div class="text-900 font-medium text-xl">8,4%</div>
+                    <span class="text-orange-500 font-medium">Var. mensual</span>
+                </div>
+            </div>
+            <a href="https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-5-31" target="_blank">Ir a la fuente: INDEC</a>
+        </div>
+    </div>
+
+    <div class="col-12 lg:col-6 xl:col-3">
+        <div class="card mb-0" [style]="{'height':'134.57px'}">
+            <div class="flex justify-content-between">
+                <span class="block text-500 font-medium">Seleccione un DataSet</span>
+                <div class="flex align-items-center justify-content-center bg-blue-100 border-round" [ngStyle]="{width: '2.5rem', height: '2.5rem'}">
+                    <i class="pi pi-chart-line text-blue-500 text-xl"></i>
+                </div>
+            </div>
             <div class="grid">
                 <div class="col-6 pb-0">
-                    <div class="text-900 font-medium text-xl"> 21,7%</div>
-                    <span class="text-orange-500 font-medium">Acumulado</span>
+                    <p-dropdown [options]="opcionesDataSet" [(ngModel)]="dataSetSeleccionado" [style]="{'margin-right':'1rem'}" (onChange)="changeDataSet($event)"></p-dropdown>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="col-12">
-        <app-grafico-por-rubro-y-sector></app-grafico-por-rubro-y-sector>
+    <div class="col-12" *ngIf="dataSetSeleccionado === 'puestos-empleo'">
+        <app-grafico-puestos-empleo></app-grafico-puestos-empleo>
+    </div>
+
+    <div class="col-12" *ngIf="dataSetSeleccionado === 'dataset-2'">
+        <app-grafico-puestos-empleo></app-grafico-puestos-empleo>
+    </div>
+
+    <div class="col-12" *ngIf="dataSetSeleccionado === 'dataset-3'">
+        <app-grafico-puestos-empleo></app-grafico-puestos-empleo>
     </div>
 
 </div>
