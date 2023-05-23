@@ -58,11 +58,8 @@ export class CrudComponent implements OnInit {
                 this.papa.parse(reader.result.toString(), {
                     header: true,
                     complete: (results) => {
-
                         this.muestraTotal = results.data.filter( (x:any) =>
-                        // x.codigo_departamento_indec == '6497' &&
                             x.fecha > '2020'
-                            // && x.id_provincia_indec == '6'
                             && x.puestos != '-99'
                             && diccionarioClae.listaClae2Interesan.includes(Number(x.clae2))
                         ).map((d:any) => {
