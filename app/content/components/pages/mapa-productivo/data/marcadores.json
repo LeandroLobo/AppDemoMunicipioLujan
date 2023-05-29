@@ -1,0 +1,4755 @@
+[
+    {
+        "lat": "-34.497",
+        "lon": "-59.075",
+        "clae2": "1",
+        "clae6": "14221",
+        "clae6_desc": "Cría de ganado equino realizada en haras (Incluye la producción de semen)"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.116",
+        "clae2": "52",
+        "clae6": "524120",
+        "clae6_desc": "Servicios  de playas de estacionamiento y garajes"
+    },
+    {
+        "lat": "-34.543",
+        "lon": "-59.145",
+        "clae2": "43",
+        "clae6": "431210",
+        "clae6_desc": "Movimiento de suelos y preparación de terrenos para obras (Incluye el drenaje, excavación de zanjas para construcciones diversas, el despeje de capas superficiales no contaminadas, movimientos de tierras para hacer terraplenes o desmontes previos a la construcción de vías, carreteras, autopistas, FFCC, etc.)"
+    },
+    {
+        "lat": "-34.562",
+        "lon": "-59.12",
+        "clae2": "10",
+        "clae6": "105030",
+        "clae6_desc": "Elaboración industrial de helados"
+    },
+    {
+        "lat": "-34.586",
+        "lon": "-59.182",
+        "clae2": "1",
+        "clae6": "14221",
+        "clae6_desc": "Cría de ganado equino realizada en haras (Incluye la producción de semen)"
+    },
+    {
+        "lat": "-34.574",
+        "lon": "-59.125",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.572",
+        "lon": "-59.113",
+        "clae2": "41",
+        "clae6": "410011",
+        "clae6_desc": "Construcción, reforma y reparación de edificios residenciales (Incluye la construcción, reforma y reparación  de viviendas unifamiliares y multifamiliares, bungaloes, cabañas, casas de campo, departamentos, albergues para ancianos, niños, estudiantes, etc.)"
+    },
+    {
+        "lat": "-34.563",
+        "lon": "-59.129",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.573",
+        "lon": "-59.106",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.591",
+        "lon": "-59.177",
+        "clae2": "43",
+        "clae6": "431210",
+        "clae6_desc": "Movimiento de suelos y preparación de terrenos para obras (Incluye el drenaje, excavación de zanjas para construcciones diversas, el despeje de capas superficiales no contaminadas, movimientos de tierras para hacer terraplenes o desmontes previos a la construcción de vías, carreteras, autopistas, FFCC, etc.)"
+    },
+    {
+        "lat": "-34.59",
+        "lon": "-59.102",
+        "clae2": "49",
+        "clae6": "492229",
+        "clae6_desc": "Servicio de transporte automotor de mercaderías a granel n.c.p."
+    },
+    {
+        "lat": "-34.562",
+        "lon": "-59.119",
+        "clae2": "1",
+        "clae6": "11119",
+        "clae6_desc": "Cultivo de cereales n.c.p., excepto los de uso forrajero (Incluye alforfón, cebada cervecera, etc.)"
+    },
+    {
+        "lat": "-34.572",
+        "lon": "-59.073",
+        "clae2": "13",
+        "clae6": "131209",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de fibras textiles n.c.p., incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.483",
+        "lon": "-59.223",
+        "clae2": "56",
+        "clae6": "561011",
+        "clae6_desc": "Servicios de restaurantes y cantinas sin espectáculo"
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.113",
+        "clae2": "49",
+        "clae6": "492280",
+        "clae6_desc": "Servicio de transporte automotor urbano de carga n.c.p. (Incluye el transporte realizado por fleteros y distribuidores dentro del égido urbano)"
+    },
+    {
+        "lat": "-34.56",
+        "lon": "-59.131",
+        "clae2": "13",
+        "clae6": "131209",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de fibras textiles n.c.p., incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.601",
+        "lon": "-59.188",
+        "clae2": "10",
+        "clae6": "107999",
+        "clae6_desc": "Elaboración de productos alimenticios n.c.p. (Incluye la elaboración de polvos para preparar postres y gelatinas, levadura, productos para copetín, sopas, sal de mesa, mayonesa, mostaza, etc.)"
+    },
+    {
+        "lat": "-34.558",
+        "lon": "-59.204",
+        "clae2": "1",
+        "clae6": "11291",
+        "clae6_desc": "Cultivo de girasol"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.106",
+        "clae2": "56",
+        "clae6": "561020",
+        "clae6_desc": "Servicios de preparación de comidas para llevar (Incluye rotiserías, casas de empanadas, pizzerías sin consumo en el local) "
+    },
+    {
+        "lat": "-34.541",
+        "lon": "-59.135",
+        "clae2": "1",
+        "clae6": "11211",
+        "clae6_desc": "Cultivo de soja"
+    },
+    {
+        "lat": "-34.597",
+        "lon": "-59.177",
+        "clae2": "10",
+        "clae6": "107110",
+        "clae6_desc": "Elaboración de galletitas y bizcochos"
+    },
+    {
+        "lat": "-34.555",
+        "lon": "-59.205",
+        "clae2": "13",
+        "clae6": "131202",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de algodón y sus mezclas, incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.562",
+        "lon": "-59.11",
+        "clae2": "10",
+        "clae6": "107129",
+        "clae6_desc": "Elaboración de productos de panadería n.c.p. (Incluye la elaboración de pan, facturas, churros, pre-pizzas, masas de hojaldre, masas fritas, tortas, tartas, etc), (No incluye la fabricación de sándwich 561040)"
+    },
+    {
+        "lat": "-34.6",
+        "lon": "-59.174",
+        "clae2": "85",
+        "clae6": "852200",
+        "clae6_desc": "Enseñanza secundaria de formación técnica y profesional"
+    },
+    {
+        "lat": "-34.588",
+        "lon": "-59.103",
+        "clae2": "1",
+        "clae6": "11211",
+        "clae6_desc": "Cultivo de soja"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.115",
+        "clae2": "56",
+        "clae6": "561019",
+        "clae6_desc": "Servicios de expendio de comidas y bebidas en establecimientos con servicio de mesa y/o en mostrador n.c.p."
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.121",
+        "clae2": "41",
+        "clae6": "410011",
+        "clae6_desc": "Construcción, reforma y reparación de edificios residenciales (Incluye la construcción, reforma y reparación  de viviendas unifamiliares y multifamiliares, bungaloes, cabañas, casas de campo, departamentos, albergues para ancianos, niños, estudiantes, etc.)"
+    },
+    {
+        "lat": "-34.567",
+        "lon": "-59.176",
+        "clae2": "13",
+        "clae6": "131132",
+        "clae6_desc": "Fabricación de hilados textiles de algodón y sus mezclas"
+    },
+    {
+        "lat": "-34.582",
+        "lon": "-59.121",
+        "clae2": "10",
+        "clae6": "107309",
+        "clae6_desc": "Elaboración de productos de confitería n.c.p. (Incluye alfajores, caramelos, frutas confitadas, pastillas, gomas de mascar, etc.)"
+    },
+    {
+        "lat": "-34.487",
+        "lon": "-59.084",
+        "clae2": "1",
+        "clae6": "11329",
+        "clae6_desc": "Cultivo de bulbos, brotes, raíces y hortalizas de fruto n.c.p. (Incluye ají, ajo, alcaparra, berenjena, cebolla, calabaza, espárrago, frutilla, melón, pepino, pimiento, sandía, zanahoria, zapallo, zapallito, etc.)"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.098",
+        "clae2": "42",
+        "clae6": "429090",
+        "clae6_desc": "Construcción de obras de ingeniería civil n.c.p. (Incluye los trabajos generales de construcción para la minería y la industria,  de centrales eléctricas y nucleares, excavaciones de sepulturas, etc.)"
+    },
+    {
+        "lat": "-34.582",
+        "lon": "-59.181",
+        "clae2": "25",
+        "clae6": "259993",
+        "clae6_desc": "Fabricación de productos metálicos de tornería y/o matricería"
+    },
+    {
+        "lat": "-34.59",
+        "lon": "-59.177",
+        "clae2": "13",
+        "clae6": "131202",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de algodón y sus mezclas, incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.567",
+        "lon": "-59.112",
+        "clae2": "56",
+        "clae6": "561019",
+        "clae6_desc": "Servicios de expendio de comidas y bebidas en establecimientos con servicio de mesa y/o en mostrador n.c.p."
+    },
+    {
+        "lat": "-34.575",
+        "lon": "-59.082",
+        "clae2": "43",
+        "clae6": "439100",
+        "clae6_desc": "Alquiler de equipo de construcción o demolición dotado de operarios"
+    },
+    {
+        "lat": "-34.561",
+        "lon": "-59.205",
+        "clae2": "42",
+        "clae6": "421000",
+        "clae6_desc": "Construcción, reforma y reparación de obras de infraestructura para el transporte (Incluye la construcción, reforma y reparación de calles, autopistas, carreteras, puentes, túneles, vías férreas y pistas de aterrizaje, la señalización mediante pintura, etc.)"
+    },
+    {
+        "lat": "-34.574",
+        "lon": "-59.084",
+        "clae2": "10",
+        "clae6": "105020",
+        "clae6_desc": "Elaboración de quesos (Incluye la producción de suero)"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.112",
+        "clae2": "13",
+        "clae6": "139900",
+        "clae6_desc": "Fabricación de productos textiles n.c.p."
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.107",
+        "clae2": "56",
+        "clae6": "561019",
+        "clae6_desc": "Servicios de expendio de comidas y bebidas en establecimientos con servicio de mesa y/o en mostrador n.c.p."
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.112",
+        "clae2": "1",
+        "clae6": "14810",
+        "clae6_desc": "Cría de aves de corral, excepto para la producción de huevos"
+    },
+    {
+        "lat": "-34.6",
+        "lon": "-59.175",
+        "clae2": "10",
+        "clae6": "107420",
+        "clae6_desc": "Elaboración de pastas alimentarias secas"
+    },
+    {
+        "lat": "-34.572",
+        "lon": "-59.136",
+        "clae2": "1",
+        "clae6": "12900",
+        "clae6_desc": "Cultivos perennes n.c.p."
+    },
+    {
+        "lat": "-34.496",
+        "lon": "-59.078",
+        "clae2": "56",
+        "clae6": "561011",
+        "clae6_desc": "Servicios de restaurantes y cantinas sin espectáculo"
+    },
+    {
+        "lat": "-34.602",
+        "lon": "-59.173",
+        "clae2": "1",
+        "clae6": "16120",
+        "clae6_desc": "Servicios de cosecha mecánica (Incluye la cosecha mecánica de granos, caña de azúcar, algodón, forrajes, el enfardado, enrollado, etc.) "
+    },
+    {
+        "lat": "-34.557",
+        "lon": "-59.203",
+        "clae2": "13",
+        "clae6": "131202",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de algodón y sus mezclas, incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.567",
+        "lon": "-59.122",
+        "clae2": "1",
+        "clae6": "11211",
+        "clae6_desc": "Cultivo de soja"
+    },
+    {
+        "lat": "-34.635",
+        "lon": "-59.255",
+        "clae2": "1",
+        "clae6": "11112",
+        "clae6_desc": "Cultivo de trigo"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.118",
+        "clae2": "27",
+        "clae6": "275099",
+        "clae6_desc": "Fabricación de aparatos de uso doméstico n.c.p. (Incluye enceradoras, pulidoras, batidoras, licuadoras y similares)"
+    },
+    {
+        "lat": "-34.603",
+        "lon": "-59.177",
+        "clae2": "1",
+        "clae6": "14610",
+        "clae6_desc": "Producción de leche bovina (Incluye la cría para la producción de leche de vaca y la producción de leche bubalina)"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.116",
+        "clae2": "49",
+        "clae6": "492280",
+        "clae6_desc": "Servicio de transporte automotor urbano de carga n.c.p. (Incluye el transporte realizado por fleteros y distribuidores dentro del égido urbano)"
+    },
+    {
+        "lat": "-34.596",
+        "lon": "-59.182",
+        "clae2": "10",
+        "clae6": "107999",
+        "clae6_desc": "Elaboración de productos alimenticios n.c.p. (Incluye la elaboración de polvos para preparar postres y gelatinas, levadura, productos para copetín, sopas, sal de mesa, mayonesa, mostaza, etc.)"
+    },
+    {
+        "lat": "-34.579",
+        "lon": "-59.101",
+        "clae2": "10",
+        "clae6": "107129",
+        "clae6_desc": "Elaboración de productos de panadería n.c.p. (Incluye la elaboración de pan, facturas, churros, pre-pizzas, masas de hojaldre, masas fritas, tortas, tartas, etc), (No incluye la fabricación de sándwich 561040)"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.118",
+        "clae2": "49",
+        "clae6": "492120",
+        "clae6_desc": "Servicios de transporte automotor de pasajeros mediante taxis y remises, alquiler de autos con chofer (Incluye los radiotaxis)"
+    },
+    {
+        "lat": "-34.425",
+        "lon": "-59.127",
+        "clae2": "1",
+        "clae6": "11331",
+        "clae6_desc": "Cultivo de hortalizas de hoja y de otras hortalizas frescas (Incluye acelga, apio, coles, espinaca, lechuga, perejil, radicheta, repollo, etc.)"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.121",
+        "clae2": "25",
+        "clae6": "259999",
+        "clae6_desc": "Fabricación de productos elaborados de metal n.c.p."
+    },
+    {
+        "lat": "-34.425",
+        "lon": "-59.127",
+        "clae2": "79",
+        "clae6": "791100",
+        "clae6_desc": "Servicios minoristas de agencias de viajes"
+    },
+    {
+        "lat": "-34.56",
+        "lon": "-59.128",
+        "clae2": "10",
+        "clae6": "101011",
+        "clae6_desc": "Matanza de ganado bovino (Incluye búfalos)"
+    },
+    {
+        "lat": "-34.543",
+        "lon": "-59.145",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.601",
+        "lon": "-59.114",
+        "clae2": "1",
+        "clae6": "14610",
+        "clae6_desc": "Producción de leche bovina (Incluye la cría para la producción de leche de vaca y la producción de leche bubalina)"
+    },
+    {
+        "lat": "-34.557",
+        "lon": "-59.198",
+        "clae2": "11",
+        "clae6": "110492",
+        "clae6_desc": "Elaboración de bebidas no alcohólicas n.c.p. (Incluye los jugos para diluir o en polvo llamados \"\"sintéticos\"\" o de un contenido en jugos naturales inferior al 50%), (No incluye a los jugos naturales y sus concentrados, de frutas, hortalizas y legumbres - actividad 103020)"
+    },
+    {
+        "lat": "-34.594",
+        "lon": "-59.177",
+        "clae2": "1",
+        "clae6": "12490",
+        "clae6_desc": "Cultivo de frutas n.c.p. (Incluye kiwi, arándanos, mora, grosella, etc.)"
+    },
+    {
+        "lat": "-34.571",
+        "lon": "-59.108",
+        "clae2": "14",
+        "clae6": "141120",
+        "clae6_desc": "Confección de ropa de trabajo, uniformes y guardapolvos "
+    },
+    {
+        "lat": "-34.563",
+        "lon": "-59.096",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.579",
+        "lon": "-59.095",
+        "clae2": "27",
+        "clae6": "273190",
+        "clae6_desc": "Fabricación de hilos y cables aislados n.c.p."
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.109",
+        "clae2": "41",
+        "clae6": "410021",
+        "clae6_desc": "Construcción, reforma y reparación de edificios no residenciales (Incluye construcción, reforma y reparación de restaurantes, bares, campamentos, bancos, oficinas, galerías comerciales, estaciones de servicio, edificios para tráfico y comunicaciones, garajes, edificios industriales y depósitos, escuelas, etc.)"
+    },
+    {
+        "lat": "-34.56",
+        "lon": "-59.133",
+        "clae2": "13",
+        "clae6": "139900",
+        "clae6_desc": "Fabricación de productos textiles n.c.p."
+    },
+    {
+        "lat": "-34.564",
+        "lon": "-59.117",
+        "clae2": "1",
+        "clae6": "11211",
+        "clae6_desc": "Cultivo de soja"
+    },
+    {
+        "lat": "-34.576",
+        "lon": "-59.186",
+        "clae2": "13",
+        "clae6": "131202",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de algodón y sus mezclas, incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.561",
+        "lon": "-59.127",
+        "clae2": "49",
+        "clae6": "492230",
+        "clae6_desc": "Servicio de transporte automotor de animales"
+    },
+    {
+        "lat": "-34.578",
+        "lon": "-59.112",
+        "clae2": "1",
+        "clae6": "11329",
+        "clae6_desc": "Cultivo de bulbos, brotes, raíces y hortalizas de fruto n.c.p. (Incluye ají, ajo, alcaparra, berenjena, cebolla, calabaza, espárrago, frutilla, melón, pepino, pimiento, sandía, zanahoria, zapallo, zapallito, etc.)"
+    },
+    {
+        "lat": "-34.638",
+        "lon": "-59.265",
+        "clae2": "10",
+        "clae6": "107912",
+        "clae6_desc": "Elaboración y molienda de hierbas aromáticas y  especias"
+    },
+    {
+        "lat": "-34.561",
+        "lon": "-59.106",
+        "clae2": "14",
+        "clae6": "141120",
+        "clae6_desc": "Confección de ropa de trabajo, uniformes y guardapolvos "
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.112",
+        "clae2": "10",
+        "clae6": "107129",
+        "clae6_desc": "Elaboración de productos de panadería n.c.p. (Incluye la elaboración de pan, facturas, churros, pre-pizzas, masas de hojaldre, masas fritas, tortas, tartas, etc), (No incluye la fabricación de sándwich 561040)"
+    },
+    {
+        "lat": "-34.58",
+        "lon": "-59.017",
+        "clae2": "1",
+        "clae6": "14221",
+        "clae6_desc": "Cría de ganado equino realizada en haras (Incluye la producción de semen)"
+    },
+    {
+        "lat": "-34.558",
+        "lon": "-59.112",
+        "clae2": "25",
+        "clae6": "259993",
+        "clae6_desc": "Fabricación de productos metálicos de tornería y/o matricería"
+    },
+    {
+        "lat": "-34.573",
+        "lon": "-59.117",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.581",
+        "lon": "-59.102",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.113",
+        "clae2": "52",
+        "clae6": "521010",
+        "clae6_desc": "Servicios de manipulación de carga en el ámbito terrestre"
+    },
+    {
+        "lat": "-34.573",
+        "lon": "-59.074",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.567",
+        "lon": "-59.114",
+        "clae2": "56",
+        "clae6": "561019",
+        "clae6_desc": "Servicios de expendio de comidas y bebidas en establecimientos con servicio de mesa y/o en mostrador n.c.p."
+    },
+    {
+        "lat": "-34.564",
+        "lon": "-59.11",
+        "clae2": "43",
+        "clae6": "432200",
+        "clae6_desc": "Instalaciones de gas, agua, sanitarios y de climatización, con sus artefactos conexos (Incluye la instalación de compactadores, calderas, sistemas de calefacción central, etc.)"
+    },
+    {
+        "lat": "-34.599",
+        "lon": "-59.177",
+        "clae2": "8",
+        "clae6": "89900",
+        "clae6_desc": "Explotación de minas y canteras n.c.p. (Incluye amianto, cuarzo, diatomita, piedra pómez, ágata, agua marina, amatista, cristal de roca, rodocrosita, topacio, corindón, feldespato, mica, zeolita, perlita, granulado volcánico, puzolana, toba, talco, vermiculita, tosca, grafito, etc.)"
+    },
+    {
+        "lat": "-34.629",
+        "lon": "-59.252",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.114",
+        "clae2": "1",
+        "clae6": "11211",
+        "clae6_desc": "Cultivo de soja"
+    },
+    {
+        "lat": "-34.564",
+        "lon": "-59.037",
+        "clae2": "1",
+        "clae6": "11211",
+        "clae6_desc": "Cultivo de soja"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.11",
+        "clae2": "56",
+        "clae6": "561019",
+        "clae6_desc": "Servicios de expendio de comidas y bebidas en establecimientos con servicio de mesa y/o en mostrador n.c.p."
+    },
+    {
+        "lat": "-34.561",
+        "lon": "-59.139",
+        "clae2": "14",
+        "clae6": "141120",
+        "clae6_desc": "Confección de ropa de trabajo, uniformes y guardapolvos "
+    },
+    {
+        "lat": "-34.556",
+        "lon": "-59.109",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.133",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.564",
+        "lon": "-59.119",
+        "clae2": "55",
+        "clae6": "551023",
+        "clae6_desc": "Servicios de alojamiento en hoteles, hosterías y residenciales similares, excepto por hora, que no incluyen servicio de restaurante al público"
+    },
+    {
+        "lat": "-34.563",
+        "lon": "-59.183",
+        "clae2": "10",
+        "clae6": "107129",
+        "clae6_desc": "Elaboración de productos de panadería n.c.p. (Incluye la elaboración de pan, facturas, churros, pre-pizzas, masas de hojaldre, masas fritas, tortas, tartas, etc), (No incluye la fabricación de sándwich 561040)"
+    },
+    {
+        "lat": "-34.567",
+        "lon": "-59.114",
+        "clae2": "85",
+        "clae6": "854990",
+        "clae6_desc": "Servicios de enseñanza n.c.p. (Incluye instrucción impartida mediante programas de radio, televisión, correspondencia y otros medios de comunicación, escuelas de manejo, actividades de enseñanza a domicilio y/o particulares, etc.)"
+    },
+    {
+        "lat": "-34.584",
+        "lon": "-59.108",
+        "clae2": "10",
+        "clae6": "107911",
+        "clae6_desc": "Tostado, torrado y molienda de café"
+    },
+    {
+        "lat": "-34.602",
+        "lon": "-59.174",
+        "clae2": "43",
+        "clae6": "439990",
+        "clae6_desc": "Actividades especializadas de construcción n.c.p. (Incluye el alquiler, montaje y desmantelamiento de andamios,  la construcción de chimeneas y hornos industriales, el acorazamiento de cajas fuertes y cámaras frigoríficas, el armado e instalación de compuertas para diques, etc.)"
+    },
+    {
+        "lat": "-34.488",
+        "lon": "-59.075",
+        "clae2": "1",
+        "clae6": "11211",
+        "clae6_desc": "Cultivo de soja"
+    },
+    {
+        "lat": "-34.564",
+        "lon": "-59.122",
+        "clae2": "1",
+        "clae6": "14114",
+        "clae6_desc": "Invernada  de ganado bovino excepto el engorde en corrales (Feed-Lot)"
+    },
+    {
+        "lat": "-34.632",
+        "lon": "-59.25",
+        "clae2": "1",
+        "clae6": "14820",
+        "clae6_desc": "Producción de huevos"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.104",
+        "clae2": "77",
+        "clae6": "773090",
+        "clae6_desc": "Alquiler de maquinaria y equipo n.c.p., sin personal"
+    },
+    {
+        "lat": "-34.54",
+        "lon": "-59.186",
+        "clae2": "1",
+        "clae6": "14221",
+        "clae6_desc": "Cría de ganado equino realizada en haras (Incluye la producción de semen)"
+    },
+    {
+        "lat": "-34.569",
+        "lon": "-59.097",
+        "clae2": "1",
+        "clae6": "11331",
+        "clae6_desc": "Cultivo de hortalizas de hoja y de otras hortalizas frescas (Incluye acelga, apio, coles, espinaca, lechuga, perejil, radicheta, repollo, etc.)"
+    },
+    {
+        "lat": "-34.577",
+        "lon": "-59.188",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.6",
+        "lon": "-59.174",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.575",
+        "lon": "-59.09",
+        "clae2": "49",
+        "clae6": "492110",
+        "clae6_desc": "Servicio de transporte automotor urbano y suburbano regular de pasajeros"
+    },
+    {
+        "lat": "-34.582",
+        "lon": "-59.1",
+        "clae2": "13",
+        "clae6": "131209",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de fibras textiles n.c.p., incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.114",
+        "clae2": "1",
+        "clae6": "13020",
+        "clae6_desc": "Producción de otras formas de propagación de cultivos agrícolas (Incluye gajos, bulbos, estacas enraizadas o no, esquejes, plantines, etc.) "
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.108",
+        "clae2": "85",
+        "clae6": "851010",
+        "clae6_desc": "Guarderías y jardines maternales"
+    },
+    {
+        "lat": "-34.543",
+        "lon": "-59.131",
+        "clae2": "25",
+        "clae6": "251102",
+        "clae6_desc": "Fabricación de productos metálicos para uso estructural"
+    },
+    {
+        "lat": "-34.56",
+        "lon": "-59.133",
+        "clae2": "13",
+        "clae6": "139900",
+        "clae6_desc": "Fabricación de productos textiles n.c.p."
+    },
+    {
+        "lat": "-34.428",
+        "lon": "-59.125",
+        "clae2": "1",
+        "clae6": "11119",
+        "clae6_desc": "Cultivo de cereales n.c.p., excepto los de uso forrajero (Incluye alforfón, cebada cervecera, etc.)"
+    },
+    {
+        "lat": "-34.567",
+        "lon": "-59.122",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.558",
+        "lon": "-59.112",
+        "clae2": "14",
+        "clae6": "141120",
+        "clae6_desc": "Confección de ropa de trabajo, uniformes y guardapolvos "
+    },
+    {
+        "lat": "-34.586",
+        "lon": "-59.098",
+        "clae2": "49",
+        "clae6": "492230",
+        "clae6_desc": "Servicio de transporte automotor de animales"
+    },
+    {
+        "lat": "-34.576",
+        "lon": "-59.182",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.572",
+        "lon": "-59.093",
+        "clae2": "56",
+        "clae6": "561013",
+        "clae6_desc": "Servicios de \"\"fast food\"\" y locales de venta de comidas y bebidas al paso (Incluye el expendio de hamburguesas, productos lácteos excepto helados, etc.) "
+    },
+    {
+        "lat": "-34.603",
+        "lon": "-59.177",
+        "clae2": "13",
+        "clae6": "131201",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de lana y sus mezclas, incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.099",
+        "clae2": "25",
+        "clae6": "251101",
+        "clae6_desc": "Fabricación de carpintería metálica"
+    },
+    {
+        "lat": "-34.573",
+        "lon": "-59.107",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.097",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.569",
+        "lon": "-59.181",
+        "clae2": "13",
+        "clae6": "131209",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de fibras textiles n.c.p., incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.577",
+        "lon": "-59.187",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.56",
+        "lon": "-59.092",
+        "clae2": "25",
+        "clae6": "251102",
+        "clae6_desc": "Fabricación de productos metálicos para uso estructural"
+    },
+    {
+        "lat": "-34.579",
+        "lon": "-59.06",
+        "clae2": "1",
+        "clae6": "11112",
+        "clae6_desc": "Cultivo de trigo"
+    },
+    {
+        "lat": "-34.573",
+        "lon": "-59.108",
+        "clae2": "1",
+        "clae6": "11211",
+        "clae6_desc": "Cultivo de soja"
+    },
+    {
+        "lat": "-34.553",
+        "lon": "-59.125",
+        "clae2": "25",
+        "clae6": "259100",
+        "clae6_desc": "Forjado, prensado, estampado y laminado de metales, pulvimetalurgia"
+    },
+    {
+        "lat": "-34.574",
+        "lon": "-59.083",
+        "clae2": "10",
+        "clae6": "105020",
+        "clae6_desc": "Elaboración de quesos (Incluye la producción de suero)"
+    },
+    {
+        "lat": "-34.542",
+        "lon": "-59.159",
+        "clae2": "49",
+        "clae6": "492280",
+        "clae6_desc": "Servicio de transporte automotor urbano de carga n.c.p. (Incluye el transporte realizado por fleteros y distribuidores dentro del égido urbano)"
+    },
+    {
+        "lat": "-34.572",
+        "lon": "-59.114",
+        "clae2": "41",
+        "clae6": "410011",
+        "clae6_desc": "Construcción, reforma y reparación de edificios residenciales (Incluye la construcción, reforma y reparación  de viviendas unifamiliares y multifamiliares, bungaloes, cabañas, casas de campo, departamentos, albergues para ancianos, niños, estudiantes, etc.)"
+    },
+    {
+        "lat": "-34.563",
+        "lon": "-59.107",
+        "clae2": "1",
+        "clae6": "11211",
+        "clae6_desc": "Cultivo de soja"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.115",
+        "clae2": "49",
+        "clae6": "492120",
+        "clae6_desc": "Servicios de transporte automotor de pasajeros mediante taxis y remises, alquiler de autos con chofer (Incluye los radiotaxis)"
+    },
+    {
+        "lat": "-34.6",
+        "lon": "-59.174",
+        "clae2": "13",
+        "clae6": "131131",
+        "clae6_desc": "Fabricación de hilados textiles de lana, pelos y sus mezclas"
+    },
+    {
+        "lat": "-34.579",
+        "lon": "-59.098",
+        "clae2": "13",
+        "clae6": "139900",
+        "clae6_desc": "Fabricación de productos textiles n.c.p."
+    },
+    {
+        "lat": "-34.557",
+        "lon": "-59.128",
+        "clae2": "10",
+        "clae6": "105030",
+        "clae6_desc": "Elaboración industrial de helados"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.134",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.121",
+        "clae2": "56",
+        "clae6": "561011",
+        "clae6_desc": "Servicios de restaurantes y cantinas sin espectáculo"
+    },
+    {
+        "lat": "-34.564",
+        "lon": "-59.179",
+        "clae2": "13",
+        "clae6": "131209",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de fibras textiles n.c.p., incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.488",
+        "lon": "-59.224",
+        "clae2": "10",
+        "clae6": "106131",
+        "clae6_desc": "Elaboración de alimentos a base de cereales"
+    },
+    {
+        "lat": "-34.571",
+        "lon": "-59.105",
+        "clae2": "43",
+        "clae6": "432190",
+        "clae6_desc": "Instalación, ejecución y mantenimiento de instalaciones eléctricas, electromecánicas y electrónicas n.c.p. (Incluye la instalación de antenas, pararrayos, sistemas de alarmas contra incendios y robos, sistemas de telecomunicación, etc.)"
+    },
+    {
+        "lat": "-34.55",
+        "lon": "-59.123",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.574",
+        "lon": "-59.095",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.583",
+        "lon": "-59.109",
+        "clae2": "10",
+        "clae6": "107129",
+        "clae6_desc": "Elaboración de productos de panadería n.c.p. (Incluye la elaboración de pan, facturas, churros, pre-pizzas, masas de hojaldre, masas fritas, tortas, tartas, etc), (No incluye la fabricación de sándwich 561040)"
+    },
+    {
+        "lat": "-34.573",
+        "lon": "-59.086",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.489",
+        "lon": "-59.212",
+        "clae2": "56",
+        "clae6": "561011",
+        "clae6_desc": "Servicios de restaurantes y cantinas sin espectáculo"
+    },
+    {
+        "lat": "-34.581",
+        "lon": "-59.141",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.571",
+        "lon": "-59.103",
+        "clae2": "43",
+        "clae6": "433010",
+        "clae6_desc": "Instalaciones de carpintería, herrería de obra y artística (Incluye instalación de puertas y ventanas, carpintería metálica y no metálica, etc.)"
+    },
+    {
+        "lat": "-34.581",
+        "lon": "-59.102",
+        "clae2": "49",
+        "clae6": "492280",
+        "clae6_desc": "Servicio de transporte automotor urbano de carga n.c.p. (Incluye el transporte realizado por fleteros y distribuidores dentro del égido urbano)"
+    },
+    {
+        "lat": "-34.554",
+        "lon": "-59.124",
+        "clae2": "25",
+        "clae6": "251102",
+        "clae6_desc": "Fabricación de productos metálicos para uso estructural"
+    },
+    {
+        "lat": "-34.554",
+        "lon": "-59.134",
+        "clae2": "14",
+        "clae6": "141120",
+        "clae6_desc": "Confección de ropa de trabajo, uniformes y guardapolvos "
+    },
+    {
+        "lat": "-34.557",
+        "lon": "-59.038",
+        "clae2": "43",
+        "clae6": "439990",
+        "clae6_desc": "Actividades especializadas de construcción n.c.p. (Incluye el alquiler, montaje y desmantelamiento de andamios,  la construcción de chimeneas y hornos industriales, el acorazamiento de cajas fuertes y cámaras frigoríficas, el armado e instalación de compuertas para diques, etc.)"
+    },
+    {
+        "lat": "-34.473",
+        "lon": "-59.067",
+        "clae2": "1",
+        "clae6": "14820",
+        "clae6_desc": "Producción de huevos"
+    },
+    {
+        "lat": "-34.556",
+        "lon": "-59.099",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.569",
+        "lon": "-59.135",
+        "clae2": "10",
+        "clae6": "105020",
+        "clae6_desc": "Elaboración de quesos (Incluye la producción de suero)"
+    },
+    {
+        "lat": "-34.563",
+        "lon": "-59.096",
+        "clae2": "25",
+        "clae6": "259100",
+        "clae6_desc": "Forjado, prensado, estampado y laminado de metales, pulvimetalurgia"
+    },
+    {
+        "lat": "-34.562",
+        "lon": "-59.137",
+        "clae2": "13",
+        "clae6": "131202",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de algodón y sus mezclas, incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.569",
+        "lon": "-59.101",
+        "clae2": "49",
+        "clae6": "492229",
+        "clae6_desc": "Servicio de transporte automotor de mercaderías a granel n.c.p."
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.099",
+        "clae2": "56",
+        "clae6": "562010",
+        "clae6_desc": "Servicios de preparación de comidas para empresas y eventos (Incluye el servicio de catering, el suministro de comidas para banquetes, bodas, fiestas y otras celebraciones, comidas para hospital, etc.) "
+    },
+    {
+        "lat": "-34.56",
+        "lon": "-59.096",
+        "clae2": "43",
+        "clae6": "439990",
+        "clae6_desc": "Actividades especializadas de construcción n.c.p. (Incluye el alquiler, montaje y desmantelamiento de andamios,  la construcción de chimeneas y hornos industriales, el acorazamiento de cajas fuertes y cámaras frigoríficas, el armado e instalación de compuertas para diques, etc.)"
+    },
+    {
+        "lat": "-34.583",
+        "lon": "-59.183",
+        "clae2": "13",
+        "clae6": "131202",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de algodón y sus mezclas, incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.562",
+        "lon": "-59.098",
+        "clae2": "49",
+        "clae6": "492229",
+        "clae6_desc": "Servicio de transporte automotor de mercaderías a granel n.c.p."
+    },
+    {
+        "lat": "-34.556",
+        "lon": "-59.1",
+        "clae2": "10",
+        "clae6": "107999",
+        "clae6_desc": "Elaboración de productos alimenticios n.c.p. (Incluye la elaboración de polvos para preparar postres y gelatinas, levadura, productos para copetín, sopas, sal de mesa, mayonesa, mostaza, etc.)"
+    },
+    {
+        "lat": "-34.558",
+        "lon": "-59.129",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.6",
+        "lon": "-59.174",
+        "clae2": "13",
+        "clae6": "139900",
+        "clae6_desc": "Fabricación de productos textiles n.c.p."
+    },
+    {
+        "lat": "-34.581",
+        "lon": "-59.096",
+        "clae2": "13",
+        "clae6": "131139",
+        "clae6_desc": "Fabricación de hilados textiles n.c.p., excepto de lana  y de algodón"
+    },
+    {
+        "lat": "-34.581",
+        "lon": "-59.093",
+        "clae2": "13",
+        "clae6": "139900",
+        "clae6_desc": "Fabricación de productos textiles n.c.p."
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.105",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.598",
+        "lon": "-59.112",
+        "clae2": "10",
+        "clae6": "107309",
+        "clae6_desc": "Elaboración de productos de confitería n.c.p. (Incluye alfajores, caramelos, frutas confitadas, pastillas, gomas de mascar, etc.)"
+    },
+    {
+        "lat": "-34.432",
+        "lon": "-59.124",
+        "clae2": "25",
+        "clae6": "251101",
+        "clae6_desc": "Fabricación de carpintería metálica"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.094",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.564",
+        "lon": "-59.123",
+        "clae2": "1",
+        "clae6": "14221",
+        "clae6_desc": "Cría de ganado equino realizada en haras (Incluye la producción de semen)"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.118",
+        "clae2": "56",
+        "clae6": "561019",
+        "clae6_desc": "Servicios de expendio de comidas y bebidas en establecimientos con servicio de mesa y/o en mostrador n.c.p."
+    },
+    {
+        "lat": "-34.571",
+        "lon": "-59.106",
+        "clae2": "10",
+        "clae6": "107410",
+        "clae6_desc": "Elaboración de pastas alimentarias frescas"
+    },
+    {
+        "lat": "-34.481",
+        "lon": "-59.061",
+        "clae2": "1",
+        "clae6": "14820",
+        "clae6_desc": "Producción de huevos"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.094",
+        "clae2": "56",
+        "clae6": "561019",
+        "clae6_desc": "Servicios de expendio de comidas y bebidas en establecimientos con servicio de mesa y/o en mostrador n.c.p."
+    },
+    {
+        "lat": "-34.553",
+        "lon": "-59.093",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.499",
+        "lon": "-59.066",
+        "clae2": "21",
+        "clae6": "210010",
+        "clae6_desc": "Fabricación de medicamentos de uso humano y productos farmacéuticos"
+    },
+    {
+        "lat": "-34.428",
+        "lon": "-59.125",
+        "clae2": "10",
+        "clae6": "101020",
+        "clae6_desc": "Producción y procesamiento de carne de aves"
+    },
+    {
+        "lat": "-34.569",
+        "lon": "-59.107",
+        "clae2": "14",
+        "clae6": "141199",
+        "clae6_desc": "Confección de prendas de vestir n.c.p., excepto prendas de piel, cuero y de punto"
+    },
+    {
+        "lat": "-34.56",
+        "lon": "-59.089",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.594",
+        "lon": "-59.115",
+        "clae2": "25",
+        "clae6": "251101",
+        "clae6_desc": "Fabricación de carpintería metálica"
+    },
+    {
+        "lat": "-34.563",
+        "lon": "-59.112",
+        "clae2": "24",
+        "clae6": "241009",
+        "clae6_desc": "Fabricación en industrias básicas de productos de hierro y acero n.c.p. (Incluye la producción de hojalata)"
+    },
+    {
+        "lat": "-34.593",
+        "lon": "-59.106",
+        "clae2": "42",
+        "clae6": "421000",
+        "clae6_desc": "Construcción, reforma y reparación de obras de infraestructura para el transporte (Incluye la construcción, reforma y reparación de calles, autopistas, carreteras, puentes, túneles, vías férreas y pistas de aterrizaje, la señalización mediante pintura, etc.)"
+    },
+    {
+        "lat": "-34.577",
+        "lon": "-59.121",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.105",
+        "clae2": "56",
+        "clae6": "561019",
+        "clae6_desc": "Servicios de expendio de comidas y bebidas en establecimientos con servicio de mesa y/o en mostrador n.c.p."
+    },
+    {
+        "lat": "-34.569",
+        "lon": "-59.118",
+        "clae2": "43",
+        "clae6": "439990",
+        "clae6_desc": "Actividades especializadas de construcción n.c.p. (Incluye el alquiler, montaje y desmantelamiento de andamios,  la construcción de chimeneas y hornos industriales, el acorazamiento de cajas fuertes y cámaras frigoríficas, el armado e instalación de compuertas para diques, etc.)"
+    },
+    {
+        "lat": "-34.562",
+        "lon": "-59.117",
+        "clae2": "56",
+        "clae6": "561011",
+        "clae6_desc": "Servicios de restaurantes y cantinas sin espectáculo"
+    },
+    {
+        "lat": "-34.547",
+        "lon": "-59.104",
+        "clae2": "41",
+        "clae6": "410021",
+        "clae6_desc": "Construcción, reforma y reparación de edificios no residenciales (Incluye construcción, reforma y reparación de restaurantes, bares, campamentos, bancos, oficinas, galerías comerciales, estaciones de servicio, edificios para tráfico y comunicaciones, garajes, edificios industriales y depósitos, escuelas, etc.)"
+    },
+    {
+        "lat": "-34.6",
+        "lon": "-59.174",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.56",
+        "lon": "-59.121",
+        "clae2": "55",
+        "clae6": "551023",
+        "clae6_desc": "Servicios de alojamiento en hoteles, hosterías y residenciales similares, excepto por hora, que no incluyen servicio de restaurante al público"
+    },
+    {
+        "lat": "-34.547",
+        "lon": "-59.108",
+        "clae2": "59",
+        "clae6": "591300",
+        "clae6_desc": "Exhibición de filmes y videocintas"
+    },
+    {
+        "lat": "-34.564",
+        "lon": "-59.075",
+        "clae2": "43",
+        "clae6": "439990",
+        "clae6_desc": "Actividades especializadas de construcción n.c.p. (Incluye el alquiler, montaje y desmantelamiento de andamios,  la construcción de chimeneas y hornos industriales, el acorazamiento de cajas fuertes y cámaras frigoríficas, el armado e instalación de compuertas para diques, etc.)"
+    },
+    {
+        "lat": "-34.563",
+        "lon": "-59.121",
+        "clae2": "42",
+        "clae6": "421000",
+        "clae6_desc": "Construcción, reforma y reparación de obras de infraestructura para el transporte (Incluye la construcción, reforma y reparación de calles, autopistas, carreteras, puentes, túneles, vías férreas y pistas de aterrizaje, la señalización mediante pintura, etc.)"
+    },
+    {
+        "lat": "-34.43",
+        "lon": "-59.131",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.101",
+        "clae2": "49",
+        "clae6": "492120",
+        "clae6_desc": "Servicios de transporte automotor de pasajeros mediante taxis y remises, alquiler de autos con chofer (Incluye los radiotaxis)"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.116",
+        "clae2": "1",
+        "clae6": "11211",
+        "clae6_desc": "Cultivo de soja"
+    },
+    {
+        "lat": "-34.567",
+        "lon": "-59.115",
+        "clae2": "56",
+        "clae6": "561030",
+        "clae6_desc": "Servicio de expendio de helados"
+    },
+    {
+        "lat": "-34.558",
+        "lon": "-59.129",
+        "clae2": "49",
+        "clae6": "492221",
+        "clae6_desc": "Servicio de transporte automotor de cereales"
+    },
+    {
+        "lat": "-34.569",
+        "lon": "-59.115",
+        "clae2": "41",
+        "clae6": "410021",
+        "clae6_desc": "Construcción, reforma y reparación de edificios no residenciales (Incluye construcción, reforma y reparación de restaurantes, bares, campamentos, bancos, oficinas, galerías comerciales, estaciones de servicio, edificios para tráfico y comunicaciones, garajes, edificios industriales y depósitos, escuelas, etc.)"
+    },
+    {
+        "lat": "-34.579",
+        "lon": "-59.112",
+        "clae2": "1",
+        "clae6": "14114",
+        "clae6_desc": "Invernada  de ganado bovino excepto el engorde en corrales (Feed-Lot)"
+    },
+    {
+        "lat": "-34.552",
+        "lon": "-59.123",
+        "clae2": "85",
+        "clae6": "852100",
+        "clae6_desc": "Enseñanza secundaria de formación general"
+    },
+    {
+        "lat": "-34.49",
+        "lon": "-59.079",
+        "clae2": "10",
+        "clae6": "106110",
+        "clae6_desc": "Molienda de trigo"
+    },
+    {
+        "lat": "-34.557",
+        "lon": "-59.103",
+        "clae2": "1",
+        "clae6": "16190",
+        "clae6_desc": "Servicios de apoyo agrícolas n.c.p (Incluye  explotación de sistemas de riego, injertos de plantas, construcción y plantación de almácigos, alquiler de colmenas, etc.), (No incluye mantenimiento de jardines, parques y cementerios: actividad 813000, planificación y diseño paisajista: actividad 711009)"
+    },
+    {
+        "lat": "-34.612",
+        "lon": "-59.106",
+        "clae2": "1",
+        "clae6": "14610",
+        "clae6_desc": "Producción de leche bovina (Incluye la cría para la producción de leche de vaca y la producción de leche bubalina)"
+    },
+    {
+        "lat": "-34.491",
+        "lon": "-59.054",
+        "clae2": "55",
+        "clae6": "551022",
+        "clae6_desc": "Servicios de alojamiento en hoteles, hosterías y residenciales similares, excepto por hora, que incluyen servicio de restaurante al público"
+    },
+    {
+        "lat": "-34.491",
+        "lon": "-59.078",
+        "clae2": "1",
+        "clae6": "11112",
+        "clae6_desc": "Cultivo de trigo"
+    },
+    {
+        "lat": "-34.564",
+        "lon": "-59.122",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.578",
+        "lon": "-59.121",
+        "clae2": "13",
+        "clae6": "131202",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de algodón y sus mezclas, incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.112",
+        "clae2": "10",
+        "clae6": "107410",
+        "clae6_desc": "Elaboración de pastas alimentarias frescas"
+    },
+    {
+        "lat": "-34.569",
+        "lon": "-59.112",
+        "clae2": "41",
+        "clae6": "410011",
+        "clae6_desc": "Construcción, reforma y reparación de edificios residenciales (Incluye la construcción, reforma y reparación  de viviendas unifamiliares y multifamiliares, bungaloes, cabañas, casas de campo, departamentos, albergues para ancianos, niños, estudiantes, etc.)"
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.182",
+        "clae2": "13",
+        "clae6": "131202",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de algodón y sus mezclas, incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.58",
+        "lon": "-59.113",
+        "clae2": "1",
+        "clae6": "11121",
+        "clae6_desc": "Cultivo de maíz"
+    },
+    {
+        "lat": "-34.579",
+        "lon": "-59.112",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.572",
+        "lon": "-59.124",
+        "clae2": "43",
+        "clae6": "431210",
+        "clae6_desc": "Movimiento de suelos y preparación de terrenos para obras (Incluye el drenaje, excavación de zanjas para construcciones diversas, el despeje de capas superficiales no contaminadas, movimientos de tierras para hacer terraplenes o desmontes previos a la construcción de vías, carreteras, autopistas, FFCC, etc.)"
+    },
+    {
+        "lat": "-34.541",
+        "lon": "-59.12",
+        "clae2": "52",
+        "clae6": "522099",
+        "clae6_desc": "Servicios de almacenamiento y depósito n.c.p."
+    },
+    {
+        "lat": "-34.49",
+        "lon": "-59.077",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.557",
+        "lon": "-59.036",
+        "clae2": "43",
+        "clae6": "439990",
+        "clae6_desc": "Actividades especializadas de construcción n.c.p. (Incluye el alquiler, montaje y desmantelamiento de andamios,  la construcción de chimeneas y hornos industriales, el acorazamiento de cajas fuertes y cámaras frigoríficas, el armado e instalación de compuertas para diques, etc.)"
+    },
+    {
+        "lat": "-34.595",
+        "lon": "-59.176",
+        "clae2": "13",
+        "clae6": "131202",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de algodón y sus mezclas, incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.099",
+        "clae2": "10",
+        "clae6": "107110",
+        "clae6_desc": "Elaboración de galletitas y bizcochos"
+    },
+    {
+        "lat": "-34.561",
+        "lon": "-59.13",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.489",
+        "lon": "-59.079",
+        "clae2": "10",
+        "clae6": "106110",
+        "clae6_desc": "Molienda de trigo"
+    },
+    {
+        "lat": "-34.578",
+        "lon": "-59.102",
+        "clae2": "41",
+        "clae6": "410011",
+        "clae6_desc": "Construcción, reforma y reparación de edificios residenciales (Incluye la construcción, reforma y reparación  de viviendas unifamiliares y multifamiliares, bungaloes, cabañas, casas de campo, departamentos, albergues para ancianos, niños, estudiantes, etc.)"
+    },
+    {
+        "lat": "-34.579",
+        "lon": "-59.12",
+        "clae2": "85",
+        "clae6": "852100",
+        "clae6_desc": "Enseñanza secundaria de formación general"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.118",
+        "clae2": "56",
+        "clae6": "561020",
+        "clae6_desc": "Servicios de preparación de comidas para llevar (Incluye rotiserías, casas de empanadas, pizzerías sin consumo en el local) "
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.11",
+        "clae2": "1",
+        "clae6": "14610",
+        "clae6_desc": "Producción de leche bovina (Incluye la cría para la producción de leche de vaca y la producción de leche bubalina)"
+    },
+    {
+        "lat": "-34.581",
+        "lon": "-59.092",
+        "clae2": "49",
+        "clae6": "492280",
+        "clae6_desc": "Servicio de transporte automotor urbano de carga n.c.p. (Incluye el transporte realizado por fleteros y distribuidores dentro del égido urbano)"
+    },
+    {
+        "lat": "-34.586",
+        "lon": "-59.098",
+        "clae2": "13",
+        "clae6": "131132",
+        "clae6_desc": "Fabricación de hilados textiles de algodón y sus mezclas"
+    },
+    {
+        "lat": "-34.553",
+        "lon": "-59.093",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.593",
+        "lon": "-59.15",
+        "clae2": "55",
+        "clae6": "551021",
+        "clae6_desc": "Servicios de alojamiento en pensiones"
+    },
+    {
+        "lat": "-34.576",
+        "lon": "-59.094",
+        "clae2": "43",
+        "clae6": "432190",
+        "clae6_desc": "Instalación, ejecución y mantenimiento de instalaciones eléctricas, electromecánicas y electrónicas n.c.p. (Incluye la instalación de antenas, pararrayos, sistemas de alarmas contra incendios y robos, sistemas de telecomunicación, etc.)"
+    },
+    {
+        "lat": "-34.563",
+        "lon": "-59.12",
+        "clae2": "10",
+        "clae6": "107129",
+        "clae6_desc": "Elaboración de productos de panadería n.c.p. (Incluye la elaboración de pan, facturas, churros, pre-pizzas, masas de hojaldre, masas fritas, tortas, tartas, etc), (No incluye la fabricación de sándwich 561040)"
+    },
+    {
+        "lat": "-34.599",
+        "lon": "-59.178",
+        "clae2": "13",
+        "clae6": "131202",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de algodón y sus mezclas, incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.563",
+        "lon": "-59.112",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.13",
+        "clae2": "10",
+        "clae6": "107129",
+        "clae6_desc": "Elaboración de productos de panadería n.c.p. (Incluye la elaboración de pan, facturas, churros, pre-pizzas, masas de hojaldre, masas fritas, tortas, tartas, etc), (No incluye la fabricación de sándwich 561040)"
+    },
+    {
+        "lat": "-34.601",
+        "lon": "-59.188",
+        "clae2": "10",
+        "clae6": "107999",
+        "clae6_desc": "Elaboración de productos alimenticios n.c.p. (Incluye la elaboración de polvos para preparar postres y gelatinas, levadura, productos para copetín, sopas, sal de mesa, mayonesa, mostaza, etc.)"
+    },
+    {
+        "lat": "-34.58",
+        "lon": "-59.121",
+        "clae2": "43",
+        "clae6": "433010",
+        "clae6_desc": "Instalaciones de carpintería, herrería de obra y artística (Incluye instalación de puertas y ventanas, carpintería metálica y no metálica, etc.)"
+    },
+    {
+        "lat": "-34.6",
+        "lon": "-59.174",
+        "clae2": "11",
+        "clae6": "110492",
+        "clae6_desc": "Elaboración de bebidas no alcohólicas n.c.p. (Incluye los jugos para diluir o en polvo llamados \"\"sintéticos\"\" o de un contenido en jugos naturales inferior al 50%), (No incluye a los jugos naturales y sus concentrados, de frutas, hortalizas y legumbres - actividad 103020)"
+    },
+    {
+        "lat": "-34.564",
+        "lon": "-59.145",
+        "clae2": "42",
+        "clae6": "429090",
+        "clae6_desc": "Construcción de obras de ingeniería civil n.c.p. (Incluye los trabajos generales de construcción para la minería y la industria,  de centrales eléctricas y nucleares, excavaciones de sepulturas, etc.)"
+    },
+    {
+        "lat": "-34.564",
+        "lon": "-59.122",
+        "clae2": "25",
+        "clae6": "259999",
+        "clae6_desc": "Fabricación de productos elaborados de metal n.c.p."
+    },
+    {
+        "lat": "-34.558",
+        "lon": "-59.176",
+        "clae2": "1",
+        "clae6": "12200",
+        "clae6_desc": "Cultivo de frutas cítricas (Incluye bergamota, lima, limón, mandarina, naranja, pomelo, kinoto, etc.)"
+    },
+    {
+        "lat": "-34.604",
+        "lon": "-59.161",
+        "clae2": "42",
+        "clae6": "429090",
+        "clae6_desc": "Construcción de obras de ingeniería civil n.c.p. (Incluye los trabajos generales de construcción para la minería y la industria,  de centrales eléctricas y nucleares, excavaciones de sepulturas, etc.)"
+    },
+    {
+        "lat": "-34.575",
+        "lon": "-59.184",
+        "clae2": "25",
+        "clae6": "251101",
+        "clae6_desc": "Fabricación de carpintería metálica"
+    },
+    {
+        "lat": "-34.551",
+        "lon": "-59.13",
+        "clae2": "25",
+        "clae6": "251102",
+        "clae6_desc": "Fabricación de productos metálicos para uso estructural"
+    },
+    {
+        "lat": "-34.574",
+        "lon": "-59.089",
+        "clae2": "49",
+        "clae6": "492280",
+        "clae6_desc": "Servicio de transporte automotor urbano de carga n.c.p. (Incluye el transporte realizado por fleteros y distribuidores dentro del égido urbano)"
+    },
+    {
+        "lat": "-34.569",
+        "lon": "-59.155",
+        "clae2": "1",
+        "clae6": "14211",
+        "clae6_desc": "Cría de ganado equino, excepto la realizada en haras (Incluye equinos de trabajo, asnos, mulas, burdéganos)"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.093",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.561",
+        "lon": "-59.119",
+        "clae2": "56",
+        "clae6": "561019",
+        "clae6_desc": "Servicios de expendio de comidas y bebidas en establecimientos con servicio de mesa y/o en mostrador n.c.p."
+    },
+    {
+        "lat": "-34.559",
+        "lon": "-59.131",
+        "clae2": "13",
+        "clae6": "139209",
+        "clae6_desc": "Fabricación de artículos confeccionados de materiales textiles n.c.p., excepto prendas de vestir "
+    },
+    {
+        "lat": "-34.563",
+        "lon": "-59.121",
+        "clae2": "41",
+        "clae6": "410021",
+        "clae6_desc": "Construcción, reforma y reparación de edificios no residenciales (Incluye construcción, reforma y reparación de restaurantes, bares, campamentos, bancos, oficinas, galerías comerciales, estaciones de servicio, edificios para tráfico y comunicaciones, garajes, edificios industriales y depósitos, escuelas, etc.)"
+    },
+    {
+        "lat": "-34.602",
+        "lon": "-59.178",
+        "clae2": "10",
+        "clae6": "107999",
+        "clae6_desc": "Elaboración de productos alimenticios n.c.p. (Incluye la elaboración de polvos para preparar postres y gelatinas, levadura, productos para copetín, sopas, sal de mesa, mayonesa, mostaza, etc.)"
+    },
+    {
+        "lat": "-34.584",
+        "lon": "-59.119",
+        "clae2": "30",
+        "clae6": "302000",
+        "clae6_desc": "Fabricación y reparación de locomotoras y de material rodante para transporte ferroviario"
+    },
+    {
+        "lat": "-34.473",
+        "lon": "-59.067",
+        "clae2": "42",
+        "clae6": "422200",
+        "clae6_desc": "Construcción, reforma y reparación de redes distribución de electricidad, gas, agua, telecomunicaciones y de otros servicios públicos"
+    },
+    {
+        "lat": "-34.583",
+        "lon": "-59.09",
+        "clae2": "10",
+        "clae6": "105020",
+        "clae6_desc": "Elaboración de quesos (Incluye la producción de suero)"
+    },
+    {
+        "lat": "-34.564",
+        "lon": "-59.121",
+        "clae2": "49",
+        "clae6": "491110",
+        "clae6_desc": "Servicio de transporte ferroviario urbano y suburbano de pasajeros (Incluye el servicio de subterráneo y de premetro)"
+    },
+    {
+        "lat": "-34.603",
+        "lon": "-59.173",
+        "clae2": "13",
+        "clae6": "131300",
+        "clae6_desc": "Acabado de productos textiles"
+    },
+    {
+        "lat": "-34.541",
+        "lon": "-59.12",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.576",
+        "lon": "-59.109",
+        "clae2": "85",
+        "clae6": "853100",
+        "clae6_desc": "Enseñanza  terciaria"
+    },
+    {
+        "lat": "-34.605",
+        "lon": "-59.156",
+        "clae2": "10",
+        "clae6": "106131",
+        "clae6_desc": "Elaboración de alimentos a base de cereales"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.123",
+        "clae2": "21",
+        "clae6": "210090",
+        "clae6_desc": "Fabricación de productos de laboratorio y productos botánicos de uso farmaceútico n.c.p."
+    },
+    {
+        "lat": "-34.558",
+        "lon": "-59.096",
+        "clae2": "52",
+        "clae6": "521010",
+        "clae6_desc": "Servicios de manipulación de carga en el ámbito terrestre"
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.182",
+        "clae2": "49",
+        "clae6": "492130",
+        "clae6_desc": "Servicio de transporte escolar (Incluye el servicio de transporte para colonias de vacaciones y clubes)"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.123",
+        "clae2": "41",
+        "clae6": "410011",
+        "clae6_desc": "Construcción, reforma y reparación de edificios residenciales (Incluye la construcción, reforma y reparación  de viviendas unifamiliares y multifamiliares, bungaloes, cabañas, casas de campo, departamentos, albergues para ancianos, niños, estudiantes, etc.)"
+    },
+    {
+        "lat": "-34.564",
+        "lon": "-59.117",
+        "clae2": "41",
+        "clae6": "410021",
+        "clae6_desc": "Construcción, reforma y reparación de edificios no residenciales (Incluye construcción, reforma y reparación de restaurantes, bares, campamentos, bancos, oficinas, galerías comerciales, estaciones de servicio, edificios para tráfico y comunicaciones, garajes, edificios industriales y depósitos, escuelas, etc.)"
+    },
+    {
+        "lat": "-34.571",
+        "lon": "-59.114",
+        "clae2": "43",
+        "clae6": "439990",
+        "clae6_desc": "Actividades especializadas de construcción n.c.p. (Incluye el alquiler, montaje y desmantelamiento de andamios,  la construcción de chimeneas y hornos industriales, el acorazamiento de cajas fuertes y cámaras frigoríficas, el armado e instalación de compuertas para diques, etc.)"
+    },
+    {
+        "lat": "-34.578",
+        "lon": "-59.172",
+        "clae2": "28",
+        "clae6": "281900",
+        "clae6_desc": "Fabricación de  maquinaria y equipo de uso general n.c.p. (Incluye la fabricación de equipos de aire acondicionado, matafuegos, etc.)"
+    },
+    {
+        "lat": "-34.557",
+        "lon": "-59.038",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.12",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.579",
+        "lon": "-59.133",
+        "clae2": "49",
+        "clae6": "491200",
+        "clae6_desc": "Servicio de transporte ferroviario de cargas"
+    },
+    {
+        "lat": "-34.564",
+        "lon": "-59.122",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.544",
+        "lon": "-59.121",
+        "clae2": "1",
+        "clae6": "11211",
+        "clae6_desc": "Cultivo de soja"
+    },
+    {
+        "lat": "-34.6",
+        "lon": "-59.174",
+        "clae2": "56",
+        "clae6": "562091",
+        "clae6_desc": "Servicios de cantinas con atención exclusiva  a los empleados o estudiantes dentro de empresas o establecimientos educativos (Incluye cantinas deportivas)"
+    },
+    {
+        "lat": "-34.579",
+        "lon": "-59.101",
+        "clae2": "56",
+        "clae6": "562010",
+        "clae6_desc": "Servicios de preparación de comidas para empresas y eventos (Incluye el servicio de catering, el suministro de comidas para banquetes, bodas, fiestas y otras celebraciones, comidas para hospital, etc.) "
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.108",
+        "clae2": "56",
+        "clae6": "562010",
+        "clae6_desc": "Servicios de preparación de comidas para empresas y eventos (Incluye el servicio de catering, el suministro de comidas para banquetes, bodas, fiestas y otras celebraciones, comidas para hospital, etc.) "
+    },
+    {
+        "lat": "-34.581",
+        "lon": "-59.093",
+        "clae2": "10",
+        "clae6": "108000",
+        "clae6_desc": "Elaboración de alimentos preparados para animales"
+    },
+    {
+        "lat": "-34.561",
+        "lon": "-59.144",
+        "clae2": "41",
+        "clae6": "410021",
+        "clae6_desc": "Construcción, reforma y reparación de edificios no residenciales (Incluye construcción, reforma y reparación de restaurantes, bares, campamentos, bancos, oficinas, galerías comerciales, estaciones de servicio, edificios para tráfico y comunicaciones, garajes, edificios industriales y depósitos, escuelas, etc.)"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.117",
+        "clae2": "56",
+        "clae6": "561012",
+        "clae6_desc": "Servicios de restaurantes y cantinas con espectáculo"
+    },
+    {
+        "lat": "-34.611",
+        "lon": "-59.174",
+        "clae2": "41",
+        "clae6": "410011",
+        "clae6_desc": "Construcción, reforma y reparación de edificios residenciales (Incluye la construcción, reforma y reparación  de viviendas unifamiliares y multifamiliares, bungaloes, cabañas, casas de campo, departamentos, albergues para ancianos, niños, estudiantes, etc.)"
+    },
+    {
+        "lat": "-34.569",
+        "lon": "-59.109",
+        "clae2": "49",
+        "clae6": "492280",
+        "clae6_desc": "Servicio de transporte automotor urbano de carga n.c.p. (Incluye el transporte realizado por fleteros y distribuidores dentro del égido urbano)"
+    },
+    {
+        "lat": "-34.577",
+        "lon": "-59.089",
+        "clae2": "41",
+        "clae6": "410011",
+        "clae6_desc": "Construcción, reforma y reparación de edificios residenciales (Incluye la construcción, reforma y reparación  de viviendas unifamiliares y multifamiliares, bungaloes, cabañas, casas de campo, departamentos, albergues para ancianos, niños, estudiantes, etc.)"
+    },
+    {
+        "lat": "-34.551",
+        "lon": "-59.161",
+        "clae2": "49",
+        "clae6": "492250",
+        "clae6_desc": "Servicio de transporte automotor de mercaderías y sustancias peligrosas"
+    },
+    {
+        "lat": "-34.581",
+        "lon": "-59.117",
+        "clae2": "50",
+        "clae6": "502200",
+        "clae6_desc": "Servicio de transporte fluvial y lacustre de carga"
+    },
+    {
+        "lat": "-34.569",
+        "lon": "-59.103",
+        "clae2": "56",
+        "clae6": "561019",
+        "clae6_desc": "Servicios de expendio de comidas y bebidas en establecimientos con servicio de mesa y/o en mostrador n.c.p."
+    },
+    {
+        "lat": "-34.564",
+        "lon": "-59.075",
+        "clae2": "43",
+        "clae6": "431210",
+        "clae6_desc": "Movimiento de suelos y preparación de terrenos para obras (Incluye el drenaje, excavación de zanjas para construcciones diversas, el despeje de capas superficiales no contaminadas, movimientos de tierras para hacer terraplenes o desmontes previos a la construcción de vías, carreteras, autopistas, FFCC, etc.)"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.112",
+        "clae2": "85",
+        "clae6": "854990",
+        "clae6_desc": "Servicios de enseñanza n.c.p. (Incluye instrucción impartida mediante programas de radio, televisión, correspondencia y otros medios de comunicación, escuelas de manejo, actividades de enseñanza a domicilio y/o particulares, etc.)"
+    },
+    {
+        "lat": "-34.478",
+        "lon": "-59.064",
+        "clae2": "55",
+        "clae6": "551022",
+        "clae6_desc": "Servicios de alojamiento en hoteles, hosterías y residenciales similares, excepto por hora, que incluyen servicio de restaurante al público"
+    },
+    {
+        "lat": "-34.583",
+        "lon": "-59.107",
+        "clae2": "14",
+        "clae6": "141199",
+        "clae6_desc": "Confección de prendas de vestir n.c.p., excepto prendas de piel, cuero y de punto"
+    },
+    {
+        "lat": "-34.571",
+        "lon": "-59.109",
+        "clae2": "49",
+        "clae6": "492280",
+        "clae6_desc": "Servicio de transporte automotor urbano de carga n.c.p. (Incluye el transporte realizado por fleteros y distribuidores dentro del égido urbano)"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.117",
+        "clae2": "1",
+        "clae6": "14221",
+        "clae6_desc": "Cría de ganado equino realizada en haras (Incluye la producción de semen)"
+    },
+    {
+        "lat": "-34.555",
+        "lon": "-59.113",
+        "clae2": "10",
+        "clae6": "107129",
+        "clae6_desc": "Elaboración de productos de panadería n.c.p. (Incluye la elaboración de pan, facturas, churros, pre-pizzas, masas de hojaldre, masas fritas, tortas, tartas, etc), (No incluye la fabricación de sándwich 561040)"
+    },
+    {
+        "lat": "-34.499",
+        "lon": "-59.086",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.112",
+        "clae2": "10",
+        "clae6": "107129",
+        "clae6_desc": "Elaboración de productos de panadería n.c.p. (Incluye la elaboración de pan, facturas, churros, pre-pizzas, masas de hojaldre, masas fritas, tortas, tartas, etc), (No incluye la fabricación de sándwich 561040)"
+    },
+    {
+        "lat": "-34.557",
+        "lon": "-59.204",
+        "clae2": "13",
+        "clae6": "131202",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de algodón y sus mezclas, incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.111",
+        "clae2": "56",
+        "clae6": "561030",
+        "clae6_desc": "Servicio de expendio de helados"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.104",
+        "clae2": "77",
+        "clae6": "773090",
+        "clae6_desc": "Alquiler de maquinaria y equipo n.c.p., sin personal"
+    },
+    {
+        "lat": "-34.558",
+        "lon": "-59.204",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.596",
+        "lon": "-59.176",
+        "clae2": "13",
+        "clae6": "131202",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de algodón y sus mezclas, incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.101",
+        "clae2": "52",
+        "clae6": "521010",
+        "clae6_desc": "Servicios de manipulación de carga en el ámbito terrestre"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.121",
+        "clae2": "41",
+        "clae6": "410021",
+        "clae6_desc": "Construcción, reforma y reparación de edificios no residenciales (Incluye construcción, reforma y reparación de restaurantes, bares, campamentos, bancos, oficinas, galerías comerciales, estaciones de servicio, edificios para tráfico y comunicaciones, garajes, edificios industriales y depósitos, escuelas, etc.)"
+    },
+    {
+        "lat": "-34.425",
+        "lon": "-59.127",
+        "clae2": "1",
+        "clae6": "11331",
+        "clae6_desc": "Cultivo de hortalizas de hoja y de otras hortalizas frescas (Incluye acelga, apio, coles, espinaca, lechuga, perejil, radicheta, repollo, etc.)"
+    },
+    {
+        "lat": "-34.577",
+        "lon": "-59.125",
+        "clae2": "10",
+        "clae6": "107129",
+        "clae6_desc": "Elaboración de productos de panadería n.c.p. (Incluye la elaboración de pan, facturas, churros, pre-pizzas, masas de hojaldre, masas fritas, tortas, tartas, etc), (No incluye la fabricación de sándwich 561040)"
+    },
+    {
+        "lat": "-34.571",
+        "lon": "-59.095",
+        "clae2": "25",
+        "clae6": "259993",
+        "clae6_desc": "Fabricación de productos metálicos de tornería y/o matricería"
+    },
+    {
+        "lat": "-34.58",
+        "lon": "-59.09",
+        "clae2": "10",
+        "clae6": "105020",
+        "clae6_desc": "Elaboración de quesos (Incluye la producción de suero)"
+    },
+    {
+        "lat": "-34.567",
+        "lon": "-59.115",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.601",
+        "lon": "-59.172",
+        "clae2": "49",
+        "clae6": "492229",
+        "clae6_desc": "Servicio de transporte automotor de mercaderías a granel n.c.p."
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.112",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.504",
+        "lon": "-59.076",
+        "clae2": "25",
+        "clae6": "251101",
+        "clae6_desc": "Fabricación de carpintería metálica"
+    },
+    {
+        "lat": "-34.525",
+        "lon": "-59.171",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.487",
+        "lon": "-59.06",
+        "clae2": "1",
+        "clae6": "14121",
+        "clae6_desc": "Cría de ganado bovino realizada en cabañas (Incluye: ganado bubalino y la producción de semen)"
+    },
+    {
+        "lat": "-34.612",
+        "lon": "-59.106",
+        "clae2": "1",
+        "clae6": "14211",
+        "clae6_desc": "Cría de ganado equino, excepto la realizada en haras (Incluye equinos de trabajo, asnos, mulas, burdéganos)"
+    },
+    {
+        "lat": "-34.569",
+        "lon": "-59.103",
+        "clae2": "1",
+        "clae6": "11211",
+        "clae6_desc": "Cultivo de soja"
+    },
+    {
+        "lat": "-34.56",
+        "lon": "-59.097",
+        "clae2": "49",
+        "clae6": "492250",
+        "clae6_desc": "Servicio de transporte automotor de mercaderías y sustancias peligrosas"
+    },
+    {
+        "lat": "-34.587",
+        "lon": "-59.132",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.6",
+        "lon": "-59.176",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.601",
+        "lon": "-59.172",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.58",
+        "lon": "-59.173",
+        "clae2": "43",
+        "clae6": "439990",
+        "clae6_desc": "Actividades especializadas de construcción n.c.p. (Incluye el alquiler, montaje y desmantelamiento de andamios,  la construcción de chimeneas y hornos industriales, el acorazamiento de cajas fuertes y cámaras frigoríficas, el armado e instalación de compuertas para diques, etc.)"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.129",
+        "clae2": "13",
+        "clae6": "131209",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de fibras textiles n.c.p., incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.597",
+        "lon": "-59.148",
+        "clae2": "41",
+        "clae6": "410011",
+        "clae6_desc": "Construcción, reforma y reparación de edificios residenciales (Incluye la construcción, reforma y reparación  de viviendas unifamiliares y multifamiliares, bungaloes, cabañas, casas de campo, departamentos, albergues para ancianos, niños, estudiantes, etc.)"
+    },
+    {
+        "lat": "-34.562",
+        "lon": "-59.119",
+        "clae2": "55",
+        "clae6": "551022",
+        "clae6_desc": "Servicios de alojamiento en hoteles, hosterías y residenciales similares, excepto por hora, que incluyen servicio de restaurante al público"
+    },
+    {
+        "lat": "-34.554",
+        "lon": "-59.12",
+        "clae2": "1",
+        "clae6": "11121",
+        "clae6_desc": "Cultivo de maíz"
+    },
+    {
+        "lat": "-34.537",
+        "lon": "-59.163",
+        "clae2": "1",
+        "clae6": "11329",
+        "clae6_desc": "Cultivo de bulbos, brotes, raíces y hortalizas de fruto n.c.p. (Incluye ají, ajo, alcaparra, berenjena, cebolla, calabaza, espárrago, frutilla, melón, pepino, pimiento, sandía, zanahoria, zapallo, zapallito, etc.)"
+    },
+    {
+        "lat": "-34.543",
+        "lon": "-59.145",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.573",
+        "lon": "-59.076",
+        "clae2": "25",
+        "clae6": "251102",
+        "clae6_desc": "Fabricación de productos metálicos para uso estructural"
+    },
+    {
+        "lat": "-34.549",
+        "lon": "-59.142",
+        "clae2": "1",
+        "clae6": "14810",
+        "clae6_desc": "Cría de aves de corral, excepto para la producción de huevos"
+    },
+    {
+        "lat": "-34.597",
+        "lon": "-59.177",
+        "clae2": "13",
+        "clae6": "131202",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de algodón y sus mezclas, incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.593",
+        "lon": "-59.15",
+        "clae2": "10",
+        "clae6": "106110",
+        "clae6_desc": "Molienda de trigo"
+    },
+    {
+        "lat": "-34.56",
+        "lon": "-59.099",
+        "clae2": "41",
+        "clae6": "410021",
+        "clae6_desc": "Construcción, reforma y reparación de edificios no residenciales (Incluye construcción, reforma y reparación de restaurantes, bares, campamentos, bancos, oficinas, galerías comerciales, estaciones de servicio, edificios para tráfico y comunicaciones, garajes, edificios industriales y depósitos, escuelas, etc.)"
+    },
+    {
+        "lat": "-34.59",
+        "lon": "-59.104",
+        "clae2": "55",
+        "clae6": "551021",
+        "clae6_desc": "Servicios de alojamiento en pensiones"
+    },
+    {
+        "lat": "-34.567",
+        "lon": "-59.114",
+        "clae2": "56",
+        "clae6": "561019",
+        "clae6_desc": "Servicios de expendio de comidas y bebidas en establecimientos con servicio de mesa y/o en mostrador n.c.p."
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.106",
+        "clae2": "79",
+        "clae6": "791100",
+        "clae6_desc": "Servicios minoristas de agencias de viajes"
+    },
+    {
+        "lat": "-34.496",
+        "lon": "-59.076",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.592",
+        "lon": "-59.105",
+        "clae2": "1",
+        "clae6": "14121",
+        "clae6_desc": "Cría de ganado bovino realizada en cabañas (Incluye: ganado bubalino y la producción de semen)"
+    },
+    {
+        "lat": "-34.573",
+        "lon": "-59.094",
+        "clae2": "14",
+        "clae6": "141120",
+        "clae6_desc": "Confección de ropa de trabajo, uniformes y guardapolvos "
+    },
+    {
+        "lat": "-34.574",
+        "lon": "-59.179",
+        "clae2": "10",
+        "clae6": "107309",
+        "clae6_desc": "Elaboración de productos de confitería n.c.p. (Incluye alfajores, caramelos, frutas confitadas, pastillas, gomas de mascar, etc.)"
+    },
+    {
+        "lat": "-34.751",
+        "lon": "-59.187",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.112",
+        "clae2": "49",
+        "clae6": "492120",
+        "clae6_desc": "Servicios de transporte automotor de pasajeros mediante taxis y remises, alquiler de autos con chofer (Incluye los radiotaxis)"
+    },
+    {
+        "lat": "-34.583",
+        "lon": "-59.099",
+        "clae2": "13",
+        "clae6": "131209",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de fibras textiles n.c.p., incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.564",
+        "lon": "-59.117",
+        "clae2": "43",
+        "clae6": "432990",
+        "clae6_desc": "Instalaciones para edificios y obras de ingeniería civil n.c.p. (Incluye instalación de puertas automáticas o giratorias)"
+    },
+    {
+        "lat": "-34.578",
+        "lon": "-59.081",
+        "clae2": "14",
+        "clae6": "141120",
+        "clae6_desc": "Confección de ropa de trabajo, uniformes y guardapolvos "
+    },
+    {
+        "lat": "-34.555",
+        "lon": "-59.117",
+        "clae2": "56",
+        "clae6": "561011",
+        "clae6_desc": "Servicios de restaurantes y cantinas sin espectáculo"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.114",
+        "clae2": "41",
+        "clae6": "410011",
+        "clae6_desc": "Construcción, reforma y reparación de edificios residenciales (Incluye la construcción, reforma y reparación  de viviendas unifamiliares y multifamiliares, bungaloes, cabañas, casas de campo, departamentos, albergues para ancianos, niños, estudiantes, etc.)"
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.11",
+        "clae2": "25",
+        "clae6": "251102",
+        "clae6_desc": "Fabricación de productos metálicos para uso estructural"
+    },
+    {
+        "lat": "-34.569",
+        "lon": "-59.115",
+        "clae2": "56",
+        "clae6": "561011",
+        "clae6_desc": "Servicios de restaurantes y cantinas sin espectáculo"
+    },
+    {
+        "lat": "-34.561",
+        "lon": "-59.102",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.553",
+        "lon": "-59.201",
+        "clae2": "56",
+        "clae6": "561011",
+        "clae6_desc": "Servicios de restaurantes y cantinas sin espectáculo"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.117",
+        "clae2": "52",
+        "clae6": "524120",
+        "clae6_desc": "Servicios  de playas de estacionamiento y garajes"
+    },
+    {
+        "lat": "-34.558",
+        "lon": "-59.104",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.571",
+        "lon": "-59.116",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.582",
+        "lon": "-59.111",
+        "clae2": "52",
+        "clae6": "524130",
+        "clae6_desc": "Servicios de estaciones terminales de ómnibus y ferroviárias"
+    },
+    {
+        "lat": "-34.601",
+        "lon": "-59.114",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.543",
+        "lon": "-59.12",
+        "clae2": "77",
+        "clae6": "773090",
+        "clae6_desc": "Alquiler de maquinaria y equipo n.c.p., sin personal"
+    },
+    {
+        "lat": "-34.563",
+        "lon": "-59.112",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.597",
+        "lon": "-59.177",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.491",
+        "lon": "-59.217",
+        "clae2": "10",
+        "clae6": "107420",
+        "clae6_desc": "Elaboración de pastas alimentarias secas"
+    },
+    {
+        "lat": "-34.58",
+        "lon": "-59.113",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.542",
+        "lon": "-59.12",
+        "clae2": "25",
+        "clae6": "251200",
+        "clae6_desc": "Fabricación de tanques, depósitos y recipientes de metal (Incluye la fabricación de silos)"
+    },
+    {
+        "lat": "-34.557",
+        "lon": "-59.036",
+        "clae2": "43",
+        "clae6": "432190",
+        "clae6_desc": "Instalación, ejecución y mantenimiento de instalaciones eléctricas, electromecánicas y electrónicas n.c.p. (Incluye la instalación de antenas, pararrayos, sistemas de alarmas contra incendios y robos, sistemas de telecomunicación, etc.)"
+    },
+    {
+        "lat": "-34.58",
+        "lon": "-59.113",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.593",
+        "lon": "-59.105",
+        "clae2": "10",
+        "clae6": "105020",
+        "clae6_desc": "Elaboración de quesos (Incluye la producción de suero)"
+    },
+    {
+        "lat": "-34.554",
+        "lon": "-59.113",
+        "clae2": "41",
+        "clae6": "410021",
+        "clae6_desc": "Construcción, reforma y reparación de edificios no residenciales (Incluye construcción, reforma y reparación de restaurantes, bares, campamentos, bancos, oficinas, galerías comerciales, estaciones de servicio, edificios para tráfico y comunicaciones, garajes, edificios industriales y depósitos, escuelas, etc.)"
+    },
+    {
+        "lat": "-34.611",
+        "lon": "-59.174",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.587",
+        "lon": "-59.106",
+        "clae2": "13",
+        "clae6": "131300",
+        "clae6_desc": "Acabado de productos textiles"
+    },
+    {
+        "lat": "-34.6",
+        "lon": "-59.174",
+        "clae2": "10",
+        "clae6": "107999",
+        "clae6_desc": "Elaboración de productos alimenticios n.c.p. (Incluye la elaboración de polvos para preparar postres y gelatinas, levadura, productos para copetín, sopas, sal de mesa, mayonesa, mostaza, etc.)"
+    },
+    {
+        "lat": "-34.576",
+        "lon": "-59.112",
+        "clae2": "41",
+        "clae6": "410011",
+        "clae6_desc": "Construcción, reforma y reparación de edificios residenciales (Incluye la construcción, reforma y reparación  de viviendas unifamiliares y multifamiliares, bungaloes, cabañas, casas de campo, departamentos, albergues para ancianos, niños, estudiantes, etc.)"
+    },
+    {
+        "lat": "-34.569",
+        "lon": "-59.105",
+        "clae2": "11",
+        "clae6": "110300",
+        "clae6_desc": "Elaboración de cerveza, bebidas malteadas y malta"
+    },
+    {
+        "lat": "-34.556",
+        "lon": "-59.1",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.597",
+        "lon": "-59.121",
+        "clae2": "49",
+        "clae6": "492280",
+        "clae6_desc": "Servicio de transporte automotor urbano de carga n.c.p. (Incluye el transporte realizado por fleteros y distribuidores dentro del égido urbano)"
+    },
+    {
+        "lat": "-34.569",
+        "lon": "-59.117",
+        "clae2": "41",
+        "clae6": "410021",
+        "clae6_desc": "Construcción, reforma y reparación de edificios no residenciales (Incluye construcción, reforma y reparación de restaurantes, bares, campamentos, bancos, oficinas, galerías comerciales, estaciones de servicio, edificios para tráfico y comunicaciones, garajes, edificios industriales y depósitos, escuelas, etc.)"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.092",
+        "clae2": "10",
+        "clae6": "107129",
+        "clae6_desc": "Elaboración de productos de panadería n.c.p. (Incluye la elaboración de pan, facturas, churros, pre-pizzas, masas de hojaldre, masas fritas, tortas, tartas, etc), (No incluye la fabricación de sándwich 561040)"
+    },
+    {
+        "lat": "-34.567",
+        "lon": "-59.116",
+        "clae2": "49",
+        "clae6": "492120",
+        "clae6_desc": "Servicios de transporte automotor de pasajeros mediante taxis y remises, alquiler de autos con chofer (Incluye los radiotaxis)"
+    },
+    {
+        "lat": "-34.572",
+        "lon": "-59.104",
+        "clae2": "56",
+        "clae6": "561013",
+        "clae6_desc": "Servicios de \"\"fast food\"\" y locales de venta de comidas y bebidas al paso (Incluye el expendio de hamburguesas, productos lácteos excepto helados, etc.) "
+    },
+    {
+        "lat": "-34.432",
+        "lon": "-59.121",
+        "clae2": "49",
+        "clae6": "492280",
+        "clae6_desc": "Servicio de transporte automotor urbano de carga n.c.p. (Incluye el transporte realizado por fleteros y distribuidores dentro del égido urbano)"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.121",
+        "clae2": "13",
+        "clae6": "131300",
+        "clae6_desc": "Acabado de productos textiles"
+    },
+    {
+        "lat": "-34.569",
+        "lon": "-59.098",
+        "clae2": "1",
+        "clae6": "16111",
+        "clae6_desc": "Servicios de labranza, siembra, transplante  y  cuidados culturales"
+    },
+    {
+        "lat": "-34.563",
+        "lon": "-59.088",
+        "clae2": "52",
+        "clae6": "521010",
+        "clae6_desc": "Servicios de manipulación de carga en el ámbito terrestre"
+    },
+    {
+        "lat": "-34.594",
+        "lon": "-59.136",
+        "clae2": "1",
+        "clae6": "12490",
+        "clae6_desc": "Cultivo de frutas n.c.p. (Incluye kiwi, arándanos, mora, grosella, etc.)"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.123",
+        "clae2": "1",
+        "clae6": "11329",
+        "clae6_desc": "Cultivo de bulbos, brotes, raíces y hortalizas de fruto n.c.p. (Incluye ají, ajo, alcaparra, berenjena, cebolla, calabaza, espárrago, frutilla, melón, pepino, pimiento, sandía, zanahoria, zapallo, zapallito, etc.)"
+    },
+    {
+        "lat": "-34.577",
+        "lon": "-59.089",
+        "clae2": "1",
+        "clae6": "11329",
+        "clae6_desc": "Cultivo de bulbos, brotes, raíces y hortalizas de fruto n.c.p. (Incluye ají, ajo, alcaparra, berenjena, cebolla, calabaza, espárrago, frutilla, melón, pepino, pimiento, sandía, zanahoria, zapallo, zapallito, etc.)"
+    },
+    {
+        "lat": "-34.612",
+        "lon": "-59.106",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.574",
+        "lon": "-59.116",
+        "clae2": "1",
+        "clae6": "11329",
+        "clae6_desc": "Cultivo de bulbos, brotes, raíces y hortalizas de fruto n.c.p. (Incluye ají, ajo, alcaparra, berenjena, cebolla, calabaza, espárrago, frutilla, melón, pepino, pimiento, sandía, zanahoria, zapallo, zapallito, etc.)"
+    },
+    {
+        "lat": "-34.551",
+        "lon": "-59.148",
+        "clae2": "13",
+        "clae6": "139900",
+        "clae6_desc": "Fabricación de productos textiles n.c.p."
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.111",
+        "clae2": "42",
+        "clae6": "421000",
+        "clae6_desc": "Construcción, reforma y reparación de obras de infraestructura para el transporte (Incluye la construcción, reforma y reparación de calles, autopistas, carreteras, puentes, túneles, vías férreas y pistas de aterrizaje, la señalización mediante pintura, etc.)"
+    },
+    {
+        "lat": "-34.564",
+        "lon": "-59.112",
+        "clae2": "10",
+        "clae6": "107129",
+        "clae6_desc": "Elaboración de productos de panadería n.c.p. (Incluye la elaboración de pan, facturas, churros, pre-pizzas, masas de hojaldre, masas fritas, tortas, tartas, etc), (No incluye la fabricación de sándwich 561040)"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.119",
+        "clae2": "49",
+        "clae6": "492120",
+        "clae6_desc": "Servicios de transporte automotor de pasajeros mediante taxis y remises, alquiler de autos con chofer (Incluye los radiotaxis)"
+    },
+    {
+        "lat": "-34.561",
+        "lon": "-59.109",
+        "clae2": "13",
+        "clae6": "139900",
+        "clae6_desc": "Fabricación de productos textiles n.c.p."
+    },
+    {
+        "lat": "-34.598",
+        "lon": "-59.176",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.543",
+        "lon": "-59.131",
+        "clae2": "56",
+        "clae6": "561011",
+        "clae6_desc": "Servicios de restaurantes y cantinas sin espectáculo"
+    },
+    {
+        "lat": "-34.561",
+        "lon": "-59.118",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.553",
+        "lon": "-59.109",
+        "clae2": "49",
+        "clae6": "492280",
+        "clae6_desc": "Servicio de transporte automotor urbano de carga n.c.p. (Incluye el transporte realizado por fleteros y distribuidores dentro del égido urbano)"
+    },
+    {
+        "lat": "-34.487",
+        "lon": "-59.218",
+        "clae2": "56",
+        "clae6": "561011",
+        "clae6_desc": "Servicios de restaurantes y cantinas sin espectáculo"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.151",
+        "clae2": "1",
+        "clae6": "16292",
+        "clae6_desc": "Albergue y cuidado de  animales de terceros"
+    },
+    {
+        "lat": "-34.573",
+        "lon": "-59.102",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.116",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.556",
+        "lon": "-59.203",
+        "clae2": "85",
+        "clae6": "852200",
+        "clae6_desc": "Enseñanza secundaria de formación técnica y profesional"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.094",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.577",
+        "lon": "-59.108",
+        "clae2": "85",
+        "clae6": "853100",
+        "clae6_desc": "Enseñanza  terciaria"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.118",
+        "clae2": "56",
+        "clae6": "561012",
+        "clae6_desc": "Servicios de restaurantes y cantinas con espectáculo"
+    },
+    {
+        "lat": "-34.597",
+        "lon": "-59.177",
+        "clae2": "10",
+        "clae6": "107110",
+        "clae6_desc": "Elaboración de galletitas y bizcochos"
+    },
+    {
+        "lat": "-34.587",
+        "lon": "-59.114",
+        "clae2": "11",
+        "clae6": "110412",
+        "clae6_desc": "Fabricación de sodas"
+    },
+    {
+        "lat": "-34.567",
+        "lon": "-59.106",
+        "clae2": "1",
+        "clae6": "11119",
+        "clae6_desc": "Cultivo de cereales n.c.p., excepto los de uso forrajero (Incluye alforfón, cebada cervecera, etc.)"
+    },
+    {
+        "lat": "-34.593",
+        "lon": "-59.15",
+        "clae2": "1",
+        "clae6": "13020",
+        "clae6_desc": "Producción de otras formas de propagación de cultivos agrícolas (Incluye gajos, bulbos, estacas enraizadas o no, esquejes, plantines, etc.) "
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.113",
+        "clae2": "10",
+        "clae6": "105020",
+        "clae6_desc": "Elaboración de quesos (Incluye la producción de suero)"
+    },
+    {
+        "lat": "-34.605",
+        "lon": "-59.155",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.563",
+        "lon": "-59.115",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.574",
+        "lon": "-59.119",
+        "clae2": "10",
+        "clae6": "105030",
+        "clae6_desc": "Elaboración industrial de helados"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.113",
+        "clae2": "10",
+        "clae6": "108000",
+        "clae6_desc": "Elaboración de alimentos preparados para animales"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.116",
+        "clae2": "43",
+        "clae6": "431210",
+        "clae6_desc": "Movimiento de suelos y preparación de terrenos para obras (Incluye el drenaje, excavación de zanjas para construcciones diversas, el despeje de capas superficiales no contaminadas, movimientos de tierras para hacer terraplenes o desmontes previos a la construcción de vías, carreteras, autopistas, FFCC, etc.)"
+    },
+    {
+        "lat": "-34.569",
+        "lon": "-59.117",
+        "clae2": "85",
+        "clae6": "853201",
+        "clae6_desc": "Enseñanza universitaria excepto formación de posgrado"
+    },
+    {
+        "lat": "-34.602",
+        "lon": "-59.172",
+        "clae2": "41",
+        "clae6": "410011",
+        "clae6_desc": "Construcción, reforma y reparación de edificios residenciales (Incluye la construcción, reforma y reparación  de viviendas unifamiliares y multifamiliares, bungaloes, cabañas, casas de campo, departamentos, albergues para ancianos, niños, estudiantes, etc.)"
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.11",
+        "clae2": "56",
+        "clae6": "562010",
+        "clae6_desc": "Servicios de preparación de comidas para empresas y eventos (Incluye el servicio de catering, el suministro de comidas para banquetes, bodas, fiestas y otras celebraciones, comidas para hospital, etc.) "
+    },
+    {
+        "lat": "-34.499",
+        "lon": "-59.066",
+        "clae2": "21",
+        "clae6": "210010",
+        "clae6_desc": "Fabricación de medicamentos de uso humano y productos farmacéuticos"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.113",
+        "clae2": "10",
+        "clae6": "107129",
+        "clae6_desc": "Elaboración de productos de panadería n.c.p. (Incluye la elaboración de pan, facturas, churros, pre-pizzas, masas de hojaldre, masas fritas, tortas, tartas, etc), (No incluye la fabricación de sándwich 561040)"
+    },
+    {
+        "lat": "-34.593",
+        "lon": "-59.171",
+        "clae2": "56",
+        "clae6": "562010",
+        "clae6_desc": "Servicios de preparación de comidas para empresas y eventos (Incluye el servicio de catering, el suministro de comidas para banquetes, bodas, fiestas y otras celebraciones, comidas para hospital, etc.) "
+    },
+    {
+        "lat": "-34.488",
+        "lon": "-59.075",
+        "clae2": "85",
+        "clae6": "851010",
+        "clae6_desc": "Guarderías y jardines maternales"
+    },
+    {
+        "lat": "-34.569",
+        "lon": "-59.109",
+        "clae2": "49",
+        "clae6": "492280",
+        "clae6_desc": "Servicio de transporte automotor urbano de carga n.c.p. (Incluye el transporte realizado por fleteros y distribuidores dentro del égido urbano)"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.106",
+        "clae2": "10",
+        "clae6": "107999",
+        "clae6_desc": "Elaboración de productos alimenticios n.c.p. (Incluye la elaboración de polvos para preparar postres y gelatinas, levadura, productos para copetín, sopas, sal de mesa, mayonesa, mostaza, etc.)"
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.096",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.498",
+        "lon": "-59.074",
+        "clae2": "1",
+        "clae6": "16299",
+        "clae6_desc": "Servicios de apoyo pecuarios n.c.p."
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.112",
+        "clae2": "56",
+        "clae6": "561019",
+        "clae6_desc": "Servicios de expendio de comidas y bebidas en establecimientos con servicio de mesa y/o en mostrador n.c.p."
+    },
+    {
+        "lat": "-34.563",
+        "lon": "-59.098",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.575",
+        "lon": "-59.115",
+        "clae2": "52",
+        "clae6": "522099",
+        "clae6_desc": "Servicios de almacenamiento y depósito n.c.p."
+    },
+    {
+        "lat": "-34.5",
+        "lon": "-59.167",
+        "clae2": "56",
+        "clae6": "562010",
+        "clae6_desc": "Servicios de preparación de comidas para empresas y eventos (Incluye el servicio de catering, el suministro de comidas para banquetes, bodas, fiestas y otras celebraciones, comidas para hospital, etc.) "
+    },
+    {
+        "lat": "-34.6",
+        "lon": "-59.174",
+        "clae2": "13",
+        "clae6": "131209",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de fibras textiles n.c.p., incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.583",
+        "lon": "-59.091",
+        "clae2": "13",
+        "clae6": "131202",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de algodón y sus mezclas, incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.563",
+        "lon": "-59.108",
+        "clae2": "10",
+        "clae6": "107129",
+        "clae6_desc": "Elaboración de productos de panadería n.c.p. (Incluye la elaboración de pan, facturas, churros, pre-pizzas, masas de hojaldre, masas fritas, tortas, tartas, etc), (No incluye la fabricación de sándwich 561040)"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.112",
+        "clae2": "56",
+        "clae6": "561011",
+        "clae6_desc": "Servicios de restaurantes y cantinas sin espectáculo"
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.114",
+        "clae2": "49",
+        "clae6": "491110",
+        "clae6_desc": "Servicio de transporte ferroviario urbano y suburbano de pasajeros (Incluye el servicio de subterráneo y de premetro)"
+    },
+    {
+        "lat": "-34.569",
+        "lon": "-59.063",
+        "clae2": "10",
+        "clae6": "106139",
+        "clae6_desc": "Preparación y molienda de legumbres y cereales n.c.p., excepto trigo y arroz y molienda húmeda de maíz"
+    },
+    {
+        "lat": "-34.556",
+        "lon": "-59.109",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.49",
+        "lon": "-59.079",
+        "clae2": "10",
+        "clae6": "106110",
+        "clae6_desc": "Molienda de trigo"
+    },
+    {
+        "lat": "-34.49",
+        "lon": "-59.078",
+        "clae2": "56",
+        "clae6": "562010",
+        "clae6_desc": "Servicios de preparación de comidas para empresas y eventos (Incluye el servicio de catering, el suministro de comidas para banquetes, bodas, fiestas y otras celebraciones, comidas para hospital, etc.) "
+    },
+    {
+        "lat": "-34.569",
+        "lon": "-59.111",
+        "clae2": "79",
+        "clae6": "791100",
+        "clae6_desc": "Servicios minoristas de agencias de viajes"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.093",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.578",
+        "lon": "-59.18",
+        "clae2": "13",
+        "clae6": "131202",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de algodón y sus mezclas, incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.428",
+        "lon": "-59.125",
+        "clae2": "10",
+        "clae6": "101020",
+        "clae6_desc": "Producción y procesamiento de carne de aves"
+    },
+    {
+        "lat": "-34.514",
+        "lon": "-59.106",
+        "clae2": "25",
+        "clae6": "259999",
+        "clae6_desc": "Fabricación de productos elaborados de metal n.c.p."
+    },
+    {
+        "lat": "-34.573",
+        "lon": "-59.122",
+        "clae2": "10",
+        "clae6": "106200",
+        "clae6_desc": "Elaboración de almidones y productos derivados del almidón, molienda húmeda de maíz (Incluye la elaboración de glucosa y gluten)"
+    },
+    {
+        "lat": "-34.562",
+        "lon": "-59.117",
+        "clae2": "56",
+        "clae6": "561013",
+        "clae6_desc": "Servicios de \"\"fast food\"\" y locales de venta de comidas y bebidas al paso (Incluye el expendio de hamburguesas, productos lácteos excepto helados, etc.) "
+    },
+    {
+        "lat": "-34.573",
+        "lon": "-59.081",
+        "clae2": "55",
+        "clae6": "551023",
+        "clae6_desc": "Servicios de alojamiento en hoteles, hosterías y residenciales similares, excepto por hora, que no incluyen servicio de restaurante al público"
+    },
+    {
+        "lat": "-34.6",
+        "lon": "-59.174",
+        "clae2": "13",
+        "clae6": "131209",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de fibras textiles n.c.p., incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.599",
+        "lon": "-59.173",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.581",
+        "lon": "-59.205",
+        "clae2": "1",
+        "clae6": "14820",
+        "clae6_desc": "Producción de huevos"
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.095",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.574",
+        "lon": "-59.084",
+        "clae2": "13",
+        "clae6": "139900",
+        "clae6_desc": "Fabricación de productos textiles n.c.p."
+    },
+    {
+        "lat": "-34.431",
+        "lon": "-59.128",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.573",
+        "lon": "-59.076",
+        "clae2": "52",
+        "clae6": "521010",
+        "clae6_desc": "Servicios de manipulación de carga en el ámbito terrestre"
+    },
+    {
+        "lat": "-34.56",
+        "lon": "-59.11",
+        "clae2": "25",
+        "clae6": "251102",
+        "clae6_desc": "Fabricación de productos metálicos para uso estructural"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.099",
+        "clae2": "25",
+        "clae6": "251101",
+        "clae6_desc": "Fabricación de carpintería metálica"
+    },
+    {
+        "lat": "-34.433",
+        "lon": "-59.133",
+        "clae2": "1",
+        "clae6": "14221",
+        "clae6_desc": "Cría de ganado equino realizada en haras (Incluye la producción de semen)"
+    },
+    {
+        "lat": "-34.552",
+        "lon": "-59.092",
+        "clae2": "41",
+        "clae6": "410021",
+        "clae6_desc": "Construcción, reforma y reparación de edificios no residenciales (Incluye construcción, reforma y reparación de restaurantes, bares, campamentos, bancos, oficinas, galerías comerciales, estaciones de servicio, edificios para tráfico y comunicaciones, garajes, edificios industriales y depósitos, escuelas, etc.)"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.12",
+        "clae2": "41",
+        "clae6": "410021",
+        "clae6_desc": "Construcción, reforma y reparación de edificios no residenciales (Incluye construcción, reforma y reparación de restaurantes, bares, campamentos, bancos, oficinas, galerías comerciales, estaciones de servicio, edificios para tráfico y comunicaciones, garajes, edificios industriales y depósitos, escuelas, etc.)"
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.142",
+        "clae2": "85",
+        "clae6": "854930",
+        "clae6_desc": "Enseñanza para adultos, excepto discapacitados"
+    },
+    {
+        "lat": "-34.429",
+        "lon": "-59.126",
+        "clae2": "1",
+        "clae6": "11211",
+        "clae6_desc": "Cultivo de soja"
+    },
+    {
+        "lat": "-34.49",
+        "lon": "-59.078",
+        "clae2": "56",
+        "clae6": "561030",
+        "clae6_desc": "Servicio de expendio de helados"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.102",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.598",
+        "lon": "-59.176",
+        "clae2": "13",
+        "clae6": "131300",
+        "clae6_desc": "Acabado de productos textiles"
+    },
+    {
+        "lat": "-34.43",
+        "lon": "-59.124",
+        "clae2": "49",
+        "clae6": "492229",
+        "clae6_desc": "Servicio de transporte automotor de mercaderías a granel n.c.p."
+    },
+    {
+        "lat": "-34.56",
+        "lon": "-59.117",
+        "clae2": "56",
+        "clae6": "561019",
+        "clae6_desc": "Servicios de expendio de comidas y bebidas en establecimientos con servicio de mesa y/o en mostrador n.c.p."
+    },
+    {
+        "lat": "-34.488",
+        "lon": "-59.075",
+        "clae2": "56",
+        "clae6": "561011",
+        "clae6_desc": "Servicios de restaurantes y cantinas sin espectáculo"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.093",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.572",
+        "lon": "-59.104",
+        "clae2": "14",
+        "clae6": "141120",
+        "clae6_desc": "Confección de ropa de trabajo, uniformes y guardapolvos "
+    },
+    {
+        "lat": "-34.576",
+        "lon": "-59.094",
+        "clae2": "43",
+        "clae6": "432190",
+        "clae6_desc": "Instalación, ejecución y mantenimiento de instalaciones eléctricas, electromecánicas y electrónicas n.c.p. (Incluye la instalación de antenas, pararrayos, sistemas de alarmas contra incendios y robos, sistemas de telecomunicación, etc.)"
+    },
+    {
+        "lat": "-34.627",
+        "lon": "-59.253",
+        "clae2": "1",
+        "clae6": "11211",
+        "clae6_desc": "Cultivo de soja"
+    },
+    {
+        "lat": "-34.596",
+        "lon": "-59.182",
+        "clae2": "10",
+        "clae6": "107999",
+        "clae6_desc": "Elaboración de productos alimenticios n.c.p. (Incluye la elaboración de polvos para preparar postres y gelatinas, levadura, productos para copetín, sopas, sal de mesa, mayonesa, mostaza, etc.)"
+    },
+    {
+        "lat": "-34.428",
+        "lon": "-59.125",
+        "clae2": "1",
+        "clae6": "11912",
+        "clae6_desc": "Cultivo de plantas ornamentales"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.094",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.563",
+        "lon": "-59.103",
+        "clae2": "43",
+        "clae6": "431210",
+        "clae6_desc": "Movimiento de suelos y preparación de terrenos para obras (Incluye el drenaje, excavación de zanjas para construcciones diversas, el despeje de capas superficiales no contaminadas, movimientos de tierras para hacer terraplenes o desmontes previos a la construcción de vías, carreteras, autopistas, FFCC, etc.)"
+    },
+    {
+        "lat": "-34.492",
+        "lon": "-59.216",
+        "clae2": "10",
+        "clae6": "107420",
+        "clae6_desc": "Elaboración de pastas alimentarias secas"
+    },
+    {
+        "lat": "-34.445",
+        "lon": "-59.051",
+        "clae2": "1",
+        "clae6": "11211",
+        "clae6_desc": "Cultivo de soja"
+    },
+    {
+        "lat": "-34.571",
+        "lon": "-59.118",
+        "clae2": "56",
+        "clae6": "561030",
+        "clae6_desc": "Servicio de expendio de helados"
+    },
+    {
+        "lat": "-34.6",
+        "lon": "-59.175",
+        "clae2": "10",
+        "clae6": "107420",
+        "clae6_desc": "Elaboración de pastas alimentarias secas"
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.114",
+        "clae2": "10",
+        "clae6": "107129",
+        "clae6_desc": "Elaboración de productos de panadería n.c.p. (Incluye la elaboración de pan, facturas, churros, pre-pizzas, masas de hojaldre, masas fritas, tortas, tartas, etc), (No incluye la fabricación de sándwich 561040)"
+    },
+    {
+        "lat": "-34.486",
+        "lon": "-59.219",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.514",
+        "lon": "-59.106",
+        "clae2": "55",
+        "clae6": "551021",
+        "clae6_desc": "Servicios de alojamiento en pensiones"
+    },
+    {
+        "lat": "-34.571",
+        "lon": "-59.184",
+        "clae2": "49",
+        "clae6": "492280",
+        "clae6_desc": "Servicio de transporte automotor urbano de carga n.c.p. (Incluye el transporte realizado por fleteros y distribuidores dentro del égido urbano)"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.11",
+        "clae2": "79",
+        "clae6": "791100",
+        "clae6_desc": "Servicios minoristas de agencias de viajes"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.098",
+        "clae2": "25",
+        "clae6": "259993",
+        "clae6_desc": "Fabricación de productos metálicos de tornería y/o matricería"
+    },
+    {
+        "lat": "-34.584",
+        "lon": "-59.102",
+        "clae2": "10",
+        "clae6": "105020",
+        "clae6_desc": "Elaboración de quesos (Incluye la producción de suero)"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.113",
+        "clae2": "79",
+        "clae6": "791100",
+        "clae6_desc": "Servicios minoristas de agencias de viajes"
+    },
+    {
+        "lat": "-34.58",
+        "lon": "-59.096",
+        "clae2": "13",
+        "clae6": "131202",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de algodón y sus mezclas, incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.183",
+        "clae2": "56",
+        "clae6": "561019",
+        "clae6_desc": "Servicios de expendio de comidas y bebidas en establecimientos con servicio de mesa y/o en mostrador n.c.p."
+    },
+    {
+        "lat": "-34.576",
+        "lon": "-59.183",
+        "clae2": "41",
+        "clae6": "410021",
+        "clae6_desc": "Construcción, reforma y reparación de edificios no residenciales (Incluye construcción, reforma y reparación de restaurantes, bares, campamentos, bancos, oficinas, galerías comerciales, estaciones de servicio, edificios para tráfico y comunicaciones, garajes, edificios industriales y depósitos, escuelas, etc.)"
+    },
+    {
+        "lat": "-34.512",
+        "lon": "-59.047",
+        "clae2": "55",
+        "clae6": "551022",
+        "clae6_desc": "Servicios de alojamiento en hoteles, hosterías y residenciales similares, excepto por hora, que incluyen servicio de restaurante al público"
+    },
+    {
+        "lat": "-34.574",
+        "lon": "-59.174",
+        "clae2": "56",
+        "clae6": "562010",
+        "clae6_desc": "Servicios de preparación de comidas para empresas y eventos (Incluye el servicio de catering, el suministro de comidas para banquetes, bodas, fiestas y otras celebraciones, comidas para hospital, etc.) "
+    },
+    {
+        "lat": "-34.572",
+        "lon": "-59.073",
+        "clae2": "1",
+        "clae6": "14221",
+        "clae6_desc": "Cría de ganado equino realizada en haras (Incluye la producción de semen)"
+    },
+    {
+        "lat": "-34.561",
+        "lon": "-59.106",
+        "clae2": "14",
+        "clae6": "141120",
+        "clae6_desc": "Confección de ropa de trabajo, uniformes y guardapolvos "
+    },
+    {
+        "lat": "-34.584",
+        "lon": "-59.104",
+        "clae2": "1",
+        "clae6": "11211",
+        "clae6_desc": "Cultivo de soja"
+    },
+    {
+        "lat": "-34.564",
+        "lon": "-59.118",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.12",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.581",
+        "lon": "-59.109",
+        "clae2": "10",
+        "clae6": "107110",
+        "clae6_desc": "Elaboración de galletitas y bizcochos"
+    },
+    {
+        "lat": "-34.582",
+        "lon": "-59.116",
+        "clae2": "10",
+        "clae6": "108000",
+        "clae6_desc": "Elaboración de alimentos preparados para animales"
+    },
+    {
+        "lat": "-34.553",
+        "lon": "-59.108",
+        "clae2": "56",
+        "clae6": "561030",
+        "clae6_desc": "Servicio de expendio de helados"
+    },
+    {
+        "lat": "-34.622",
+        "lon": "-59.215",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.543",
+        "lon": "-59.145",
+        "clae2": "1",
+        "clae6": "14610",
+        "clae6_desc": "Producción de leche bovina (Incluye la cría para la producción de leche de vaca y la producción de leche bubalina)"
+    },
+    {
+        "lat": "-34.593",
+        "lon": "-59.15",
+        "clae2": "1",
+        "clae6": "11119",
+        "clae6_desc": "Cultivo de cereales n.c.p., excepto los de uso forrajero (Incluye alforfón, cebada cervecera, etc.)"
+    },
+    {
+        "lat": "-34.612",
+        "lon": "-59.106",
+        "clae2": "1",
+        "clae6": "14211",
+        "clae6_desc": "Cría de ganado equino, excepto la realizada en haras (Incluye equinos de trabajo, asnos, mulas, burdéganos)"
+    },
+    {
+        "lat": "-34.558",
+        "lon": "-59.104",
+        "clae2": "13",
+        "clae6": "131202",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de algodón y sus mezclas, incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.547",
+        "lon": "-59.096",
+        "clae2": "10",
+        "clae6": "101030",
+        "clae6_desc": "Elaboración de fiambres y embutidos"
+    },
+    {
+        "lat": "-34.601",
+        "lon": "-59.179",
+        "clae2": "43",
+        "clae6": "432190",
+        "clae6_desc": "Instalación, ejecución y mantenimiento de instalaciones eléctricas, electromecánicas y electrónicas n.c.p. (Incluye la instalación de antenas, pararrayos, sistemas de alarmas contra incendios y robos, sistemas de telecomunicación, etc.)"
+    },
+    {
+        "lat": "-34.596",
+        "lon": "-59.182",
+        "clae2": "24",
+        "clae6": "243200",
+        "clae6_desc": "Fundición de metales no ferrosos"
+    },
+    {
+        "lat": "-34.562",
+        "lon": "-59.113",
+        "clae2": "1",
+        "clae6": "16111",
+        "clae6_desc": "Servicios de labranza, siembra, transplante  y  cuidados culturales"
+    },
+    {
+        "lat": "-34.579",
+        "lon": "-59.12",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.624",
+        "lon": "-59.276",
+        "clae2": "1",
+        "clae6": "11119",
+        "clae6_desc": "Cultivo de cereales n.c.p., excepto los de uso forrajero (Incluye alforfón, cebada cervecera, etc.)"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.094",
+        "clae2": "49",
+        "clae6": "492120",
+        "clae6_desc": "Servicios de transporte automotor de pasajeros mediante taxis y remises, alquiler de autos con chofer (Incluye los radiotaxis)"
+    },
+    {
+        "lat": "-34.563",
+        "lon": "-59.12",
+        "clae2": "56",
+        "clae6": "561011",
+        "clae6_desc": "Servicios de restaurantes y cantinas sin espectáculo"
+    },
+    {
+        "lat": "-34.564",
+        "lon": "-59.12",
+        "clae2": "55",
+        "clae6": "551023",
+        "clae6_desc": "Servicios de alojamiento en hoteles, hosterías y residenciales similares, excepto por hora, que no incluyen servicio de restaurante al público"
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.096",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.101",
+        "clae2": "43",
+        "clae6": "432190",
+        "clae6_desc": "Instalación, ejecución y mantenimiento de instalaciones eléctricas, electromecánicas y electrónicas n.c.p. (Incluye la instalación de antenas, pararrayos, sistemas de alarmas contra incendios y robos, sistemas de telecomunicación, etc.)"
+    },
+    {
+        "lat": "-34.557",
+        "lon": "-59.205",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.596",
+        "lon": "-59.178",
+        "clae2": "13",
+        "clae6": "139100",
+        "clae6_desc": "Fabricación de tejidos de punto"
+    },
+    {
+        "lat": "-34.595",
+        "lon": "-59.18",
+        "clae2": "13",
+        "clae6": "131202",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de algodón y sus mezclas, incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.602",
+        "lon": "-59.173",
+        "clae2": "13",
+        "clae6": "131209",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de fibras textiles n.c.p., incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.569",
+        "lon": "-59.109",
+        "clae2": "10",
+        "clae6": "107410",
+        "clae6_desc": "Elaboración de pastas alimentarias frescas"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.116",
+        "clae2": "10",
+        "clae6": "107129",
+        "clae6_desc": "Elaboración de productos de panadería n.c.p. (Incluye la elaboración de pan, facturas, churros, pre-pizzas, masas de hojaldre, masas fritas, tortas, tartas, etc), (No incluye la fabricación de sándwich 561040)"
+    },
+    {
+        "lat": "-34.572",
+        "lon": "-59.088",
+        "clae2": "41",
+        "clae6": "410021",
+        "clae6_desc": "Construcción, reforma y reparación de edificios no residenciales (Incluye construcción, reforma y reparación de restaurantes, bares, campamentos, bancos, oficinas, galerías comerciales, estaciones de servicio, edificios para tráfico y comunicaciones, garajes, edificios industriales y depósitos, escuelas, etc.)"
+    },
+    {
+        "lat": "-34.552",
+        "lon": "-59.204",
+        "clae2": "1",
+        "clae6": "14610",
+        "clae6_desc": "Producción de leche bovina (Incluye la cría para la producción de leche de vaca y la producción de leche bubalina)"
+    },
+    {
+        "lat": "-34.581",
+        "lon": "-59.091",
+        "clae2": "25",
+        "clae6": "251101",
+        "clae6_desc": "Fabricación de carpintería metálica"
+    },
+    {
+        "lat": "-34.563",
+        "lon": "-59.121",
+        "clae2": "1",
+        "clae6": "14114",
+        "clae6_desc": "Invernada  de ganado bovino excepto el engorde en corrales (Feed-Lot)"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.114",
+        "clae2": "77",
+        "clae6": "772091",
+        "clae6_desc": "Alquiler de prendas de vestir"
+    },
+    {
+        "lat": "-34.561",
+        "lon": "-59.119",
+        "clae2": "56",
+        "clae6": "561011",
+        "clae6_desc": "Servicios de restaurantes y cantinas sin espectáculo"
+    },
+    {
+        "lat": "-34.51",
+        "lon": "-59.093",
+        "clae2": "1",
+        "clae6": "14990",
+        "clae6_desc": "Cría de animales y obtención de productos de origen animal, n.c.p. (Incluye ciervo, gato, gusano de seda, lombriz, pájaro, perro, rana, animales para experimentación, caracoles vivos, frescos, congelados y secos -excepto marinos-, cera de insectos excepto la de abeja, etc.)"
+    },
+    {
+        "lat": "-34.593",
+        "lon": "-59.129",
+        "clae2": "42",
+        "clae6": "429090",
+        "clae6_desc": "Construcción de obras de ingeniería civil n.c.p. (Incluye los trabajos generales de construcción para la minería y la industria,  de centrales eléctricas y nucleares, excavaciones de sepulturas, etc.)"
+    },
+    {
+        "lat": "-34.563",
+        "lon": "-59.132",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.562",
+        "lon": "-59.101",
+        "clae2": "10",
+        "clae6": "107129",
+        "clae6_desc": "Elaboración de productos de panadería n.c.p. (Incluye la elaboración de pan, facturas, churros, pre-pizzas, masas de hojaldre, masas fritas, tortas, tartas, etc), (No incluye la fabricación de sándwich 561040)"
+    },
+    {
+        "lat": "-34.561",
+        "lon": "-59.119",
+        "clae2": "55",
+        "clae6": "551022",
+        "clae6_desc": "Servicios de alojamiento en hoteles, hosterías y residenciales similares, excepto por hora, que incluyen servicio de restaurante al público"
+    },
+    {
+        "lat": "-34.559",
+        "lon": "-59.107",
+        "clae2": "10",
+        "clae6": "105020",
+        "clae6_desc": "Elaboración de quesos (Incluye la producción de suero)"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.104",
+        "clae2": "25",
+        "clae6": "259993",
+        "clae6_desc": "Fabricación de productos metálicos de tornería y/o matricería"
+    },
+    {
+        "lat": "-34.533",
+        "lon": "-59.275",
+        "clae2": "1",
+        "clae6": "11121",
+        "clae6_desc": "Cultivo de maíz"
+    },
+    {
+        "lat": "-34.564",
+        "lon": "-59.094",
+        "clae2": "1",
+        "clae6": "11119",
+        "clae6_desc": "Cultivo de cereales n.c.p., excepto los de uso forrajero (Incluye alforfón, cebada cervecera, etc.)"
+    },
+    {
+        "lat": "-34.58",
+        "lon": "-59.122",
+        "clae2": "49",
+        "clae6": "492250",
+        "clae6_desc": "Servicio de transporte automotor de mercaderías y sustancias peligrosas"
+    },
+    {
+        "lat": "-34.43",
+        "lon": "-59.131",
+        "clae2": "42",
+        "clae6": "422200",
+        "clae6_desc": "Construcción, reforma y reparación de redes distribución de electricidad, gas, agua, telecomunicaciones y de otros servicios públicos"
+    },
+    {
+        "lat": "-34.548",
+        "lon": "-59.111",
+        "clae2": "56",
+        "clae6": "561019",
+        "clae6_desc": "Servicios de expendio de comidas y bebidas en establecimientos con servicio de mesa y/o en mostrador n.c.p."
+    },
+    {
+        "lat": "-34.59",
+        "lon": "-59.122",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.563",
+        "lon": "-59.118",
+        "clae2": "85",
+        "clae6": "851010",
+        "clae6_desc": "Guarderías y jardines maternales"
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.09",
+        "clae2": "43",
+        "clae6": "432190",
+        "clae6_desc": "Instalación, ejecución y mantenimiento de instalaciones eléctricas, electromecánicas y electrónicas n.c.p. (Incluye la instalación de antenas, pararrayos, sistemas de alarmas contra incendios y robos, sistemas de telecomunicación, etc.)"
+    },
+    {
+        "lat": "-34.593",
+        "lon": "-59.15",
+        "clae2": "42",
+        "clae6": "429090",
+        "clae6_desc": "Construcción de obras de ingeniería civil n.c.p. (Incluye los trabajos generales de construcción para la minería y la industria,  de centrales eléctricas y nucleares, excavaciones de sepulturas, etc.)"
+    },
+    {
+        "lat": "-34.572",
+        "lon": "-59.113",
+        "clae2": "56",
+        "clae6": "561019",
+        "clae6_desc": "Servicios de expendio de comidas y bebidas en establecimientos con servicio de mesa y/o en mostrador n.c.p."
+    },
+    {
+        "lat": "-34.541",
+        "lon": "-59.12",
+        "clae2": "25",
+        "clae6": "251102",
+        "clae6_desc": "Fabricación de productos metálicos para uso estructural"
+    },
+    {
+        "lat": "-34.574",
+        "lon": "-59.095",
+        "clae2": "13",
+        "clae6": "139900",
+        "clae6_desc": "Fabricación de productos textiles n.c.p."
+    },
+    {
+        "lat": "-34.559",
+        "lon": "-59.203",
+        "clae2": "13",
+        "clae6": "139202",
+        "clae6_desc": "Fabricación de ropa de cama y mantelería"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.119",
+        "clae2": "27",
+        "clae6": "274000",
+        "clae6_desc": "Fabricación de lámparas eléctricas y equipo de iluminación"
+    },
+    {
+        "lat": "-34.499",
+        "lon": "-59.066",
+        "clae2": "21",
+        "clae6": "210010",
+        "clae6_desc": "Fabricación de medicamentos de uso humano y productos farmacéuticos"
+    },
+    {
+        "lat": "-34.555",
+        "lon": "-59.104",
+        "clae2": "25",
+        "clae6": "259100",
+        "clae6_desc": "Forjado, prensado, estampado y laminado de metales, pulvimetalurgia"
+    },
+    {
+        "lat": "-34.551",
+        "lon": "-59.131",
+        "clae2": "49",
+        "clae6": "491110",
+        "clae6_desc": "Servicio de transporte ferroviario urbano y suburbano de pasajeros (Incluye el servicio de subterráneo y de premetro)"
+    },
+    {
+        "lat": "-34.564",
+        "lon": "-59.12",
+        "clae2": "56",
+        "clae6": "561019",
+        "clae6_desc": "Servicios de expendio de comidas y bebidas en establecimientos con servicio de mesa y/o en mostrador n.c.p."
+    },
+    {
+        "lat": "-34.561",
+        "lon": "-59.13",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.535",
+        "lon": "-59.034",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.115",
+        "clae2": "13",
+        "clae6": "131202",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de algodón y sus mezclas, incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.558",
+        "lon": "-59.104",
+        "clae2": "49",
+        "clae6": "492280",
+        "clae6_desc": "Servicio de transporte automotor urbano de carga n.c.p. (Incluye el transporte realizado por fleteros y distribuidores dentro del égido urbano)"
+    },
+    {
+        "lat": "-34.627",
+        "lon": "-59.263",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.6",
+        "lon": "-59.174",
+        "clae2": "49",
+        "clae6": "492280",
+        "clae6_desc": "Servicio de transporte automotor urbano de carga n.c.p. (Incluye el transporte realizado por fleteros y distribuidores dentro del égido urbano)"
+    },
+    {
+        "lat": "-34.612",
+        "lon": "-59.106",
+        "clae2": "1",
+        "clae6": "11112",
+        "clae6_desc": "Cultivo de trigo"
+    },
+    {
+        "lat": "-34.587",
+        "lon": "-59.115",
+        "clae2": "13",
+        "clae6": "139900",
+        "clae6_desc": "Fabricación de productos textiles n.c.p."
+    },
+    {
+        "lat": "-34.492",
+        "lon": "-59.072",
+        "clae2": "10",
+        "clae6": "107110",
+        "clae6_desc": "Elaboración de galletitas y bizcochos"
+    },
+    {
+        "lat": "-34.594",
+        "lon": "-59.135",
+        "clae2": "42",
+        "clae6": "421000",
+        "clae6_desc": "Construcción, reforma y reparación de obras de infraestructura para el transporte (Incluye la construcción, reforma y reparación de calles, autopistas, carreteras, puentes, túneles, vías férreas y pistas de aterrizaje, la señalización mediante pintura, etc.)"
+    },
+    {
+        "lat": "-34.561",
+        "lon": "-59.13",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.537",
+        "lon": "-59.163",
+        "clae2": "1",
+        "clae6": "14810",
+        "clae6_desc": "Cría de aves de corral, excepto para la producción de huevos"
+    },
+    {
+        "lat": "-34.567",
+        "lon": "-59.117",
+        "clae2": "56",
+        "clae6": "561013",
+        "clae6_desc": "Servicios de \"\"fast food\"\" y locales de venta de comidas y bebidas al paso (Incluye el expendio de hamburguesas, productos lácteos excepto helados, etc.) "
+    },
+    {
+        "lat": "-34.549",
+        "lon": "-59.112",
+        "clae2": "56",
+        "clae6": "561019",
+        "clae6_desc": "Servicios de expendio de comidas y bebidas en establecimientos con servicio de mesa y/o en mostrador n.c.p."
+    },
+    {
+        "lat": "-34.576",
+        "lon": "-59.108",
+        "clae2": "56",
+        "clae6": "561019",
+        "clae6_desc": "Servicios de expendio de comidas y bebidas en establecimientos con servicio de mesa y/o en mostrador n.c.p."
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.12",
+        "clae2": "14",
+        "clae6": "141120",
+        "clae6_desc": "Confección de ropa de trabajo, uniformes y guardapolvos "
+    },
+    {
+        "lat": "-34.605",
+        "lon": "-59.155",
+        "clae2": "10",
+        "clae6": "106131",
+        "clae6_desc": "Elaboración de alimentos a base de cereales"
+    },
+    {
+        "lat": "-34.581",
+        "lon": "-59.111",
+        "clae2": "10",
+        "clae6": "105090",
+        "clae6_desc": "Elaboración de productos lácteos n.c.p. (Incluye la producción de caseínas, manteca, postres, etc., cuando no son obtenidos e forma integrada con la producción de leche)"
+    },
+    {
+        "lat": "-34.586",
+        "lon": "-59.108",
+        "clae2": "14",
+        "clae6": "143020",
+        "clae6_desc": "Fabricación de prendas de vestir y artículos similares de punto"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.112",
+        "clae2": "1",
+        "clae6": "14610",
+        "clae6_desc": "Producción de leche bovina (Incluye la cría para la producción de leche de vaca y la producción de leche bubalina)"
+    },
+    {
+        "lat": "-34.607",
+        "lon": "-59.168",
+        "clae2": "49",
+        "clae6": "492229",
+        "clae6_desc": "Servicio de transporte automotor de mercaderías a granel n.c.p."
+    },
+    {
+        "lat": "-34.439",
+        "lon": "-59.05",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.569",
+        "lon": "-59.121",
+        "clae2": "41",
+        "clae6": "410011",
+        "clae6_desc": "Construcción, reforma y reparación de edificios residenciales (Incluye la construcción, reforma y reparación  de viviendas unifamiliares y multifamiliares, bungaloes, cabañas, casas de campo, departamentos, albergues para ancianos, niños, estudiantes, etc.)"
+    },
+    {
+        "lat": "-34.593",
+        "lon": "-59.15",
+        "clae2": "49",
+        "clae6": "492229",
+        "clae6_desc": "Servicio de transporte automotor de mercaderías a granel n.c.p."
+    },
+    {
+        "lat": "-34.577",
+        "lon": "-59.188",
+        "clae2": "13",
+        "clae6": "131209",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de fibras textiles n.c.p., incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.555",
+        "lon": "-59.116",
+        "clae2": "56",
+        "clae6": "561011",
+        "clae6_desc": "Servicios de restaurantes y cantinas sin espectáculo"
+    },
+    {
+        "lat": "-34.58",
+        "lon": "-59.017",
+        "clae2": "56",
+        "clae6": "561011",
+        "clae6_desc": "Servicios de restaurantes y cantinas sin espectáculo"
+    },
+    {
+        "lat": "-34.58",
+        "lon": "-59.104",
+        "clae2": "10",
+        "clae6": "107129",
+        "clae6_desc": "Elaboración de productos de panadería n.c.p. (Incluye la elaboración de pan, facturas, churros, pre-pizzas, masas de hojaldre, masas fritas, tortas, tartas, etc), (No incluye la fabricación de sándwich 561040)"
+    },
+    {
+        "lat": "-34.58",
+        "lon": "-59.118",
+        "clae2": "43",
+        "clae6": "432990",
+        "clae6_desc": "Instalaciones para edificios y obras de ingeniería civil n.c.p. (Incluye instalación de puertas automáticas o giratorias)"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.093",
+        "clae2": "43",
+        "clae6": "432190",
+        "clae6_desc": "Instalación, ejecución y mantenimiento de instalaciones eléctricas, electromecánicas y electrónicas n.c.p. (Incluye la instalación de antenas, pararrayos, sistemas de alarmas contra incendios y robos, sistemas de telecomunicación, etc.)"
+    },
+    {
+        "lat": "-34.582",
+        "lon": "-59.094",
+        "clae2": "1",
+        "clae6": "11119",
+        "clae6_desc": "Cultivo de cereales n.c.p., excepto los de uso forrajero (Incluye alforfón, cebada cervecera, etc.)"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.114",
+        "clae2": "42",
+        "clae6": "421000",
+        "clae6_desc": "Construcción, reforma y reparación de obras de infraestructura para el transporte (Incluye la construcción, reforma y reparación de calles, autopistas, carreteras, puentes, túneles, vías férreas y pistas de aterrizaje, la señalización mediante pintura, etc.)"
+    },
+    {
+        "lat": "-34.602",
+        "lon": "-59.174",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.572",
+        "lon": "-59.126",
+        "clae2": "13",
+        "clae6": "131202",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de algodón y sus mezclas, incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.493",
+        "lon": "-59.055",
+        "clae2": "13",
+        "clae6": "139209",
+        "clae6_desc": "Fabricación de artículos confeccionados de materiales textiles n.c.p., excepto prendas de vestir "
+    },
+    {
+        "lat": "-34.639",
+        "lon": "-59.264",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.577",
+        "lon": "-59.115",
+        "clae2": "13",
+        "clae6": "131202",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de algodón y sus mezclas, incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.498",
+        "lon": "-59.082",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.537",
+        "lon": "-59.163",
+        "clae2": "1",
+        "clae6": "16190",
+        "clae6_desc": "Servicios de apoyo agrícolas n.c.p (Incluye  explotación de sistemas de riego, injertos de plantas, construcción y plantación de almácigos, alquiler de colmenas, etc.), (No incluye mantenimiento de jardines, parques y cementerios: actividad 813000, planificación y diseño paisajista: actividad 711009)"
+    },
+    {
+        "lat": "-34.579",
+        "lon": "-59.093",
+        "clae2": "13",
+        "clae6": "131202",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de algodón y sus mezclas, incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.591",
+        "lon": "-59.177",
+        "clae2": "1",
+        "clae6": "11119",
+        "clae6_desc": "Cultivo de cereales n.c.p., excepto los de uso forrajero (Incluye alforfón, cebada cervecera, etc.)"
+    },
+    {
+        "lat": "-34.554",
+        "lon": "-59.026",
+        "clae2": "11",
+        "clae6": "110300",
+        "clae6_desc": "Elaboración de cerveza, bebidas malteadas y malta"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.114",
+        "clae2": "56",
+        "clae6": "561011",
+        "clae6_desc": "Servicios de restaurantes y cantinas sin espectáculo"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.117",
+        "clae2": "49",
+        "clae6": "492120",
+        "clae6_desc": "Servicios de transporte automotor de pasajeros mediante taxis y remises, alquiler de autos con chofer (Incluye los radiotaxis)"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.109",
+        "clae2": "41",
+        "clae6": "410021",
+        "clae6_desc": "Construcción, reforma y reparación de edificios no residenciales (Incluye construcción, reforma y reparación de restaurantes, bares, campamentos, bancos, oficinas, galerías comerciales, estaciones de servicio, edificios para tráfico y comunicaciones, garajes, edificios industriales y depósitos, escuelas, etc.)"
+    },
+    {
+        "lat": "-34.58",
+        "lon": "-59.113",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.594",
+        "lon": "-59.179",
+        "clae2": "13",
+        "clae6": "131209",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de fibras textiles n.c.p., incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.428",
+        "lon": "-59.125",
+        "clae2": "1",
+        "clae6": "14221",
+        "clae6_desc": "Cría de ganado equino realizada en haras (Incluye la producción de semen)"
+    },
+    {
+        "lat": "-34.564",
+        "lon": "-59.12",
+        "clae2": "56",
+        "clae6": "561013",
+        "clae6_desc": "Servicios de \"\"fast food\"\" y locales de venta de comidas y bebidas al paso (Incluye el expendio de hamburguesas, productos lácteos excepto helados, etc.) "
+    },
+    {
+        "lat": "-34.514",
+        "lon": "-59.106",
+        "clae2": "1",
+        "clae6": "14211",
+        "clae6_desc": "Cría de ganado equino, excepto la realizada en haras (Incluye equinos de trabajo, asnos, mulas, burdéganos)"
+    },
+    {
+        "lat": "-34.553",
+        "lon": "-59.108",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.577",
+        "lon": "-59.188",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.572",
+        "lon": "-59.095",
+        "clae2": "11",
+        "clae6": "110491",
+        "clae6_desc": "Elaboración de hielo"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.119",
+        "clae2": "49",
+        "clae6": "492120",
+        "clae6_desc": "Servicios de transporte automotor de pasajeros mediante taxis y remises, alquiler de autos con chofer (Incluye los radiotaxis)"
+    },
+    {
+        "lat": "-34.567",
+        "lon": "-59.114",
+        "clae2": "56",
+        "clae6": "561030",
+        "clae6_desc": "Servicio de expendio de helados"
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.094",
+        "clae2": "56",
+        "clae6": "561011",
+        "clae6_desc": "Servicios de restaurantes y cantinas sin espectáculo"
+    },
+    {
+        "lat": "-34.581",
+        "lon": "-59.093",
+        "clae2": "11",
+        "clae6": "110412",
+        "clae6_desc": "Fabricación de sodas"
+    },
+    {
+        "lat": "-34.552",
+        "lon": "-59.115",
+        "clae2": "85",
+        "clae6": "854910",
+        "clae6_desc": "Enseñanza de idiomas"
+    },
+    {
+        "lat": "-34.569",
+        "lon": "-59.098",
+        "clae2": "1",
+        "clae6": "11211",
+        "clae6_desc": "Cultivo de soja"
+    },
+    {
+        "lat": "-34.604",
+        "lon": "-59.161",
+        "clae2": "56",
+        "clae6": "562010",
+        "clae6_desc": "Servicios de preparación de comidas para empresas y eventos (Incluye el servicio de catering, el suministro de comidas para banquetes, bodas, fiestas y otras celebraciones, comidas para hospital, etc.) "
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.105",
+        "clae2": "41",
+        "clae6": "410021",
+        "clae6_desc": "Construcción, reforma y reparación de edificios no residenciales (Incluye construcción, reforma y reparación de restaurantes, bares, campamentos, bancos, oficinas, galerías comerciales, estaciones de servicio, edificios para tráfico y comunicaciones, garajes, edificios industriales y depósitos, escuelas, etc.)"
+    },
+    {
+        "lat": "-34.567",
+        "lon": "-59.115",
+        "clae2": "43",
+        "clae6": "432190",
+        "clae6_desc": "Instalación, ejecución y mantenimiento de instalaciones eléctricas, electromecánicas y electrónicas n.c.p. (Incluye la instalación de antenas, pararrayos, sistemas de alarmas contra incendios y robos, sistemas de telecomunicación, etc.)"
+    },
+    {
+        "lat": "-34.584",
+        "lon": "-59.105",
+        "clae2": "25",
+        "clae6": "251102",
+        "clae6_desc": "Fabricación de productos metálicos para uso estructural"
+    },
+    {
+        "lat": "-34.577",
+        "lon": "-59.187",
+        "clae2": "13",
+        "clae6": "131209",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de fibras textiles n.c.p., incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.115",
+        "clae2": "1",
+        "clae6": "11119",
+        "clae6_desc": "Cultivo de cereales n.c.p., excepto los de uso forrajero (Incluye alforfón, cebada cervecera, etc.)"
+    },
+    {
+        "lat": "-34.598",
+        "lon": "-59.113",
+        "clae2": "56",
+        "clae6": "561013",
+        "clae6_desc": "Servicios de \"\"fast food\"\" y locales de venta de comidas y bebidas al paso (Incluye el expendio de hamburguesas, productos lácteos excepto helados, etc.) "
+    },
+    {
+        "lat": "-34.597",
+        "lon": "-59.177",
+        "clae2": "50",
+        "clae6": "502200",
+        "clae6_desc": "Servicio de transporte fluvial y lacustre de carga"
+    },
+    {
+        "lat": "-34.563",
+        "lon": "-59.117",
+        "clae2": "10",
+        "clae6": "107410",
+        "clae6_desc": "Elaboración de pastas alimentarias frescas"
+    },
+    {
+        "lat": "-34.591",
+        "lon": "-59.109",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.548",
+        "lon": "-59.199",
+        "clae2": "13",
+        "clae6": "131209",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de fibras textiles n.c.p., incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.561",
+        "lon": "-59.119",
+        "clae2": "42",
+        "clae6": "422200",
+        "clae6_desc": "Construcción, reforma y reparación de redes distribución de electricidad, gas, agua, telecomunicaciones y de otros servicios públicos"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.095",
+        "clae2": "1",
+        "clae6": "11119",
+        "clae6_desc": "Cultivo de cereales n.c.p., excepto los de uso forrajero (Incluye alforfón, cebada cervecera, etc.)"
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.121",
+        "clae2": "55",
+        "clae6": "551022",
+        "clae6_desc": "Servicios de alojamiento en hoteles, hosterías y residenciales similares, excepto por hora, que incluyen servicio de restaurante al público"
+    },
+    {
+        "lat": "-34.56",
+        "lon": "-59.121",
+        "clae2": "55",
+        "clae6": "551023",
+        "clae6_desc": "Servicios de alojamiento en hoteles, hosterías y residenciales similares, excepto por hora, que no incluyen servicio de restaurante al público"
+    },
+    {
+        "lat": "-34.486",
+        "lon": "-59.219",
+        "clae2": "56",
+        "clae6": "561011",
+        "clae6_desc": "Servicios de restaurantes y cantinas sin espectáculo"
+    },
+    {
+        "lat": "-34.587",
+        "lon": "-59.113",
+        "clae2": "14",
+        "clae6": "141191",
+        "clae6_desc": "Fabricación de accesorios de vestir excepto de cuero"
+    },
+    {
+        "lat": "-34.492",
+        "lon": "-59.068",
+        "clae2": "3",
+        "clae6": "31120",
+        "clae6_desc": "Pesca y elaboración de productos marinos realizada a bordo de buques procesadores"
+    },
+    {
+        "lat": "-34.559",
+        "lon": "-59.103",
+        "clae2": "10",
+        "clae6": "107129",
+        "clae6_desc": "Elaboración de productos de panadería n.c.p. (Incluye la elaboración de pan, facturas, churros, pre-pizzas, masas de hojaldre, masas fritas, tortas, tartas, etc), (No incluye la fabricación de sándwich 561040)"
+    },
+    {
+        "lat": "-34.571",
+        "lon": "-59.108",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.562",
+        "lon": "-59.112",
+        "clae2": "77",
+        "clae6": "771290",
+        "clae6_desc": "Alquiler de equipo de transporte n.c.p. sin conductor ni operarios (Incluye: equipo ferroviario, motocicletas)"
+    },
+    {
+        "lat": "-34.605",
+        "lon": "-59.156",
+        "clae2": "10",
+        "clae6": "101011",
+        "clae6_desc": "Matanza de ganado bovino (Incluye búfalos)"
+    },
+    {
+        "lat": "-34.559",
+        "lon": "-59.115",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.601",
+        "lon": "-59.114",
+        "clae2": "56",
+        "clae6": "561020",
+        "clae6_desc": "Servicios de preparación de comidas para llevar (Incluye rotiserías, casas de empanadas, pizzerías sin consumo en el local) "
+    },
+    {
+        "lat": "-34.593",
+        "lon": "-59.15",
+        "clae2": "41",
+        "clae6": "410011",
+        "clae6_desc": "Construcción, reforma y reparación de edificios residenciales (Incluye la construcción, reforma y reparación  de viviendas unifamiliares y multifamiliares, bungaloes, cabañas, casas de campo, departamentos, albergues para ancianos, niños, estudiantes, etc.)"
+    },
+    {
+        "lat": "-34.568",
+        "lon": "-59.113",
+        "clae2": "56",
+        "clae6": "561019",
+        "clae6_desc": "Servicios de expendio de comidas y bebidas en establecimientos con servicio de mesa y/o en mostrador n.c.p."
+    },
+    {
+        "lat": "-34.579",
+        "lon": "-59.096",
+        "clae2": "13",
+        "clae6": "131202",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de algodón y sus mezclas, incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.626",
+        "lon": "-59.258",
+        "clae2": "42",
+        "clae6": "421000",
+        "clae6_desc": "Construcción, reforma y reparación de obras de infraestructura para el transporte (Incluye la construcción, reforma y reparación de calles, autopistas, carreteras, puentes, túneles, vías férreas y pistas de aterrizaje, la señalización mediante pintura, etc.)"
+    },
+    {
+        "lat": "-34.546",
+        "lon": "-59.133",
+        "clae2": "10",
+        "clae6": "106131",
+        "clae6_desc": "Elaboración de alimentos a base de cereales"
+    },
+    {
+        "lat": "-34.593",
+        "lon": "-59.15",
+        "clae2": "1",
+        "clae6": "11119",
+        "clae6_desc": "Cultivo de cereales n.c.p., excepto los de uso forrajero (Incluye alforfón, cebada cervecera, etc.)"
+    },
+    {
+        "lat": "-34.572",
+        "lon": "-59.101",
+        "clae2": "49",
+        "clae6": "492280",
+        "clae6_desc": "Servicio de transporte automotor urbano de carga n.c.p. (Incluye el transporte realizado por fleteros y distribuidores dentro del égido urbano)"
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.09",
+        "clae2": "10",
+        "clae6": "107129",
+        "clae6_desc": "Elaboración de productos de panadería n.c.p. (Incluye la elaboración de pan, facturas, churros, pre-pizzas, masas de hojaldre, masas fritas, tortas, tartas, etc), (No incluye la fabricación de sándwich 561040)"
+    },
+    {
+        "lat": "-34.541",
+        "lon": "-59.12",
+        "clae2": "1",
+        "clae6": "14211",
+        "clae6_desc": "Cría de ganado equino, excepto la realizada en haras (Incluye equinos de trabajo, asnos, mulas, burdéganos)"
+    },
+    {
+        "lat": "-34.433",
+        "lon": "-59.124",
+        "clae2": "77",
+        "clae6": "773010",
+        "clae6_desc": "Alquiler de maquinaria y equipo agropecuario y forestal, sin operarios"
+    },
+    {
+        "lat": "-34.6",
+        "lon": "-59.174",
+        "clae2": "13",
+        "clae6": "139900",
+        "clae6_desc": "Fabricación de productos textiles n.c.p."
+    },
+    {
+        "lat": "-34.571",
+        "lon": "-59.118",
+        "clae2": "56",
+        "clae6": "561030",
+        "clae6_desc": "Servicio de expendio de helados"
+    },
+    {
+        "lat": "-34.557",
+        "lon": "-59.036",
+        "clae2": "41",
+        "clae6": "410021",
+        "clae6_desc": "Construcción, reforma y reparación de edificios no residenciales (Incluye construcción, reforma y reparación de restaurantes, bares, campamentos, bancos, oficinas, galerías comerciales, estaciones de servicio, edificios para tráfico y comunicaciones, garajes, edificios industriales y depósitos, escuelas, etc.)"
+    },
+    {
+        "lat": "-34.574",
+        "lon": "-59.096",
+        "clae2": "10",
+        "clae6": "105020",
+        "clae6_desc": "Elaboración de quesos (Incluye la producción de suero)"
+    },
+    {
+        "lat": "-34.552",
+        "lon": "-59.129",
+        "clae2": "25",
+        "clae6": "251102",
+        "clae6_desc": "Fabricación de productos metálicos para uso estructural"
+    },
+    {
+        "lat": "-34.566",
+        "lon": "-59.113",
+        "clae2": "56",
+        "clae6": "561019",
+        "clae6_desc": "Servicios de expendio de comidas y bebidas en establecimientos con servicio de mesa y/o en mostrador n.c.p."
+    },
+    {
+        "lat": "-34.561",
+        "lon": "-59.09",
+        "clae2": "1",
+        "clae6": "16111",
+        "clae6_desc": "Servicios de labranza, siembra, transplante  y  cuidados culturales"
+    },
+    {
+        "lat": "-34.56",
+        "lon": "-59.205",
+        "clae2": "85",
+        "clae6": "852200",
+        "clae6_desc": "Enseñanza secundaria de formación técnica y profesional"
+    },
+    {
+        "lat": "-34.564",
+        "lon": "-59.075",
+        "clae2": "42",
+        "clae6": "429090",
+        "clae6_desc": "Construcción de obras de ingeniería civil n.c.p. (Incluye los trabajos generales de construcción para la minería y la industria,  de centrales eléctricas y nucleares, excavaciones de sepulturas, etc.)"
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.179",
+        "clae2": "13",
+        "clae6": "131202",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de algodón y sus mezclas, incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.575",
+        "lon": "-59.092",
+        "clae2": "1",
+        "clae6": "16112",
+        "clae6_desc": "Servicios de pulverización, desinfección y fumigación terrestre"
+    },
+    {
+        "lat": "-34.571",
+        "lon": "-59.184",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.597",
+        "lon": "-59.18",
+        "clae2": "1",
+        "clae6": "13020",
+        "clae6_desc": "Producción de otras formas de propagación de cultivos agrícolas (Incluye gajos, bulbos, estacas enraizadas o no, esquejes, plantines, etc.) "
+    },
+    {
+        "lat": "-34.562",
+        "lon": "-59.119",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.564",
+        "lon": "-59.116",
+        "clae2": "59",
+        "clae6": "591300",
+        "clae6_desc": "Exhibición de filmes y videocintas"
+    },
+    {
+        "lat": "-34.602",
+        "lon": "-59.177",
+        "clae2": "13",
+        "clae6": "139209",
+        "clae6_desc": "Fabricación de artículos confeccionados de materiales textiles n.c.p., excepto prendas de vestir "
+    },
+    {
+        "lat": "-34.596",
+        "lon": "-59.182",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.56",
+        "lon": "-59.19",
+        "clae2": "25",
+        "clae6": "259999",
+        "clae6_desc": "Fabricación de productos elaborados de metal n.c.p."
+    },
+    {
+        "lat": "-34.565",
+        "lon": "-59.121",
+        "clae2": "55",
+        "clae6": "551022",
+        "clae6_desc": "Servicios de alojamiento en hoteles, hosterías y residenciales similares, excepto por hora, que incluyen servicio de restaurante al público"
+    },
+    {
+        "lat": "-34.573",
+        "lon": "-59.106",
+        "clae2": "41",
+        "clae6": "410011",
+        "clae6_desc": "Construcción, reforma y reparación de edificios residenciales (Incluye la construcción, reforma y reparación  de viviendas unifamiliares y multifamiliares, bungaloes, cabañas, casas de campo, departamentos, albergues para ancianos, niños, estudiantes, etc.)"
+    },
+    {
+        "lat": "-34.555",
+        "lon": "-59.097",
+        "clae2": "56",
+        "clae6": "561011",
+        "clae6_desc": "Servicios de restaurantes y cantinas sin espectáculo"
+    },
+    {
+        "lat": "-34.563",
+        "lon": "-59.096",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.572",
+        "lon": "-59.101",
+        "clae2": "49",
+        "clae6": "492280",
+        "clae6_desc": "Servicio de transporte automotor urbano de carga n.c.p. (Incluye el transporte realizado por fleteros y distribuidores dentro del égido urbano)"
+    },
+    {
+        "lat": "-34.575",
+        "lon": "-59.099",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.552",
+        "lon": "-59.209",
+        "clae2": "13",
+        "clae6": "131209",
+        "clae6_desc": "Fabricación de tejidos (telas) planos de fibras textiles n.c.p., incluye hilanderías y tejedurías integradas"
+    },
+    {
+        "lat": "-34.535",
+        "lon": "-59.034",
+        "clae2": "10",
+        "clae6": "101030",
+        "clae6_desc": "Elaboración de fiambres y embutidos"
+    },
+    {
+        "lat": "-34.564",
+        "lon": "-59.12",
+        "clae2": "56",
+        "clae6": "561013",
+        "clae6_desc": "Servicios de \"\"fast food\"\" y locales de venta de comidas y bebidas al paso (Incluye el expendio de hamburguesas, productos lácteos excepto helados, etc.) "
+    },
+    {
+        "lat": "-34.557",
+        "lon": "-59.206",
+        "clae2": "1",
+        "clae6": "11119",
+        "clae6_desc": "Cultivo de cereales n.c.p., excepto los de uso forrajero (Incluye alforfón, cebada cervecera, etc.)"
+    },
+    {
+        "lat": "-34.612",
+        "lon": "-59.106",
+        "clae2": "1",
+        "clae6": "11119",
+        "clae6_desc": "Cultivo de cereales n.c.p., excepto los de uso forrajero (Incluye alforfón, cebada cervecera, etc.)"
+    },
+    {
+        "lat": "-34.567",
+        "lon": "-59.098",
+        "clae2": "41",
+        "clae6": "410011",
+        "clae6_desc": "Construcción, reforma y reparación de edificios residenciales (Incluye la construcción, reforma y reparación  de viviendas unifamiliares y multifamiliares, bungaloes, cabañas, casas de campo, departamentos, albergues para ancianos, niños, estudiantes, etc.)"
+    },
+    {
+        "lat": "-34.567",
+        "lon": "-59.114",
+        "clae2": "56",
+        "clae6": "561013",
+        "clae6_desc": "Servicios de \"\"fast food\"\" y locales de venta de comidas y bebidas al paso (Incluye el expendio de hamburguesas, productos lácteos excepto helados, etc.) "
+    },
+    {
+        "lat": "-34.567",
+        "lon": "-59.119",
+        "clae2": "42",
+        "clae6": "429090",
+        "clae6_desc": "Construcción de obras de ingeniería civil n.c.p. (Incluye los trabajos generales de construcción para la minería y la industria,  de centrales eléctricas y nucleares, excavaciones de sepulturas, etc.)"
+    },
+    {
+        "lat": "-34.553",
+        "lon": "-59.108",
+        "clae2": "85",
+        "clae6": "854990",
+        "clae6_desc": "Servicios de enseñanza n.c.p. (Incluye instrucción impartida mediante programas de radio, televisión, correspondencia y otros medios de comunicación, escuelas de manejo, actividades de enseñanza a domicilio y/o particulares, etc.)"
+    },
+    {
+        "lat": "-34.562",
+        "lon": "-59.112",
+        "clae2": "85",
+        "clae6": "851020",
+        "clae6_desc": "Enseñanza inicial, jardín de infantes y primaria"
+    },
+    {
+        "lat": "-34.579",
+        "lon": "-59.112",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.514",
+        "lon": "-59.106",
+        "clae2": "1",
+        "clae6": "14221",
+        "clae6_desc": "Cría de ganado equino realizada en haras (Incluye la producción de semen)"
+    },
+    {
+        "lat": "-34.49",
+        "lon": "-59.075",
+        "clae2": "10",
+        "clae6": "107129",
+        "clae6_desc": "Elaboración de productos de panadería n.c.p. (Incluye la elaboración de pan, facturas, churros, pre-pizzas, masas de hojaldre, masas fritas, tortas, tartas, etc), (No incluye la fabricación de sándwich 561040)"
+    },
+    {
+        "lat": "-34.598",
+        "lon": "-59.176",
+        "clae2": "13",
+        "clae6": "139209",
+        "clae6_desc": "Fabricación de artículos confeccionados de materiales textiles n.c.p., excepto prendas de vestir "
+    },
+    {
+        "lat": "-34.561",
+        "lon": "-59.104",
+        "clae2": "56",
+        "clae6": "561030",
+        "clae6_desc": "Servicio de expendio de helados"
+    },
+    {
+        "lat": "-34.543",
+        "lon": "-59.145",
+        "clae2": "49",
+        "clae6": "492290",
+        "clae6_desc": "Servicio de transporte automotor de cargas n.c.p. (Incluye  servicios de transporte de carga refrigerada y transporte pesado)"
+    },
+    {
+        "lat": "-34.572",
+        "lon": "-59.113",
+        "clae2": "43",
+        "clae6": "432200",
+        "clae6_desc": "Instalaciones de gas, agua, sanitarios y de climatización, con sus artefactos conexos (Incluye la instalación de compactadores, calderas, sistemas de calefacción central, etc.)"
+    },
+    {
+        "lat": "-34.579",
+        "lon": "-59.095",
+        "clae2": "27",
+        "clae6": "273190",
+        "clae6_desc": "Fabricación de hilos y cables aislados n.c.p."
+    },
+    {
+        "lat": "-34.57",
+        "lon": "-59.098",
+        "clae2": "85",
+        "clae6": "853100",
+        "clae6_desc": "Enseñanza  terciaria"
+    },
+    {
+        "lat": "-34.579",
+        "lon": "-59.112",
+        "clae2": "1",
+        "clae6": "14113",
+        "clae6_desc": "Cría de ganado bovino, excepto la realizada en cabañas y para la producción de leche (Incluye: ganado bubalino)"
+    },
+    {
+        "lat": "-34.502",
+        "lon": "-59.073",
+        "clae2": "43",
+        "clae6": "433040",
+        "clae6_desc": "Pintura y trabajos de decoración"
+    }
+]
