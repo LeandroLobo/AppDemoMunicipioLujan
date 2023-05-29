@@ -1,5 +1,5 @@
-export const environment = {
-    production: true,
+export const environment:any = {
+    production: false,
     authEnable: true,
     BEARER_TOKEN_BCRA: 'eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDk1MjU5NzksInR5cGUiOiJleHRlcm5hbCIsInVzZXIiOiJsZWFuZHJvbG9ib21hcnF1ZXpAZ21haWwuY29tIn0.Frf4hQ6iYHFC5japIs7CW9PKnlhGpnY0TiEScMu8qNirhX82Tt61HY-Rmyao-obXhWNL0KOzcfna5qknOjcNPw',
     firebaseConfig: {
@@ -10,5 +10,5 @@ export const environment = {
         messagingSenderId: "655144447179",
         appId: "1:655144447179:web:6c26e12674a1c4872abf4e"
     },
-    hereMaps_API_KEY: ''
+    hereMaps_API_KEY: '',
 };
