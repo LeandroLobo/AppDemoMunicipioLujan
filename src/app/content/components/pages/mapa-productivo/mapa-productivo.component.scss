@@ -1,0 +1,16 @@
+#mapaT {
+	height: 80vh;
+	width: 100%;
+    position: relative;
+}
+.floating-options{
+    position: absolute;
+    right: 0;
+    top: 1rem;
+    z-index: 9;
+    span{
+        color: #000;
+        background-color: rgba($color: #000, $alpha: 0.15);
+        padding: 0.5rem;
+    }
+}

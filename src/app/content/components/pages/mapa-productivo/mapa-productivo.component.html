@@ -1,0 +1,6 @@
+<div id="mapaT">
+    <div class="floating-options">
+        <span><b>Sector Productivo: </b></span>
+        <p-dropdown [options]="opcionesSector" [(ngModel)]="valorSeleccionadoSector" [style]="{'width':'160px', 'margin-right':'1rem'}" (onChange)="applyFilter()"></p-dropdown>
+    </div>
+</div>

@@ -28,7 +28,12 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/app.config.json",
+              "src/app/content/components/pages/mapa-productivo/data/actividades_establecimientos.json",
+              "src/app/content/components/pages/mapa-productivo/data/distribucion_establecimientos_productivos_lujan.json",
+              "src/app/content/components/pages/mapa-productivo/data/marcadores.json"
+
             ],
             "styles": [
               "src/styles.scss"

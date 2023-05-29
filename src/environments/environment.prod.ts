@@ -9,5 +9,6 @@ export const environment = {
         storageBucket: "impactar-lujan.appspot.com",
         messagingSenderId: "655144447179",
         appId: "1:655144447179:web:6c26e12674a1c4872abf4e"
-    }
+    },
+    hereMaps_API_KEY: ''
 };
