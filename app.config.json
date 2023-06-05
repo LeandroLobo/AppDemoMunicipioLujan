@@ -1,3 +1,11 @@
 {
-    "hereMaps_API_KEY": "D4ArH0ib34ndUrcanrh74IC_2-BOtzBPVkUMU5D74qU"
+    "hereMaps_API_KEY": "D4ArH0ib34ndUrcanrh74IC_2-BOtzBPVkUMU5D74qU",
+    "firebaseConfig": {
+        "apiKey": "AIzaSyBBJsPdhoWCqAT3vSnQ-xdWgOxVVynNWt8",
+        "authDomain": "impactar-lujan.firebaseapp.com",
+        "projectId": "impactar-lujan",
+        "storageBucket": "impactar-lujan.appspot.com",
+        "messagingSenderId": "655144447179",
+        "appId": "1:655144447179:web:6c26e12674a1c4872abf4e"
+    }
 }
