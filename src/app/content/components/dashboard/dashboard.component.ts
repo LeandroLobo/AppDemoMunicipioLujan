@@ -20,8 +20,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
     dataSetSeleccionado = 'puestos-empleo';
     opcionesDataSet: any[] = [
         { label: 'Puestos de Empleo', value: 'puestos-empleo' },
-        { label: 'DataSet2', value: 'dataset-2' },
-        { label: 'DataSet3', value: 'dataset-3' },
+        { label: 'Salarios', value: 'salarios' },
     ];
 
     constructor( public layoutService: LayoutService, private dolarsi: ApiDolarsiService, private firebase: FirebaseDatabaseService) {

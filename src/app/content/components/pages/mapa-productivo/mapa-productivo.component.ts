@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { HereMapsService } from './service/here-maps.service';
-import { diccionarioClae } from '../crud/diccionario';
+import { diccionarioClae } from '../../../models/diccionario';
 
 @Component({
   selector: 'app-mapa-productivo',

@@ -1,25 +1,29 @@
 <div class="grid">
     <div class="col-12 lg:col-6">
         <div class="card">
-            <h5>Total mensual - <b>Últimos 36 meses</b></h5>
+            <h5>Miles de Puestos de Trabajo Registrados - <b>Últimos 36 meses</b></h5>
             <p-dropdown [options]="opcionesRegion" [(ngModel)]="valorSeleccionadoRegion" [style]="{'width':'150px', 'margin-right':'1rem'}" (onChange)="applyFilterRegion()"></p-dropdown>
             <p-dropdown *ngIf="valorSeleccionadoRegion === 'TotalLujan'" [options]="opcionesSector" [(ngModel)]="valorSeleccionadoSector" [style]="{'width':'150px', 'margin-right':'1rem'}" (onChange)="applyFilterSectorProductivo()"></p-dropdown>
-            <p-chart type="line" [data]="dataGraficoMensualContiguo" [options]="lineContiguoOptions"></p-chart>
-            <ul class="p-0 mx-0 mt-0 mb-4 list-none">
-                <li class="flex align-items-center py-2 border-bottom-1 surface-border">
-                    <div class="mr-3">
-                        <i class="pi pi-file-import text-xl text-blue-500"></i>
-                    </div>
-                    <span class="text-900 line-height-3">Fuente: CEP XXI con base en SIPA (AFIP)</span>
-                </li>
-            </ul>
+            <p-chart type="line" [data]="dataGraficoTotalMensual" [options]="totalMensualOptions"></p-chart>
+            <div class="flex align-items-center py-2 border-bottom-1 surface-border">
+                <div class="mr-3">
+                    <i class="pi pi-file-import text-xl text-blue-500"></i>
+                </div>
+                <span class="text-900 line-height-3">Fuente: CEP XXI con base en SIPA (AFIP)</span>
+            </div>
         </div>
     </div>
     <div class="col-12 lg:col-6">
         <div class="card">
-            <h5>Variación interanual - <b>Últimos 24 meses</b></h5>
+            <h5>Variación Interanual % - <b>Últimos 24 meses</b></h5>
             <p>Región: <b>{{getValorSeleccionadoRegion}}</b>, Sector: <b>{{getValorSeleccionadoSector}}</b></p>
-            <p-chart type="bar" [data]="dataGraficoInteranualContiguo" [options]="barContiguoOptions"></p-chart>
+            <p-chart type="bar" [data]="dataGraficoVariacionInteranual" [options]="variacionInteranualOptions"></p-chart>
+            <div class="flex align-items-center py-2 border-bottom-1 surface-border">
+                <div class="mr-3">
+                    <i class="pi pi-file-import text-xl text-blue-500"></i>
+                </div>
+                <span class="text-900 line-height-3">Resultado</span>
+            </div>
         </div>
     </div>
 </div>

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { environment } from 'src/environments/environment';
 import { markup1, markup2, markup3, markup4, markup5, markup6 } from '../assets/svg-markup';
-import { diccionarioClae } from '../../crud/diccionario';
+import { diccionarioClae } from '../../../../models/diccionario';
 
 declare var H: any;
 

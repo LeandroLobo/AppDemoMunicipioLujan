@@ -3,7 +3,7 @@ import { MessageService } from 'primeng/api';
 import { Table } from 'primeng/table';
 import { Papa } from 'ngx-papaparse';
 import { FirebaseDatabaseService } from 'src/app/content/service/firebase-database.service';
-import { diccionarioClae } from './diccionario'
+import { diccionarioClae } from '../../../models/diccionario'
 @Component({
     templateUrl: './crud.component.html',
     providers: [MessageService]
@@ -137,13 +137,17 @@ export class CrudComponent implements OnInit {
         labelsC.push(months[date.getMonth()] + ' ' + date.getFullYear().toString().slice(-2));
         }
 
-        const dataTotalBsAsA = dataTotalPaisA.filter(d => d.id_provincia_indec == '6');
-        const dataTotalBsAsB = dataTotalPaisB.filter(d => d.id_provincia_indec == '6');
-        const dataTotalBsAsC = dataTotalPaisC.filter(d => d.id_provincia_indec == '6');
+        const dataTotalRestoBsAsA = dataTotalPaisA.filter(d => d.id_provincia_indec == '6' && !diccionarioClae.listaCodigosDptoConurbano.includes(d.codigo_departamento_indec));
+        const dataTotalRestoBsAsB = dataTotalPaisB.filter(d => d.id_provincia_indec == '6' && !diccionarioClae.listaCodigosDptoConurbano.includes(d.codigo_departamento_indec));
+        const dataTotalRestoBsAsC = dataTotalPaisC.filter(d => d.id_provincia_indec == '6' && !diccionarioClae.listaCodigosDptoConurbano.includes(d.codigo_departamento_indec));
 
-        const dataTotalLujanA = dataTotalBsAsA.filter(d => d.codigo_departamento_indec == '6497');
-        const dataTotalLujanB = dataTotalBsAsB.filter(d => d.codigo_departamento_indec == '6497');
-        const dataTotalLujanC = dataTotalBsAsC.filter(d => d.codigo_departamento_indec == '6497');
+        const dataTotalConurbanoBsAsA = dataTotalPaisA.filter(d => diccionarioClae.listaCodigosDptoConurbano.includes(d.codigo_departamento_indec));
+        const dataTotalConurbanoBsAsB = dataTotalPaisB.filter(d => diccionarioClae.listaCodigosDptoConurbano.includes(d.codigo_departamento_indec));
+        const dataTotalConurbanoBsAsC = dataTotalPaisC.filter(d => diccionarioClae.listaCodigosDptoConurbano.includes(d.codigo_departamento_indec));
+
+        const dataTotalLujanA = dataTotalRestoBsAsA.filter(d => d.codigo_departamento_indec == diccionarioClae.codigoDptoLujan);
+        const dataTotalLujanB = dataTotalRestoBsAsB.filter(d => d.codigo_departamento_indec == diccionarioClae.codigoDptoLujan);
+        const dataTotalLujanC = dataTotalRestoBsAsC.filter(d => d.codigo_departamento_indec == diccionarioClae.codigoDptoLujan);
 
         const conteoMensualTotalPaisA = this.contarMensual(dataTotalPaisA);
         const conteoMensualTotalPaisB = this.contarMensual(dataTotalPaisB);
@@ -151,11 +155,17 @@ export class CrudComponent implements OnInit {
         const interanualTotalPaisA = this.calcularInteranual(conteoMensualTotalPaisB, conteoMensualTotalPaisA);
         const interanualTotalPaisB = this.calcularInteranual(conteoMensualTotalPaisC, conteoMensualTotalPaisB);
 
-        const conteoMensualTotalBsAsA = this.contarMensual(dataTotalBsAsA);
-        const conteoMensualTotalBsAsB = this.contarMensual(dataTotalBsAsB);
-        const conteoMensualTotalBsAsC = this.contarMensual(dataTotalBsAsC);
-        const interanualTotalBsAsA = this.calcularInteranual(conteoMensualTotalBsAsB, conteoMensualTotalBsAsA);
-        const interanualTotalBsAsB = this.calcularInteranual(conteoMensualTotalBsAsC, conteoMensualTotalBsAsB);
+        const conteoMensualTotalRestoBsAsA = this.contarMensual(dataTotalRestoBsAsA);
+        const conteoMensualTotalRestoBsAsB = this.contarMensual(dataTotalRestoBsAsB);
+        const conteoMensualTotalRestoBsAsC = this.contarMensual(dataTotalRestoBsAsC);
+        const interanualTotalRestoBsAsA = this.calcularInteranual(conteoMensualTotalRestoBsAsB, conteoMensualTotalRestoBsAsA);
+        const interanualTotalRestoBsAsB = this.calcularInteranual(conteoMensualTotalRestoBsAsC, conteoMensualTotalRestoBsAsB);
+
+        const conteoMensualTotalConurbanoBsAsA = this.contarMensual(dataTotalConurbanoBsAsA);
+        const conteoMensualTotalConurbanoBsAsB = this.contarMensual(dataTotalConurbanoBsAsB);
+        const conteoMensualTotalConurbanoBsAsC = this.contarMensual(dataTotalConurbanoBsAsC);
+        const interanualTotalConurbanoBsAsA = this.calcularInteranual(conteoMensualTotalConurbanoBsAsB, conteoMensualTotalConurbanoBsAsA);
+        const interanualTotalConurbanoBsAsB = this.calcularInteranual(conteoMensualTotalConurbanoBsAsC, conteoMensualTotalConurbanoBsAsB);
 
         const conteoMensualTotalLujanA = this.contarMensual(dataTotalLujanA);
         const conteoMensualTotalLujanB = this.contarMensual(dataTotalLujanB);
@@ -171,11 +181,16 @@ export class CrudComponent implements OnInit {
             conteoMensualTotalPaisC,
             interanualTotalPaisA,
             interanualTotalPaisB,
-            conteoMensualTotalBsAsA,
-            conteoMensualTotalBsAsB,
-            conteoMensualTotalBsAsC,
-            interanualTotalBsAsA,
-            interanualTotalBsAsB,
+            conteoMensualTotalRestoBsAsA,
+            conteoMensualTotalRestoBsAsB,
+            conteoMensualTotalRestoBsAsC,
+            interanualTotalRestoBsAsA,
+            interanualTotalRestoBsAsB,
+            conteoMensualTotalConurbanoBsAsA,
+            conteoMensualTotalConurbanoBsAsB,
+            conteoMensualTotalConurbanoBsAsC,
+            interanualTotalConurbanoBsAsA,
+            interanualTotalConurbanoBsAsB,
             conteoMensualTotalLujanA,
             conteoMensualTotalLujanB,
             conteoMensualTotalLujanC,
@@ -186,7 +201,6 @@ export class CrudComponent implements OnInit {
             dataTotalLujanC
         };
 
-        this.muestraTotal = [...dataTotalLujanC, ...dataTotalLujanB, ...dataTotalLujanA];
         console.log('fin proceso');
         this.firebase.guardarDocumento('PuestosTrabajoAsalariado', {fechaSubida: new Date(Date.now()), data});
     }

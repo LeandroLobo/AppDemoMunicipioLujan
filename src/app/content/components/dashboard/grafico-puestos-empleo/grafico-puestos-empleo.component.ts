@@ -11,10 +11,12 @@ export class GraficoPuestosEmpleo {
     fechaSubida!: string;
     muestraDatosFiltrados: any;
     loading: boolean;
-    dataGraficoMensualContiguo!: any;
-    lineContiguoOptions!: any;
-    dataGraficoInteranualContiguo!: any;
-    barContiguoOptions!: any;
+    dataGraficoTotalMensual!: any;
+    totalMensualDatasets: any[] = [];
+    totalMensualOptions!: any;
+    dataGraficoVariacionInteranual!: any;
+    variacionInteranualDatasets: any[] = [];
+    variacionInteranualOptions!: any;
     subscription: any;
     coleccion: string = 'PuestosTrabajoAsalariado';
     sectorGeografico: string = 'Luján';
@@ -30,11 +32,15 @@ export class GraficoPuestosEmpleo {
 
     opcionesRegion: any[] = [
         { label: 'Luján', value: 'TotalLujan' },
-        { label: 'Buenos Aires', value: 'TotalBsAs' },
+        { label: 'Resto Buenos Aires', value: 'TotalRestoBsAs' },
+        { label: 'Conurbano Buenos Aires', value: 'TotalConurbanoBsAs' },
         { label: 'Argentina', value: 'TotalPais' }
     ];
-      opcionesSector: any[] = [
+    opcionesSector: any[] = [
         { label: 'Todos', value: 'Todos' },
+        { label: 'Sectorizado', value: 'Sectorizado' },
+    ];
+    sectoresInteres: any[] = [
         { label: 'Agroalimentario', value: 'Agroalimentario' },
         { label: 'Contruccion', value: 'Contruccion' },
         { label: 'Metalmecánica', value: 'Metalmecánica' },
@@ -85,18 +91,62 @@ export class GraficoPuestosEmpleo {
     }
 
     applyFilterSectorProductivo() {
+        const documentStyle = getComputedStyle(document.documentElement);
         if(this.valorSeleccionadoSector == 'Todos'){
-            this.conteoMensualA = this.data[`conteoMensual${this.valorSeleccionadoRegion}A`];
-            this.conteoMensualB = this.data[`conteoMensual${this.valorSeleccionadoRegion}B`];
-            this.conteoMensualC = this.data[`conteoMensual${this.valorSeleccionadoRegion}C`];
-            this.interanualA = this.data[`interanual${this.valorSeleccionadoRegion}A`];
-            this.interanualB = this.data[`interanual${this.valorSeleccionadoRegion}B`];
+            this.totalMensualDatasets = [];
+            this.variacionInteranualDatasets = [];
+            const conteoMensualA = this.data[`conteoMensual${this.valorSeleccionadoRegion}A`];
+            const conteoMensualB = this.data[`conteoMensual${this.valorSeleccionadoRegion}B`];
+            const conteoMensualC = this.data[`conteoMensual${this.valorSeleccionadoRegion}C`];
+            const interanualA = this.data[`interanual${this.valorSeleccionadoRegion}A`];
+            const interanualB = this.data[`interanual${this.valorSeleccionadoRegion}B`];
+            this.totalMensualDatasets = [
+                {
+                    label: 'Todos los sectores',
+                    data: [...conteoMensualC, ...conteoMensualB, ...conteoMensualA],
+                    fill: false,
+                    backgroundColor: documentStyle.getPropertyValue('--primary-400'),
+                    borderColor: documentStyle.getPropertyValue('--primary-400'),
+                    tension: .4,
+                },
+            ];
+            this.variacionInteranualDatasets = [
+                {
+                    label: 'Todos los sectores',
+                    backgroundColor: documentStyle.getPropertyValue('--primary-300'),
+                    borderColor: documentStyle.getPropertyValue('--primary-300'),
+                    data: [...interanualB, ...interanualA]
+                },
+            ];
         } else {
-            this.conteoMensualA = this.contarMensual(this.data.dataTotalLujanA.filter((d: any) => d.sectorProductivo == this.valorSeleccionadoSector));
-            this.conteoMensualB = this.contarMensual(this.data.dataTotalLujanB.filter((d: any) => d.sectorProductivo == this.valorSeleccionadoSector));
-            this.conteoMensualC = this.contarMensual(this.data.dataTotalLujanC.filter((d: any) => d.sectorProductivo == this.valorSeleccionadoSector));
-            this.interanualA = this.calcularInteranual(this.conteoMensualB, this.conteoMensualA);
-            this.interanualB = this.calcularInteranual(this.conteoMensualC, this.conteoMensualB);
+            this.totalMensualDatasets = [];
+            this.variacionInteranualDatasets = [];
+            this.sectoresInteres.forEach((sector, index) => {
+                const conteoMensualA = this.contarMensual(this.data.dataTotalLujanA.filter((d: any) => d.sectorProductivo == sector.value));
+                const conteoMensualB = this.contarMensual(this.data.dataTotalLujanB.filter((d: any) => d.sectorProductivo == sector.value));
+                const conteoMensualC = this.contarMensual(this.data.dataTotalLujanC.filter((d: any) => d.sectorProductivo == sector.value));
+                const interanualA = this.calcularInteranual(conteoMensualB, conteoMensualA);
+                const interanualB = this.calcularInteranual(conteoMensualC, conteoMensualB);
+                const colorLevel = ((index + 1)*200) - 100;
+                this.totalMensualDatasets.push(
+                    {
+                        label: sector.label,
+                        data: [...conteoMensualC, ...conteoMensualB, ...conteoMensualA],
+                        fill: false,
+                        backgroundColor: documentStyle.getPropertyValue('--primary-' + colorLevel),
+                        borderColor: documentStyle.getPropertyValue('--primary-' + colorLevel),
+                        tension: .4,
+                    }
+                );
+                this.variacionInteranualDatasets .push(
+                    {
+                        label: sector.label,
+                        backgroundColor: documentStyle.getPropertyValue('--primary-' + colorLevel),
+                        borderColor: documentStyle.getPropertyValue('--primary-' + colorLevel),
+                        data: [...interanualB, ...interanualA]
+                    }
+                )
+            });
         }
         this.initCharts();
     }
@@ -107,21 +157,12 @@ export class GraficoPuestosEmpleo {
         const textColorSecondary = documentStyle.getPropertyValue('--text-color-secondary');
         const surfaceBorder = documentStyle.getPropertyValue('--surface-border');
 
-        this.dataGraficoMensualContiguo = {
+        this.dataGraficoTotalMensual = {
             labels: this.labelsConteo,
-            datasets: [
-                {
-                    label: 'Miles de Puestos de rabajo',
-                    data: [...this.conteoMensualC, ...this.conteoMensualB, ...this.conteoMensualA],
-                    fill: false,
-                    backgroundColor: documentStyle.getPropertyValue('--primary-800'),
-                    borderColor: documentStyle.getPropertyValue('--primary-800'),
-                    tension: .4,
-                },
-            ]
+            datasets: this.totalMensualDatasets
         };
 
-        this.lineContiguoOptions = {
+        this.totalMensualOptions = {
             plugins: {
                 legend: {
                     labels: {
@@ -132,7 +173,8 @@ export class GraficoPuestosEmpleo {
             scales: {
                 x: {
                     ticks: {
-                        color: textColorSecondary
+                        color: textColorSecondary,
+                        minRotation: 90,
                     },
                     grid: {
                         color: surfaceBorder,
@@ -157,19 +199,12 @@ export class GraficoPuestosEmpleo {
                 },
             }
         };
-        this.dataGraficoInteranualContiguo = {
+        this.dataGraficoVariacionInteranual = {
             labels: this.labelsInteranual,
-            datasets: [
-                {
-                    label: 'Variación %',
-                    backgroundColor: documentStyle.getPropertyValue('--primary-300'),
-                    borderColor: documentStyle.getPropertyValue('--primary-300'),
-                    data: [...this.interanualB, ...this.interanualA]
-                },
-            ]
+            datasets: this.variacionInteranualDatasets
         };
 
-        this.barContiguoOptions = {
+        this.variacionInteranualOptions = {
             plugins: {
                 legend: {
                     labels: {
@@ -181,6 +216,7 @@ export class GraficoPuestosEmpleo {
                 x: {
                     ticks: {
                         color: textColorSecondary,
+                        minRotation: 90,
                         font: {
                             weight: 500
                         }
