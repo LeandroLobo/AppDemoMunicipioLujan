@@ -4,15 +4,20 @@
         <span>Municipio de Luján</span>
     </a>
 
-    <button #menubutton class="p-link layout-menu-button layout-topbar-button" (click)="layoutService.onMenuToggle()">
+    <!-- <button #menubutton class="p-link layout-menu-button layout-topbar-button" (click)="layoutService.onMenuToggle()">
         <i class="pi pi-bars"></i>
-    </button>
+    </button> -->
 
     <button #topbarmenubutton class="p-link layout-topbar-menu-button layout-topbar-button" (click)="layoutService.showProfileSidebar()">
         <i class="pi pi-ellipsis-v"></i>
     </button>
 
     <div #topbarmenu class="layout-topbar-menu" [ngClass]="{'layout-topbar-menu-mobile-active': layoutService.state.profileSidebarVisible}">
+
+        <button class="p-link layout-topbar-button visible btn-con-label" (click)="openMap()">
+            <i class="pi pi-map"></i>
+            <p class="btn-icon-label">Mapa Productivo</p>
+        </button>
 
         <button class="p-link layout-topbar-button" *ngIf="layoutService.state.profileSidebarVisible" (click)="openProfileEdit()">
             <i class="pi pi-user-edit"></i>
@@ -24,6 +29,7 @@
         </button>
 
         <p-menu #profileMenu [popup]="true" [model]="profileMenuItems" class="visible" [ngClass]="{'invisible': layoutService.state.profileSidebarVisible}"></p-menu>
+
         <button class="p-link layout-topbar-button visible" (click)="profileMenu.toggle($event)" [ngClass]="{'invisible': layoutService.state.profileSidebarVisible}">
             <i class="pi pi-user"></i>
             <span>Perfil</span>

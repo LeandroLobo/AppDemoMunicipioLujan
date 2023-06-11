@@ -50,4 +50,7 @@ export class AppTopBarComponent implements OnInit {
     openProfileEdit(){
         this.router.navigateByUrl('/pages/profile-edit');
     }
+    openMap(){
+        this.router.navigateByUrl('/pages/mapa-productivo');
+    }
 }

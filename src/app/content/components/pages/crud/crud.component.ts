@@ -203,7 +203,7 @@ export class CrudComponent implements OnInit {
             }
             return acc;
           }, 0);
-          conteoMensual.push(total);
+          conteoMensual.push(total/1000); // miles de puestos
         }
 
         return conteoMensual;
@@ -214,7 +214,7 @@ export class CrudComponent implements OnInit {
         let result: number[] = [];
         for (let i = 0; i < 12; i++) {
             let variacion = (actual[i] / anterior[i]) - 1;
-            result.push(variacion);
+            result.push(variacion * 100); // valor porcentual
         }
         return result;
     }

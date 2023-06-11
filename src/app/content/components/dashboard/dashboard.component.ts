@@ -14,6 +14,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
 
     dolarOficial!: Casa;
     dolarBlue!: Casa;
+    dolarMEP = 0;
     loading!: boolean;
     today!: string;
     dataSetSeleccionado = 'puestos-empleo';
@@ -40,6 +41,26 @@ export class DashboardComponent implements OnInit, OnDestroy {
                 this.loading = false;
             },
             err => this.loading = false
+        );
+        this.dolarsi.getDolarMep().subscribe(
+            res => {
+                if(res.length > 1) this.dolarMEP = res[1][1];
+                else {
+                    this.dolarsi.getDolarMep(true).subscribe(
+                        res => {
+                            if(res.length > 1) this.dolarMEP = res[1][1];
+                        },
+                        err => {
+                            this.loading = false;
+                            console.log(err);
+                        }
+                    );
+                }
+            },
+            err => {
+                this.loading = false;
+                console.log(err);
+            }
         );
     }
 

@@ -111,7 +111,7 @@ export class GraficoPuestosEmpleo {
             labels: this.labelsConteo,
             datasets: [
                 {
-                    label: 'Puestos Registrados',
+                    label: 'Miles de Puestos de rabajo',
                     data: [...this.conteoMensualC, ...this.conteoMensualB, ...this.conteoMensualA],
                     fill: false,
                     backgroundColor: documentStyle.getPropertyValue('--primary-800'),
@@ -146,9 +146,9 @@ export class GraficoPuestosEmpleo {
                             display: true,
                             text: 'Puestos (miles)'
                         },
-                        callback: function(value: number) {
-                            return value / 1000; // Divide el valor por 1000 para expresarlo en miles
-                        }
+                        // callback: function(value: number) {
+                        //     return value / 1000; // Divide el valor por 1000 para expresarlo en miles
+                        // }
                     },
                     grid: {
                         color: surfaceBorder,
@@ -161,7 +161,7 @@ export class GraficoPuestosEmpleo {
             labels: this.labelsInteranual,
             datasets: [
                 {
-                    label: 'Variación',
+                    label: 'Variación %',
                     backgroundColor: documentStyle.getPropertyValue('--primary-300'),
                     borderColor: documentStyle.getPropertyValue('--primary-300'),
                     data: [...this.interanualB, ...this.interanualA]

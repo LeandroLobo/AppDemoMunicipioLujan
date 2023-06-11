@@ -15,6 +15,7 @@ export class HereMapsService {
   private map: any;
   private ui: any;
   group: any[] = [];
+    currentBubble: any = null;
 
   constructor() {
     this.initHereMapsService();
@@ -51,9 +52,9 @@ export class HereMapsService {
     const zoom = this.ui.getControl('zoom');
     const scalebar = this.ui.getControl('scalebar');
 
-    mapSettings.setAlignment('top-left');
-    zoom.setAlignment('top-left');
-    scalebar.setAlignment('top-left');
+    mapSettings.setAlignment('bottom-left');
+    zoom.setAlignment('bottom-left');
+    scalebar.setAlignment('bottom-left');
 
     // Enable the event system on the map instance:
     const mapEvents = new H.mapevents.MapEvents(this.map);
@@ -107,14 +108,24 @@ export class HereMapsService {
   }
 
   removeMarkers() {
+    if (this.currentBubble) {
+        this.ui.removeBubble(this.currentBubble);
+        this.currentBubble.close();
+        this.currentBubble = null;
+    }
     if (this.group.length === 0) return;
     this.map.removeObjects(this.group);
     this.group = [];
   }
 
   createBubble(location: any, Info: any) {
+    if (this.currentBubble) {
+        this.ui.removeBubble(this.currentBubble);
+        this.currentBubble.close();
+    }
     const coords = { lat: location.lat, lng: location.lon };
     const bubble = new H.ui.InfoBubble(coords, { content: Info });
+    this.currentBubble = bubble;
     this.ui.addBubble(bubble);
   }
 }

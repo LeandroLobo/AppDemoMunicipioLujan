@@ -73,4 +73,10 @@ export class MapaProductivoComponent {
         this.hereMaps.removeMarkers();
         this.marcadoresFiltered.map((m: any) => this.hereMaps.createMarker(m, true));
     }
+
+    ngOnDestroy(): void {
+        //Called once, before the instance is destroyed.
+        //Add 'implements OnDestroy' to the class.
+        this.hereMaps.removeMarkers();
+    }
 }

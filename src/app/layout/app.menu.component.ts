@@ -21,12 +21,12 @@ export class AppMenuComponent implements OnInit {
                     { label: 'Mapa Productivo', icon: 'pi pi-fw pi-map', routerLink: ['/pages/mapa-productivo'] },
                 ]
             },
-            {
-                label: 'Carga de datos',
-                items: [
-                    { label: 'Puestos de empleo asalariado', icon: 'pi pi-fw pi-dollar', routerLink: ['/pages/crud'] },
-                ]
-            },
+            // {
+            //     label: 'Carga de datos',
+            //     items: [
+            //         { label: 'Puestos de empleo asalariado', icon: 'pi pi-fw pi-dollar', routerLink: ['/pages/crud'] },
+            //     ]
+            // },
             // {
             //     label: 'APIs públicas nacionales',
             //     items: [
