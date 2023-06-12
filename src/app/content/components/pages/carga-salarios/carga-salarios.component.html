@@ -1,0 +1,118 @@
+<div class="card">
+    <p-toast></p-toast>
+    <h4>Salario promedio por departamento/partido y clae2, sector privado.</h4>
+    <h5><a target="_blank" href="https://datos.gob.ar/ca/dataset/produccion-salarios-por-departamentopartido-sector-actividad/archivo/produccion_11c0e1ac-0fb3-43eb-af35-9c7dcb5dab3a" >Link de descarga del dataset</a></h5>
+    <h5>Fecha última actualización: {{fechaSubida}}</h5>
+
+    <div class="col-12 flex justify-content-center">
+        <p-button (click)="showDialog()" icon="pi pi-external-link" label="Actualizar Datos"></p-button>
+    </div>
+
+    <p-dialog header="Carga de datos" [(visible)]="visible">
+        <div class="card flex justify-content-center">
+            <div class="flex justify-content-center">
+                <p-fileUpload name="fileuploader"
+                    url="https://www.primefaces.org/cdn/api/upload.php"
+                    (onUpload)="onUpload($event)"
+                    [multiple]="false"
+                    accept=".csv"
+                    uploadLabel="Subir Archivo"
+                    cancelLabel="Cancelar"
+                    [showCancelButton]="false"
+                    chooseLabel="Buscar">
+                    <ng-template pTemplate="content">
+                        <ul *ngIf="uploadedFile">
+                            <li>{{ uploadedFile.name }} - {{ uploadedFile.size }} bytes</li>
+                        </ul>
+                        <span *ngIf="!uploadedFile">Busque un archivo en su dispositivo o arrastrelo dentro de este contenedor.</span>
+                    </ng-template>
+                </p-fileUpload>
+            </div>
+
+        </div>
+    </p-dialog>
+
+    <p-table
+        #dt1
+        [value]="muestraTotal"
+        dataKey="id"
+        [rows]="10"
+        [showCurrentPageReport]="true"
+        [rowsPerPageOptions]="[10, 25, 50]"
+        [loading]="loadingData"
+        [paginator]="true"
+        currentPageReportTemplate="Mostrando {first} a {last} de {totalRecords} resultados"
+        [globalFilterFields]="['clae2', 'sectorProductivo', 'codigo_departamento_indec', 'fecha', 'id_provincia_indec', 'salario_promedio']"
+        >
+        <ng-template pTemplate="caption">
+            <div class="flex">
+                <span class="p-input-icon-left ml-auto">
+                    <i class="pi pi-search"></i>
+                    <input pInputText type="text" (input)="applyFilterGlobal($event, 'contains')" placeholder="Buscar..." />
+                </span>
+            </div>
+        </ng-template>
+        <ng-template pTemplate="header">
+            <tr>
+
+                <th style="min-width:10rem" pSortableColumn="fecha">
+                    <div class="flex align-items-center">
+                        Fecha <p-sortIcon field="fecha"></p-sortIcon>
+                    </div>
+                </th>
+                <th style="min-width:15rem" pSortableColumn="clae2">
+                    <div class="flex align-items-center">
+                        CLAE 2 <p-sortIcon field="clae2"></p-sortIcon>
+                    </div>
+                </th>
+                <th style="min-width:15rem" pSortableColumn="sectorProductivo">
+                    <div class="flex align-items-center">
+                        Sector Productivo <p-sortIcon field="sectorProductivo"></p-sortIcon>
+                    </div>
+                </th>
+                <th style="min-width:15rem" pSortableColumn="codigo_departamento_indec">
+                    <div class="flex align-items-center">
+                        Código Dpto INDEC <p-sortIcon field="codigo_departamento_indec"></p-sortIcon>
+                    </div>
+                </th>
+                <th style="min-width:15rem" pSortableColumn="id_provincia_indec">
+                    <div class="flex align-items-center">
+                        Id Provincia INDEC <p-sortIcon field="id_provincia_indec"></p-sortIcon>
+                    </div>
+                </th>
+                <th style="min-width:10rem" pSortableColumn="puestos">
+                    <div class="flex align-items-center">
+                        Salario Promedio <p-sortIcon field="puestos"></p-sortIcon>
+                    </div>
+                </th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-customer>
+            <tr>
+                <td>
+                    {{ customer.fecha | date: 'dd/MM/yyyy' }}
+                </td>
+                <td>
+                    {{ customer.clae2 }}
+                </td>
+                <td>
+                    {{ customer.sectorProductivo }}
+                </td>
+                <td>
+                    {{ customer.codigo_departamento_indec }}
+                </td>
+                <td>
+                    {{ customer.id_provincia_indec }}
+                </td>
+                <td>
+                    {{ customer.salario_promedio }}
+                </td>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="emptymessage">
+            <tr>
+                <td colspan="7">No se encontraron resultados.</td>
+            </tr>
+        </ng-template>
+    </p-table>
+</div>

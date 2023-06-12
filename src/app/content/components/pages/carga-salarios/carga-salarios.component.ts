@@ -5,12 +5,13 @@ import { Papa } from 'ngx-papaparse';
 import { FirebaseDatabaseService } from 'src/app/content/service/firebase-database.service';
 import { diccionarioClae } from '../../../models/diccionario'
 @Component({
-    templateUrl: './crud.component.html',
+    templateUrl: './carga-salarios.component.html',
     providers: [MessageService]
 })
-export class CrudComponent implements OnInit {
+export class CargaSalariosComponent implements OnInit {
     muestraTotal: any[] = [];
-    loading: boolean = false;
+    loadingData: boolean = false;
+    uploadingData: boolean = false;
     activityValues: number[] = [0, 100];
     @ViewChild('dt1') dt: Table | undefined;
     uploadedFile: any;
@@ -20,8 +21,8 @@ export class CrudComponent implements OnInit {
     constructor(private messageService: MessageService, private papa: Papa, private firebase: FirebaseDatabaseService) { }
 
     ngOnInit() {
-        this.loading = true;
-        this.firebase.obtenerDocumento('PuestosTrabajoAsalariado').then(
+        this.loadingData = true;
+        this.firebase.obtenerDocumento('SalariosPromedio').then(
             res => {
                 if(res) {
                     const date = new Date(0);
@@ -30,12 +31,12 @@ export class CrudComponent implements OnInit {
                 const data = res['data'];
                 this.muestraTotal = [...data.dataTotalLujanC, ...data.dataTotalLujanB, ...data.dataTotalLujanA];
                 }
-                this.loading = false;
+                this.loadingData = false;
             }
         ).catch(
             err => {
                 console.error(err);
-                this.loading = false;
+                this.loadingData = false;
             }
         );
     }
@@ -49,7 +50,7 @@ export class CrudComponent implements OnInit {
     }
 
     onUpload(event: any) {
-        this.loading = true;
+        this.loadingData = true;
         this.uploadedFile = event.files[0];
         const reader = new FileReader();
         reader.readAsText(this.uploadedFile);
@@ -60,10 +61,10 @@ export class CrudComponent implements OnInit {
                     complete: (results) => {
                         this.muestraTotal = results.data.filter( (x:any) =>
                             x.fecha > '2020'
-                            && x.puestos != '-99'
+                            && x.w_mean != '-99'
                             && diccionarioClae.listaClae2Interesan.includes(Number(x.clae2))
                         ).map((d:any) => {
-                            d.puestos = Number(d.puestos);
+                            d.salario_promedio = Number(d.w_mean);
                             if(diccionarioClae.listaTotalIndustria.includes(Number(d.clae2))) {
                                 d.sectorProductivo = 'Otros Industria';
                             }
@@ -87,10 +88,10 @@ export class CrudComponent implements OnInit {
                         this.guardarMuestras();
                         this.fechaSubida = new Date(Date.now()).toLocaleDateString("es-ES");
                         this.visible = false;
-                        this.loading = false;
+                        this.loadingData = false;
                     },
                     error: (err) => {
-                        this.loading = false;
+                        this.loadingData = false;
                         console.log(err);
                     }
                 });
@@ -101,37 +102,33 @@ export class CrudComponent implements OnInit {
     }
 
     guardarMuestras() {
-        console.log('inicio proceso');
-        let initDay = new Date(Date.parse(this.muestraTotal[this.muestraTotal.length - 1].fecha));
-        const startA = new Date(initDay);
-        startA.setFullYear(startA.getFullYear() - 1, initDay.getMonth() + 1);
-        const startB = new Date(initDay);
-        startB.setFullYear(startB.getFullYear() - 2, initDay.getMonth() + 1);
-        const startC = new Date(initDay);
-        startC.setFullYear(startC.getFullYear() - 3, initDay.getMonth() + 1);
+        const maxDate = this.formatearFecha(this.muestraTotal[this.muestraTotal.length - 1].fecha);
+        const startA = new Date(maxDate);
+        startA.setFullYear(startA.getFullYear() - 1, maxDate.getMonth() + 1, 1);
+        const startB = new Date(maxDate);
+        startB.setFullYear(startB.getFullYear() - 2, maxDate.getMonth() + 1, 1);
+        const startC = new Date(maxDate);
+        startC.setFullYear(startC.getFullYear() - 3, maxDate.getMonth() + 1, 1);
 
-        const dataTotalPaisA = this.muestraTotal.filter(d => new Date(Date.parse(d.fecha)) >= startA && new Date(Date.parse(d.fecha)) <= initDay);
-        const dataTotalPaisB = this.muestraTotal.filter(d => new Date(Date.parse(d.fecha)) >= startB && new Date(Date.parse(d.fecha)) < startA);
-        const dataTotalPaisC = this.muestraTotal.filter(d => new Date(Date.parse(d.fecha)) >= startC && new Date(Date.parse(d.fecha)) < startB);
+        const dataTotalPaisA = this.muestraTotal.filter(d => this.formatearFecha(d.fecha) >= startA && this.formatearFecha(d.fecha) <= maxDate);
+        const dataTotalPaisB = this.muestraTotal.filter(d => this.formatearFecha(d.fecha) >= startB && this.formatearFecha(d.fecha) < startA);
+        const dataTotalPaisC = this.muestraTotal.filter(d => this.formatearFecha(d.fecha) >= startC && this.formatearFecha(d.fecha) < startB);
 
         const months = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'];
 
         const labelsA = [];
-        startA.setDate(startA.getDate() + 1);
         for (let i = 0; i < 12; i++) {
         const date = new Date(startA.getFullYear(), startA.getMonth() + i );
         labelsA.push(months[date.getMonth()] + ' ' + date.getFullYear().toString().slice(-2));
         }
 
         const labelsB = [];
-        startB.setDate(startB.getDate() + 1);
         for (let i = 0; i < 12; i++) {
         const date = new Date(startB.getFullYear(), startB.getMonth() + i );
         labelsB.push(months[date.getMonth()] + ' ' + date.getFullYear().toString().slice(-2));
         }
 
         const labelsC = [];
-        startC.setDate(startC.getDate() + 1);
         for (let i = 0; i < 12; i++) {
         const date = new Date(startC.getFullYear(), startC.getMonth() + i );
         labelsC.push(months[date.getMonth()] + ' ' + date.getFullYear().toString().slice(-2));
@@ -149,51 +146,51 @@ export class CrudComponent implements OnInit {
         const dataTotalLujanB = dataTotalRestoBsAsB.filter(d => d.codigo_departamento_indec == diccionarioClae.codigoDptoLujan);
         const dataTotalLujanC = dataTotalRestoBsAsC.filter(d => d.codigo_departamento_indec == diccionarioClae.codigoDptoLujan);
 
-        const conteoMensualTotalPaisA = this.contarMensual(dataTotalPaisA);
-        const conteoMensualTotalPaisB = this.contarMensual(dataTotalPaisB);
-        const conteoMensualTotalPaisC = this.contarMensual(dataTotalPaisC);
-        const interanualTotalPaisA = this.calcularInteranual(conteoMensualTotalPaisB, conteoMensualTotalPaisA);
-        const interanualTotalPaisB = this.calcularInteranual(conteoMensualTotalPaisC, conteoMensualTotalPaisB);
+        const promedioMensualTotalPaisA = this.promediarMensual(dataTotalPaisA);
+        const promedioMensualTotalPaisB = this.promediarMensual(dataTotalPaisB);
+        const promedioMensualTotalPaisC = this.promediarMensual(dataTotalPaisC);
+        const interanualTotalPaisA = this.calcularInteranual(promedioMensualTotalPaisB, promedioMensualTotalPaisA);
+        const interanualTotalPaisB = this.calcularInteranual(promedioMensualTotalPaisC, promedioMensualTotalPaisB);
 
-        const conteoMensualTotalRestoBsAsA = this.contarMensual(dataTotalRestoBsAsA);
-        const conteoMensualTotalRestoBsAsB = this.contarMensual(dataTotalRestoBsAsB);
-        const conteoMensualTotalRestoBsAsC = this.contarMensual(dataTotalRestoBsAsC);
-        const interanualTotalRestoBsAsA = this.calcularInteranual(conteoMensualTotalRestoBsAsB, conteoMensualTotalRestoBsAsA);
-        const interanualTotalRestoBsAsB = this.calcularInteranual(conteoMensualTotalRestoBsAsC, conteoMensualTotalRestoBsAsB);
+        const promedioMensualTotalRestoBsAsA = this.promediarMensual(dataTotalRestoBsAsA);
+        const promedioMensualTotalRestoBsAsB = this.promediarMensual(dataTotalRestoBsAsB);
+        const promedioMensualTotalRestoBsAsC = this.promediarMensual(dataTotalRestoBsAsC);
+        const interanualTotalRestoBsAsA = this.calcularInteranual(promedioMensualTotalRestoBsAsB, promedioMensualTotalRestoBsAsA);
+        const interanualTotalRestoBsAsB = this.calcularInteranual(promedioMensualTotalRestoBsAsC, promedioMensualTotalRestoBsAsB);
 
-        const conteoMensualTotalConurbanoBsAsA = this.contarMensual(dataTotalConurbanoBsAsA);
-        const conteoMensualTotalConurbanoBsAsB = this.contarMensual(dataTotalConurbanoBsAsB);
-        const conteoMensualTotalConurbanoBsAsC = this.contarMensual(dataTotalConurbanoBsAsC);
-        const interanualTotalConurbanoBsAsA = this.calcularInteranual(conteoMensualTotalConurbanoBsAsB, conteoMensualTotalConurbanoBsAsA);
-        const interanualTotalConurbanoBsAsB = this.calcularInteranual(conteoMensualTotalConurbanoBsAsC, conteoMensualTotalConurbanoBsAsB);
+        const promedioMensualTotalConurbanoBsAsA = this.promediarMensual(dataTotalConurbanoBsAsA);
+        const promedioMensualTotalConurbanoBsAsB = this.promediarMensual(dataTotalConurbanoBsAsB);
+        const promedioMensualTotalConurbanoBsAsC = this.promediarMensual(dataTotalConurbanoBsAsC);
+        const interanualTotalConurbanoBsAsA = this.calcularInteranual(promedioMensualTotalConurbanoBsAsB, promedioMensualTotalConurbanoBsAsA);
+        const interanualTotalConurbanoBsAsB = this.calcularInteranual(promedioMensualTotalConurbanoBsAsC, promedioMensualTotalConurbanoBsAsB);
 
-        const conteoMensualTotalLujanA = this.contarMensual(dataTotalLujanA);
-        const conteoMensualTotalLujanB = this.contarMensual(dataTotalLujanB);
-        const conteoMensualTotalLujanC = this.contarMensual(dataTotalLujanC);
-        const interanualTotalLujanA = this.calcularInteranual(conteoMensualTotalLujanB, conteoMensualTotalLujanA);
-        const interanualTotalLujanB = this.calcularInteranual(conteoMensualTotalLujanC, conteoMensualTotalLujanB);
+        const promedioMensualTotalLujanA = this.promediarMensual(dataTotalLujanA);
+        const promedioMensualTotalLujanB = this.promediarMensual(dataTotalLujanB);
+        const promedioMensualTotalLujanC = this.promediarMensual(dataTotalLujanC);
+        const interanualTotalLujanA = this.calcularInteranual(promedioMensualTotalLujanB, promedioMensualTotalLujanA);
+        const interanualTotalLujanB = this.calcularInteranual(promedioMensualTotalLujanC, promedioMensualTotalLujanB);
 
         const data = {
-            labelsConteo: [...labelsC, ...labelsB, ...labelsA],
+            labelsPromedio: [...labelsC, ...labelsB, ...labelsA],
             labelsInteranual: [...labelsB, ...labelsA],
-            conteoMensualTotalPaisA,
-            conteoMensualTotalPaisB,
-            conteoMensualTotalPaisC,
+            promedioMensualTotalPaisA,
+            promedioMensualTotalPaisB,
+            promedioMensualTotalPaisC,
             interanualTotalPaisA,
             interanualTotalPaisB,
-            conteoMensualTotalRestoBsAsA,
-            conteoMensualTotalRestoBsAsB,
-            conteoMensualTotalRestoBsAsC,
+            promedioMensualTotalRestoBsAsA,
+            promedioMensualTotalRestoBsAsB,
+            promedioMensualTotalRestoBsAsC,
             interanualTotalRestoBsAsA,
             interanualTotalRestoBsAsB,
-            conteoMensualTotalConurbanoBsAsA,
-            conteoMensualTotalConurbanoBsAsB,
-            conteoMensualTotalConurbanoBsAsC,
+            promedioMensualTotalConurbanoBsAsA,
+            promedioMensualTotalConurbanoBsAsB,
+            promedioMensualTotalConurbanoBsAsC,
             interanualTotalConurbanoBsAsA,
             interanualTotalConurbanoBsAsB,
-            conteoMensualTotalLujanA,
-            conteoMensualTotalLujanB,
-            conteoMensualTotalLujanC,
+            promedioMensualTotalLujanA,
+            promedioMensualTotalLujanB,
+            promedioMensualTotalLujanC,
             interanualTotalLujanA,
             interanualTotalLujanB,
             dataTotalLujanA,
@@ -201,26 +198,27 @@ export class CrudComponent implements OnInit {
             dataTotalLujanC
         };
 
-        console.log('fin proceso');
-        this.firebase.guardarDocumento('PuestosTrabajoAsalariado', {fechaSubida: new Date(Date.now()), data});
+        this.firebase.guardarDocumento('SalariosPromedio', {fechaSubida: new Date(Date.now()), data});
     }
 
-    contarMensual(dataSet: any) {
-        let conteoMensual = [];
+    promediarMensual(dataSet: any) {
+        let promedioMensual = [];
         let initMonth = new Date(Date.parse(dataSet[0].fecha)).getMonth();
 
         for (let i = 0; i < 12; i++) {
+            let contador = 0;
           const currentMonth = (initMonth + i) % 12;
           const total = dataSet.reduce((acc: any, data: any) => {
             if (new Date(Date.parse(data.fecha)).getMonth() === currentMonth) {
-              return acc + data.puestos;
+                contador++;
+              return acc + data.salario_promedio;
             }
             return acc;
           }, 0);
-          conteoMensual.push(total/1000); // miles de puestos
+          promedioMensual.push(total / contador);
         }
 
-        return conteoMensual;
+        return promedioMensual;
     }
 
 
@@ -231,5 +229,13 @@ export class CrudComponent implements OnInit {
             result.push(variacion * 100); // valor porcentual
         }
         return result;
+    }
+
+    formatearFecha(fecha: string) {
+        const fechaSplit = fecha.split('-');
+        let fechaFormateada = new Date();
+        fechaFormateada.setFullYear(Number(fechaSplit[0]), Number(fechaSplit[1]) -1, 1);
+        fechaFormateada.setHours(0, 0, 0, 0);
+        return fechaFormateada;
     }
 }

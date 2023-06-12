@@ -1,22 +1,24 @@
 <div class="card">
     <p-toast></p-toast>
     <h4>Puestos de trabajo asalariados registrados por departamento/partido y clae 2, sector privado.</h4>
-    <h5>Resultado acotado al municipio de Luján para los sectores de interes (Agroalimentario, Construcción, Metalmecánica, Textil y Turismo)</h5>
+    <h5><a target="_blank" href="https://datos.produccion.gob.ar/dataset/puestos-de-trabajo-por-departamento-partido-y-sector-de-actividad/archivo/169245ff-f050-4601-9cea-aa36ef2d7f20" >Link de descarga del dataset</a></h5>
     <h5>Fecha última actualización: {{fechaSubida}}</h5>
 
     <div class="col-12 flex justify-content-center">
         <p-button (click)="showDialog()" icon="pi pi-external-link" label="Actualizar Datos"></p-button>
     </div>
 
-    <p-dialog header="Carga de datos" [(visible)]="visible" [style]="{ width: '50vw', height: '300px' }">
+    <p-dialog header="Carga de datos" [(visible)]="visible">
         <div class="card flex justify-content-center">
             <div class="flex justify-content-center">
                 <p-fileUpload name="fileuploader"
                     url="https://www.primefaces.org/cdn/api/upload.php"
                     (onUpload)="onUpload($event)"
-                    [multiple]="false" accept=".csv"
+                    [multiple]="false"
+                    accept=".csv"
                     uploadLabel="Subir Archivo"
                     cancelLabel="Cancelar"
+                    [showCancelButton]="false"
                     chooseLabel="Buscar">
                     <ng-template pTemplate="content">
                         <ul *ngIf="uploadedFile">

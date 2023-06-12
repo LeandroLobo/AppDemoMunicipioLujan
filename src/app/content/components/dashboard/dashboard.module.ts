@@ -12,6 +12,7 @@ import { DashboardsRoutingModule } from './dashboard-routing.module';
 import { SharedModule } from 'primeng/api';
 import { GraficoPuestosEmpleo } from './grafico-puestos-empleo/grafico-puestos-empleo.component';
 import { DropdownModule } from 'primeng/dropdown';
+import { GraficoSalariosComponent } from './grafico-salarios/grafico-salarios.component';
 
 @NgModule({
     imports: [
@@ -27,6 +28,6 @@ import { DropdownModule } from 'primeng/dropdown';
         DashboardsRoutingModule,
         SharedModule
     ],
-    declarations: [DashboardComponent, GraficoPuestosEmpleo]
+    declarations: [DashboardComponent, GraficoPuestosEmpleo, GraficoSalariosComponent]
 })
 export class DashboardModule { }

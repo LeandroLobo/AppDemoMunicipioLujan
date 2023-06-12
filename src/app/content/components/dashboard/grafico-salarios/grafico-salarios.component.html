@@ -1,8 +1,7 @@
 <div class="grid">
     <div class="col-12 lg:col-6">
         <div class="card">
-            <h5>Puestos de Trabajo Registrados {{valorSeleccionadoSector === 'Todos' ? '(expresado en miles)' : '(expresado en unidades)'}} - <b>Últimos 36 meses</b>
-            </h5>
+            <h5>Salario Promedio $ - <b>Últimos 36 meses</b></h5>
             <p-dropdown [options]="opcionesRegion" [(ngModel)]="valorSeleccionadoRegion" [style]="{'width':'150px', 'margin-right':'1rem'}" (onChange)="applyFilterRegion()"></p-dropdown>
             <p-dropdown *ngIf="valorSeleccionadoRegion === 'TotalLujan'" [options]="opcionesSector" [(ngModel)]="valorSeleccionadoSector" [style]="{'width':'150px', 'margin-right':'1rem'}" (onChange)="applyFilterSectorProductivo()"></p-dropdown>
             <p-chart type="line" [data]="dataGraficoTotalMensual" [options]="totalMensualOptions"></p-chart>
@@ -32,3 +31,4 @@
         <p-progressSpinner></p-progressSpinner>
     </div> -->
 </div>
+

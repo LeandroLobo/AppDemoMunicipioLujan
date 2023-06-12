@@ -3,11 +3,11 @@ import { FirebaseDatabaseService } from '../../../service/firebase-database.serv
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-grafico-puestos-empleo',
-  templateUrl: './grafico-puestos-empleo.component.html',
-  styleUrls: ['./grafico-puestos-empleo.component.scss']
-})
-export class GraficoPuestosEmpleo {
+    selector: 'app-grafico-salarios',
+    templateUrl: './grafico-salarios.component.html',
+    styleUrls: ['./grafico-salarios.component.scss']
+  })
+  export class GraficoSalariosComponent {
     fechaSubida!: string;
     muestraDatosFiltrados: any;
     loading: boolean;
@@ -18,15 +18,15 @@ export class GraficoPuestosEmpleo {
     variacionInteranualDatasets: any[] = [];
     variacionInteranualOptions!: any;
     subscription: any;
-    coleccion: string = 'PuestosTrabajoAsalariado';
+    coleccion: string = 'SalariosPromedio';
     sectorGeografico: string = 'Luján';
     sectorProductivo: string = '';
     data: any = {};
-    conteoMensualA: any[] = [];
-    conteoMensualB: any[] = [];
-    conteoMensualC: any[] = [];
+    promedioMensualA: any[] = [];
+    promedioMensualB: any[] = [];
+    promedioMensualC: any[] = [];
     labelsInteranual: any[] = [];
-    labelsConteo: any[] = [];
+    labelsPromedio: any[] = [];
     interanualA: any[] = [];
     interanualB: any[] = [];
 
@@ -70,7 +70,7 @@ export class GraficoPuestosEmpleo {
                     date.setUTCSeconds(res['fechaSubida'].seconds);
                     this.fechaSubida = date.toLocaleDateString("es-ES");
                     this.data = res['data'] || {};
-                    this.labelsConteo = this.data.labelsConteo;
+                    this.labelsPromedio = this.data.labelsPromedio;
                     this.labelsInteranual = this.data.labelsInteranual;
                     this.applyFilterRegion();
                 }
@@ -95,15 +95,15 @@ export class GraficoPuestosEmpleo {
         if(this.valorSeleccionadoSector == 'Todos'){
             this.totalMensualDatasets = [];
             this.variacionInteranualDatasets = [];
-            const conteoMensualA = this.data[`conteoMensual${this.valorSeleccionadoRegion}A`];
-            const conteoMensualB = this.data[`conteoMensual${this.valorSeleccionadoRegion}B`];
-            const conteoMensualC = this.data[`conteoMensual${this.valorSeleccionadoRegion}C`];
+            const promedioMensualA = this.data[`promedioMensual${this.valorSeleccionadoRegion}A`];
+            const promedioMensualB = this.data[`promedioMensual${this.valorSeleccionadoRegion}B`];
+            const promedioMensualC = this.data[`promedioMensual${this.valorSeleccionadoRegion}C`];
             const interanualA = this.data[`interanual${this.valorSeleccionadoRegion}A`];
             const interanualB = this.data[`interanual${this.valorSeleccionadoRegion}B`];
             this.totalMensualDatasets = [
                 {
                     label: 'Todos los sectores',
-                    data: [...conteoMensualC, ...conteoMensualB, ...conteoMensualA],
+                    data: [...promedioMensualC, ...promedioMensualB, ...promedioMensualA],
                     fill: false,
                     backgroundColor: documentStyle.getPropertyValue('--primary-400'),
                     borderColor: documentStyle.getPropertyValue('--primary-400'),
@@ -122,16 +122,16 @@ export class GraficoPuestosEmpleo {
             this.totalMensualDatasets = [];
             this.variacionInteranualDatasets = [];
             this.sectoresInteres.forEach((sector, index) => {
-                const conteoMensualA = this.contarMensual(this.data.dataTotalLujanA.filter((d: any) => d.sectorProductivo == sector.value));
-                const conteoMensualB = this.contarMensual(this.data.dataTotalLujanB.filter((d: any) => d.sectorProductivo == sector.value));
-                const conteoMensualC = this.contarMensual(this.data.dataTotalLujanC.filter((d: any) => d.sectorProductivo == sector.value));
-                const interanualA = this.calcularInteranual(conteoMensualB, conteoMensualA);
-                const interanualB = this.calcularInteranual(conteoMensualC, conteoMensualB);
+                const promedioMensualA = this.promediarMensual(this.data.dataTotalLujanA.filter((d: any) => d.sectorProductivo == sector.value));
+                const promedioMensualB = this.promediarMensual(this.data.dataTotalLujanB.filter((d: any) => d.sectorProductivo == sector.value));
+                const promedioMensualC = this.promediarMensual(this.data.dataTotalLujanC.filter((d: any) => d.sectorProductivo == sector.value));
+                const interanualA = this.calcularInteranual(promedioMensualB, promedioMensualA);
+                const interanualB = this.calcularInteranual(promedioMensualC, promedioMensualB);
                 const colorLevel = ((index + 1)*200) - 100;
                 this.totalMensualDatasets.push(
                     {
                         label: sector.label,
-                        data: [...conteoMensualC, ...conteoMensualB, ...conteoMensualA],
+                        data: [...promedioMensualC, ...promedioMensualB, ...promedioMensualA],
                         fill: false,
                         backgroundColor: documentStyle.getPropertyValue('--primary-' + colorLevel),
                         borderColor: documentStyle.getPropertyValue('--primary-' + colorLevel),
@@ -158,7 +158,7 @@ export class GraficoPuestosEmpleo {
         const surfaceBorder = documentStyle.getPropertyValue('--surface-border');
 
         this.dataGraficoTotalMensual = {
-            labels: this.labelsConteo,
+            labels: this.labelsPromedio,
             datasets: this.totalMensualDatasets
         };
 
@@ -186,7 +186,7 @@ export class GraficoPuestosEmpleo {
                         color: textColorSecondary,
                         title: {
                             display: true,
-                            text: 'Puestos (miles)'
+                            text: 'Salario Promedio'
                         },
                         // callback: function(value: number) {
                         //     return value / 1000; // Divide el valor por 1000 para expresarlo en miles
@@ -239,22 +239,24 @@ export class GraficoPuestosEmpleo {
         };
     }
 
-    contarMensual(dataSet: any) {
-        let conteoMensual = [];
+    promediarMensual(dataSet: any) {
+        let promedioMensual = [];
         let initMonth = new Date(Date.parse(dataSet[0].fecha)).getMonth();
 
         for (let i = 0; i < 12; i++) {
+            let contador = 0;
           const currentMonth = (initMonth + i) % 12;
           const total = dataSet.reduce((acc: any, data: any) => {
             if (new Date(Date.parse(data.fecha)).getMonth() === currentMonth) {
-              return acc + data.puestos;
+                contador++;
+              return acc + data.salario_promedio;
             }
             return acc;
           }, 0);
-          conteoMensual.push(total);
+          promedioMensual.push(total / contador);
         }
 
-        return conteoMensual;
+        return promedioMensual;
     }
 
 
@@ -262,7 +264,7 @@ export class GraficoPuestosEmpleo {
         let result: number[] = [];
         for (let i = 0; i < 12; i++) {
             let variacion = (actual[i] / anterior[i]) - 1;
-            result.push(variacion * 100); // valor porcentual
+            result.push(variacion);
         }
         return result;
     }

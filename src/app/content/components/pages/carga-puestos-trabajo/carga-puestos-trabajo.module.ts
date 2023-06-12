@@ -4,8 +4,8 @@ import { MultiSelectModule } from 'primeng/multiselect';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { CrudRoutingModule } from './crud-routing.module';
-import { CrudComponent } from './crud.component';
+import { CargaPuestosTrabajoRoutingModule } from './carga-puestos-trabajo-routing.module';
+import { CargaPuestosTrabajoComponent } from './carga-puestos-trabajo.component';
 import { TableModule } from 'primeng/table';
 import { FileUploadModule } from 'primeng/fileupload';
 import { ButtonModule } from 'primeng/button';
@@ -23,7 +23,7 @@ import { DialogModule } from 'primeng/dialog';
 @NgModule({
     imports: [
         CommonModule,
-        CrudRoutingModule,
+        CargaPuestosTrabajoRoutingModule,
         TableModule,
         FileUploadModule,
         FormsModule,
@@ -39,6 +39,6 @@ import { DialogModule } from 'primeng/dialog';
         InputNumberModule,
         DialogModule, MultiSelectModule, TagModule, SliderModule
     ],
-    declarations: [CrudComponent]
+    declarations: [CargaPuestosTrabajoComponent]
 })
-export class CrudModule { }
+export class CargaPuestosTrabajoModule { }
