@@ -115,7 +115,9 @@ import { Component } from '@angular/core';
                     label: 'Todos los sectores',
                     backgroundColor: documentStyle.getPropertyValue('--primary-300'),
                     borderColor: documentStyle.getPropertyValue('--primary-300'),
-                    data: [...interanualB, ...interanualA]
+                    data: [...interanualB, ...interanualA],
+                    fill: false,
+                    tension: .4,
                 },
             ];
         } else {
@@ -143,7 +145,9 @@ import { Component } from '@angular/core';
                         label: sector.label,
                         backgroundColor: documentStyle.getPropertyValue('--primary-' + colorLevel),
                         borderColor: documentStyle.getPropertyValue('--primary-' + colorLevel),
-                        data: [...interanualB, ...interanualA]
+                        data: [...interanualB, ...interanualA],
+                        fill: false,
+                    tension: .4,
                     }
                 )
             });

@@ -17,7 +17,7 @@
         <div class="card">
             <h5>Variación Interanual % - <b>Últimos 24 meses</b></h5>
             <p>Región: <b>{{getValorSeleccionadoRegion}}</b>, Sector: <b>{{getValorSeleccionadoSector}}</b></p>
-            <p-chart type="bar" [data]="dataGraficoVariacionInteranual" [options]="variacionInteranualOptions"></p-chart>
+            <p-chart type="line" [data]="dataGraficoVariacionInteranual" [options]="variacionInteranualOptions"></p-chart>
             <div class="flex align-items-center py-2 border-bottom-1 surface-border">
                 <div class="mr-3">
                     <i class="pi pi-file-import text-xl text-blue-500"></i>
